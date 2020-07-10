@@ -7,7 +7,7 @@ All of my projects are just some rough drafts to test some ideas and to learn.
 My current primary repositories are:
 
 [Frontend](https://github.com/dzintars/front)
-Web Components, Redux and TypeScript based SPA frontend.
+Web Components (Lit Element), Redux and TypeScript based SPA frontend.
 
 [Backend](https://github.com/dzintars/wss)
 Really basic websockets backend API placeholder written in Go.
