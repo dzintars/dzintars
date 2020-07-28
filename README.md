@@ -16,7 +16,7 @@ I also trying to automate my workstation setup with Ansible in:
 
 [Infra](https://github.com/dzintars/infra)
 
-## Music
+### Music
 [SoundCloud playlist](https://soundcloud.com/dzintars-klavins/sets/session)
 
 <!--
