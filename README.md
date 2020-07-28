@@ -16,6 +16,9 @@ I also trying to automate my workstation setup with Ansible in:
 
 [Infra](https://github.com/dzintars/infra)
 
+## Music
+[SoundCloud playlist](https://soundcloud.com/dzintars-klavins/sets/session)
+
 <!--
 **dzintars/dzintars** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
