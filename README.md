@@ -4,7 +4,7 @@ Currently busy with refactoring ["boilerplate" project](https://github.com/oswee
 Whole project consists of various technologies, like Web Components (Lit Element), Redux,
 WebSockets, Go services, Protobufs and more. Orchestrating those in isolation was kinda
 hard so i decided to move everything into single monorepo and manage it via Bazel.
-Early tests proves that this is good way to collect whole knowledge base this way.
+Early tests proves that this is good way to collect whole knowledge base.
 But the primary issue which led me to this approach was inability to share WSS message definitions between Go and Typescript. Without Bazel I was forced to use Lerna to publish
 type definitions as separate GitHub registry packages and then to import them in my
 Redux app. And every time I change the Proto API, I must do this procedure again and again.
