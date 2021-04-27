@@ -19,6 +19,7 @@
   <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white" />
   <img alt="Npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat&logo=npm&logoColor=white" />
   <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat&logo=prettier&logoColor=white" />
+  <img alt="ESLint" src="https://img.shields.io/badge/-ESLint-4930BD?style=flat&logo=eslint&logoColor=white" />
 </p>
 
 </hr>
