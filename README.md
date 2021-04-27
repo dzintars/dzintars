@@ -1,8 +1,3 @@
-### Hi there 👋
-
-![](https://visitor-badge.glitch.me/badge?page_id=dzintars.dzintars)
-
-These are some tools I am using.
 <p>
   <img alt="Fedora" src="https://img.shields.io/badge/Fedora-3A6BAE?style=flat&logo=fedora" />
   <img alt="Golang" src="https://img.shields.io/badge/-Golang-blue?style=flat&logo=go&logoColor=white" />
@@ -24,6 +19,12 @@ These are some tools I am using.
   <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white" />
   <img alt="Npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat&logo=npm&logoColor=white" />
   <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat&logo=prettier&logoColor=white" />
+</p>
+
+</hr>
+
+<p align="right">
+  ![](https://visitor-badge.glitch.me/badge?page_id=dzintars.dzintars)
 </p>
 
 <details>
