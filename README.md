@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+![](https://visitor-badge.glitch.me/badge?page_id=dzintars.dzintars)
+
 Currently busy with refactoring ["boilerplate" project](https://github.com/oswee/prime) to be managed by Bazel.
 Whole project consists of various technologies, like Web Components (Lit Element), Redux,
 WebSockets, Go services, Protobufs and more. Orchestrating those in isolation was kinda
