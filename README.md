@@ -28,6 +28,8 @@
   <img alt="Jira" src="https://img.shields.io/badge/-Jira-0052CC?style=flat&logo=jira&logoColor=white" />
   <img alt="Confluence" src="https://img.shields.io/badge/-Confluence-172B4D?style=flat&logo=confluence&logoColor=white" />
   <img alt="Podman" src="https://img.shields.io/badge/-Podman-892CA0?style=flat&logo=podman&logoColor=white" />
+  <img alt="WebComponents" src="https://img.shields.io/badge/-WebComponents-29ABE2?style=flat&logo=webcomponents-dot-org&logoColor=white" />
+  <img alt="Lit" src="https://img.shields.io/badge/-Lit-324fff?style=flat&logo=lit&logoColor=white" />
 </p>
 
 </hr>
