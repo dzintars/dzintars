@@ -4,7 +4,7 @@
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" />
   <img alt="Html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
   <img alt="Sass" src="https://img.shields.io/badge/-Sass-CC6699?style=flat&logo=sass&logoColor=white" />
-  <img alt="Bazel" src="https://img.shields.io/badge/-Bazel-419B45?style=flat&logo=bazel" />  
+  <img alt="Bazel" src="https://img.shields.io/badge/-Bazel-419B45?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB3aWR0aD0iNDQ4IiBoZWlnaHQ9IjQ0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNLjcwNyAxMTJMMTEyIC43MDcgMjIzLjI5MyAxMTIgMTEyIDIyMy4yOTMuNzA3IDExMnpNMTExLjUgMzM0Ljc5M2wtMTExLTExMVYxMTMuMjA3bDExMSAxMTF2MTEwLjU4NnpNMjI0LjcwNyAxMTJMMzM2IC43MDcgNDQ3LjI5MyAxMTIgMzM2IDIyMy4yOTMgMjI0LjcwNyAxMTJ6TTMzNi41IDIyNC4yMDdsMTExLTExMXYxMTAuNTg2bC0xMTEgMTExVjIyNC4yMDd6TTExMi43MDcgMjI0TDIyNCAxMTIuNzA3IDMzNS4yOTMgMjI0IDIyNCAzMzUuMjkzIDExMi43MDcgMjI0ek0xMTIuNSAyMjUuMjA3bDExMSAxMTF2MTEwLjU4NmwtMTExLTExMVYyMjUuMjA3ek0yMjQuNSA0NDYuNzkzVjMzNi4yMDdsMTExLTExMXYxMTAuNTg2bC0xMTEgMTExeiIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjNDE5QjQ1Ii8%2BPC9zdmc%2B" />  
   <img alt="Kafka" src="https://img.shields.io/badge/-Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white" /> 
   <img alt="Protobufs" src="https://img.shields.io/badge/-Protobuf-00B0AC?style=flat&logo=protobuf" />
   <img alt="gRPC" src="https://img.shields.io/badge/-gRPC-00B0AC?style=flat&logo=grpc" /> 
