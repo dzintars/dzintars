@@ -29,7 +29,8 @@
   <img alt="Confluence" src="https://img.shields.io/badge/-Confluence-172B4D?style=flat&logo=confluence&logoColor=white" />
   <img alt="Podman" src="https://img.shields.io/badge/-Podman-892CA0?style=flat&logo=podman&logoColor=white" />
   <img alt="WebComponents" src="https://img.shields.io/badge/-WebComponents-29ABE2?style=flat&logo=webcomponents.org&logoColor=white" />
-  <img alt="Lit" src="https://img.shields.io/badge/-Lit-324fff?style=flat&logo=lit&logoColor=white" />
+  <img alt="Lit" src="https://img.shields.io/badge/-Lit-324fff?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyBmaWxsPSIjZmZmIiB2aWV3Qm94PSIwIDAgMTYwIDIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMTYwIDgwdjgwbC00MC00MHptLTQwIDQwdjgwbDQwLTQwem0wLTgwdjgwbC00MC00MHptLTQwIDQwdjgwbDQwLTQwem0tNDAtNDB2ODBsNDAtNDB6bTQwLTQwdjgwbC00MC00MHptLTQwIDEyMHY4MGwtNDAtNDB6bS00MC00MHY4MGw0MC00MHoiLz48L3N2Zz4%3D" />
+  
 </p>
 
 </hr>
