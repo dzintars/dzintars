@@ -24,7 +24,7 @@
 </hr>
 
 <p align="right">
-  ![](https://visitor-badge.glitch.me/badge?page_id=dzintars.dzintars)
+  <img alt="Visitors" src="https://visitor-badge.glitch.me/badge?page_id=dzintars.dzintars" />
 </p>
 
 <details>
