@@ -25,6 +25,8 @@
   <img alt="Figma" src="https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=figma&logoColor=white" />
   <img alt="Cloudflare" src="https://img.shields.io/badge/-Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white" />
   <img alt="NameCheap" src="https://img.shields.io/badge/-NameCheap-DE3723?style=flat&logo=namecheap&logoColor=white" />
+  <img alt="Jira" src="https://img.shields.io/badge/-Jira-0052CC?style=flat&logo=jira&logoColor=white" />
+  <img alt="Confluence" src="https://img.shields.io/badge/-Confluence-172B4D?style=flat&logo=confluence&logoColor=white" />
 </p>
 
 </hr>
