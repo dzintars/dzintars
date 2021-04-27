@@ -21,6 +21,7 @@
   <img alt="Npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat&logo=npm&logoColor=white" />
   <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat&logo=prettier&logoColor=white" />
   <img alt="ESLint" src="https://img.shields.io/badge/-ESLint-4930BD?style=flat&logo=eslint&logoColor=white" />
+  <img alt="Yarn" src="https://img.shields.io/badge/-Yarn-2C8EBB?style=flat&logo=yarn&logoColor=white" />
 </p>
 
 </hr>
