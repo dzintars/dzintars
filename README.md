@@ -24,6 +24,7 @@
   <img alt="Yarn" src="https://img.shields.io/badge/-Yarn-2C8EBB?style=flat&logo=yarn&logoColor=white" />
   <img alt="Figma" src="https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=figma&logoColor=white" />
   <img alt="Cloudflare" src="https://img.shields.io/badge/-Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white" />
+  <img alt="NameCheap" src="https://img.shields.io/badge/-NameCheap-DE3723?style=flat&logo=namecheap&logoColor=white" />
 </p>
 
 </hr>
