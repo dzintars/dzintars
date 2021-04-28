@@ -1,5 +1,6 @@
 <p>
   <img alt="Fedora" src="https://img.shields.io/badge/Fedora-3A6BAE?style=flat&logo=fedora" />
+  <img alt="Vim" src="https://img.shields.io/badge/-Vim-019733?style=flat&logo=vim&logoColor=white" /> 
   <img alt="Golang" src="https://img.shields.io/badge/-Golang-blue?style=flat&logo=go&logoColor=white" />
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" />
   <img alt="Html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
@@ -10,7 +11,6 @@
   <img alt="gRPC" src="https://img.shields.io/badge/-gRPC-00B0AC?style=flat&logo=grpc" /> 
   <img alt="Terraform" src="https://img.shields.io/badge/-Terraform-5C41E2?style=flat&logo=terraform&logoColor=white" /> 
   <img alt="Ansible" src="https://img.shields.io/badge/-Ansible-C60000?style=flat&logo=ansible&logoColor=white" />
-  <img alt="Vim" src="https://img.shields.io/badge/-Vim-019733?style=flat&logo=vim&logoColor=white" /> 
   <img alt="Jenkins" src="https://img.shields.io/badge/-Jenkins-CC3631?style=flat&logo=jenkins&logoColor=white" /> 
   <img alt="MariaDB" src="https://img.shields.io/badge/MariaDB-003343.svg?&style=flat&logo=mariadb&logoColor=white" /> 
   <img alt="Webpack" src="https://img.shields.io/badge/-Webpack-8DD6F9?style=flat&logo=webpack&logoColor=white" /> 
@@ -27,9 +27,9 @@
   <img alt="NameCheap" src="https://img.shields.io/badge/-NameCheap-DE3723?style=flat&logo=namecheap&logoColor=white" />
   <img alt="Jira" src="https://img.shields.io/badge/-Jira-0052CC?style=flat&logo=jira&logoColor=white" />
   <img alt="Confluence" src="https://img.shields.io/badge/-Confluence-172B4D?style=flat&logo=confluence&logoColor=white" />
-  <img alt="Podman" src="https://img.shields.io/badge/-Podman-892CA0?style=flat&logo=podman&logoColor=white" />
   <img alt="WebComponents" src="https://img.shields.io/badge/-WebComponents-29ABE2?style=flat&logo=webcomponents.org&logoColor=white" />
   <img alt="Lit" src="https://img.shields.io/badge/-Lit-324fff?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyBmaWxsPSIjZmZmIiB2aWV3Qm94PSIwIDAgMTYwIDIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMTYwIDgwdjgwbC00MC00MHptLTQwIDQwdjgwbDQwLTQwem0wLTgwdjgwbC00MC00MHptLTQwIDQwdjgwbDQwLTQwem0tNDAtNDB2ODBsNDAtNDB6bTQwLTQwdjgwbC00MC00MHptLTQwIDEyMHY4MGwtNDAtNDB6bS00MC00MHY4MGw0MC00MHoiLz48L3N2Zz4%3D" />
+  <img alt="Podman" src="https://img.shields.io/badge/-Podman-892CA0?style=flat&logo=podman&logoColor=white" />
   <img alt="OpenShift" src="https://img.shields.io/badge/-OpenShift-EE0000?style=flat&logo=Red%20Hat%20Open%20Shift&logoColor=white" />
   <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=Kubernetes&logoColor=white" />
   
