@@ -32,64 +32,37 @@
   <img alt="Podman" src="https://img.shields.io/badge/-Podman-892CA0?style=flat&logo=podman&logoColor=white" />
   <img alt="OpenShift" src="https://img.shields.io/badge/-OpenShift-EE0000?style=flat&logo=Red%20Hat%20Open%20Shift&logoColor=white" />
   <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=Kubernetes&logoColor=white" />
-  
 </p>
-
-</hr>
-
 <p align="right">
   <img alt="Visitors" src="https://visitor-badge.glitch.me/badge?page_id=dzintars.dzintars" />
 </p>
-
 <details>
-  <summary><b>:computer: &nbsp;Little bit more</b></summary>
+  <summary><b>:computer: &nbsp;Little bit more ...</b></summary>
   <br/>
-  <p>
-Currently busy with refactoring ["boilerplate" project](https://github.com/oswee/prime) to be managed by Bazel.
-Whole project consists of various technologies, like Web Components (Lit Element), Redux,
-WebSockets, Go services, Protobufs and more. Orchestrating those in isolation was kinda
-hard so i decided to move everything into single monorepo and manage it via Bazel.
-Early tests proves that this is good way to collect whole knowledge base.
-But the primary issue which led me to this approach was inability to share WSS message definitions between Go and Typescript. Without Bazel I was forced to use Lerna to publish
-type definitions as separate GitHub registry packages and then to import them in my
-Redux app. And every time I change the Proto API, I must do this procedure again and again.
-Monorepo solves this issue and forces me to learn at least some build system.
-
-Before was learning graphical design and design systems.
-Spent most of my day time in Figma and Axure and prototyping some of my project ideas.
-
-All of my projects are just some rough drafts to test some ideas and to learn.
-
-My current primary repositories are:
-
-[Prime](https://github.com/oswee/prime)
-Web Components (Lit Element), Redux, TypeScript, Go and Protobufs based web application.
-
-[Frontend](https://github.com/dzintars/front)
-Web Components (Lit Element), Redux and TypeScript based SPA frontend. (moving into Prime)
-
-[Backend](https://github.com/dzintars/wss)
-Really basic websockets backend API placeholder written in Go. (moving into Prime)
-
-I also trying to automate my workstation setup with Ansible in:
-
-[Infra](https://github.com/dzintars/infra)
-
-### Music
-[SoundCloud playlist](https://soundcloud.com/dzintars/sets/session)
-</p>
+  <h3>Primary projects I am currently working on:</h3>
+  <article>
+    <h4><a href="https://github.com/oswee/ignite">Ignite - Infrastructure code</a></h4>
+    <p>In order to streamline "Prime" project development I need to have some kind of container cluster. As self-hosted clusters is not easy to manage by hand and its really expensive to keep running cluster in any of cloud providers I need to automate the whole cluster setup. It will ease disaster recovery and its a good way to get familiar with Terraform, Ansible and things like network, storage, etc.</p>
+    <p>Most challenging I found to develop the project structure so that it is easy to maintain for myself alone and that it is future proof. Still experimenting with it.</p>
+  </article>
+  <article>
+    <h4><a href="https://github.com/dzintars/ansible">Ansible - Personal Ansible collection</a></h4>
+    <p>With the latest changes in the Ansible its clear that collections is there to stay and so I merged separate roles into single repository. Currently I am utilizing only Roles, but I see how I can implement my own modules if needed. This collection is mostly consumed by "Ignite" project. For some role testing I am using Molecule with KVM integration as not all roles can be tested in the container environment. For example if you need to configure SELinux flags.</p>
+  </article>
+  <article>
+    <h4><a href="https://github.com/oswee/prime">Prime</a></h4>
+    <p>Monorepository of Front-end and Back-end code managed with Bazel build system.</p>
+    <p>This repository was created to learn about Bazel. And Bazel was picked up because of ability to generate Protobuf stubs for TypeScrip and Go at the same time. This eliminates the need for tools like Lerna to publish the typings as NPM modules and then to import into projects. This was too time consuming to me even if I could use just local module linking. Bazel solves many, many issues at much higher level. But it comes at additional learning and complexity cost. Thou, I believe that in long term it will pay the dividends.</p>
+  </article>
+  <article>
+    <h4>Things I am keeping my eyes on and planning to use</h4>
+    <ul>
+      <li>Storybook</li>
+      <li>Testing</li>
+    </ul>
+  </article>
+  <article>
+    <h3>Music</h3>
+    <a href="https://soundcloud.com/dzintars/sets/session">SoundCloud playlist</a>
+  </article>
 </details>
-<!--
-**dzintars/dzintars** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
