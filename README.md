@@ -42,7 +42,7 @@
   <h3>Primary projects I am currently working on:</h3>
   <article>
     <h4><a href="https://github.com/oswee/ignite">Ignite - Infrastructure code</a></h4>
-    <p>In order to streamline "Prime" project development I need to have some kind of container cluster. As self-hosted clusters is not easy to manage by hand and its really expensive to keep running cluster in any of cloud providers I need to automate the whole cluster setup. It will ease disaster recovery and its a good way to get familiar with Terraform, Ansible and things like network, storage, etc.</p>
+    <p>In order to streamline "Prime" project development I need to have some kind of container cluster. As self-hosted clusters is not easy to manage by hand and its really expensive to keep running cluster in any of cloud providers I need to automate the whole cluster setup. It will ease the disaster recovery and its a good way to get familiar with Terraform, Ansible and things like network, storage, etc.</p>
     <p>Most challenging I found to develop the project structure so that it is easy to maintain for myself alone and that it is future proof. Still experimenting with it.</p>
   </article>
   <article>
