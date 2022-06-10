@@ -36,26 +36,31 @@
 <details>
   <summary><b>:computer: &nbsp;Little bit more ...</b></summary>
   <br/>
-  <h3>Primary projects I am currently working on:</h3>
   <article>
-    <h4><a href="https://github.com/oswee/ignite">Ignite - Infrastructure code</a></h4>
-    <p>In order to streamline "Prime" project development I need to have some kind of container cluster. As self-hosted clusters is not easy to manage by hand and its really expensive to keep running cluster in any of cloud providers I need to automate the whole cluster setup. It will ease the disaster recovery and its a good way to get familiar with Terraform, Ansible and things like network, storage, etc.</p>
-    <p>Most challenging I found to develop the project structure so that it is easy to maintain for myself alone and that it is future proof. Still experimenting with it.</p>
+    <h4>Self-taught solo engineer</h4>
+    <p>Mostly interested in transportation domain to solve practical business challanges via software automation</p>
+    <p>Using customized Linux, Neovim, Colemak and custom mechanical keyboard as my daily drivers</p>
+    <p>Managing set of Linux servers and networks</p>
+    <p>Quite familiar with Figma and Axure for design and prototyping</p>
   </article>
+  <h3>Primary project I am currently working on:</h3>
   <article>
-    <h4><a href="https://github.com/dzintars/ansible">Ansible - Personal Ansible collection</a></h4>
-    <p>With the latest changes in the Ansible its clear that collections is there to stay and so I merged separate roles into single repository. Currently I am utilizing only Roles, but I see how I can implement my own modules if needed. This collection is mostly consumed by "Ignite" project. For some role testing I am using Molecule with KVM integration as not all roles can be tested in the container environment. For example if you need to configure SELinux flags.</p>
-  </article>
-  <article>
-    <h4><a href="https://github.com/oswee/prime">Prime</a></h4>
-    <p>Monorepository of Front-end and Back-end code managed with Bazel build system.</p>
-    <p>This repository was created to learn about Bazel. And Bazel was picked up because of ability to generate Protobuf stubs for TypeScrip and Go at the same time. This eliminates the need for tools like Lerna to publish the typings as NPM modules and then to import into projects. This was too time consuming to me even if I could use just local module linking. Bazel solves many, many issues at much higher level. But it comes at additional learning and complexity cost. Thou, I believe that in long term it will pay the dividends.</p>
+    <h4><a href="https://github.com/oswee/prime">Prime - Bazel monorepository</a></h4>
+    <p>Main intention is to create single repository for all things i am working with. Like a personal workshop with the tools placed in the right places.</p>
+    <p>Repository contains infrastructure code to set up my development environment, component libraries, protobufs, services, scripts, etc.</p>
+    <p>Single repository is easier to reason about by looking at Git history, but its much harder to set it up for fluent IDE workflow.</p>
+    <p>Most challenging I found to develop the project structures so that it is easy to maintain for myself alone and that it is future proof. Still havily experimenting with it.</p>
   </article>
   <article>
     <h4>Things I am keeping my eyes on and planning to use</h4>
     <ul>
       <li>Storybook</li>
+      <li>Angular</li>
+      <li>Rust</li>
+      <li>WebAssembly</li>
       <li>Testing</li>
+      <li>Monitoring</li>
+      <li>Zero Trust Security</li>
     </ul>
   </article>
   <article>
