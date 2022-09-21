@@ -45,8 +45,8 @@
   </article>
   <h3>Primary project I am currently working on:</h3>
   <article>
-    <h4><a href="https://github.com/oswee/prime">Prime - Bazel monorepository</a></h4>
-    <p>Main intention is to create single repository for all things i am working with. Like a personal workshop with the tools placed in the right places.</p>
+    <h4><a href="https://github.com/oswee/oswee">Oswee - Bazel monorepository</a></h4>
+    <p>Main intention is to create single repository for all things i am working with. Like a personal workshop with the tools placed in the right places. Some like to call it Personal Development Environment.</p>
     <p>Repository contains infrastructure code to set up my development environment, component libraries, protobufs, services, scripts, etc.</p>
     <p>Single repository is easier to reason about by looking at Git history, but its much harder to set it up for fluent IDE workflow.</p>
     <p>Most challenging I found to develop the project structures so that it is easy to maintain for myself alone and that it is future proof. Still havily experimenting with it.</p>
