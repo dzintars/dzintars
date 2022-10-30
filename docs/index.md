@@ -2,7 +2,7 @@
 
 ... but I have no idea what should i write about,because in every topic i will be wrong.
 
-## Potential article headlines
+## Potential headlines or sections of articles
 
 - Ansible project structure
 - Monorepository structure
@@ -14,9 +14,23 @@
 - Testing Ansible with Molecule
 - Why and how to ues Password Managers and security keys
 - How to setup HAProxy for the home-lab environment
-- Why you should learn Touch Typing
+- Why and how you should learn Touch Typing
 - Invest in your keyboard
 - Invest in your chair, pillow and mattress
 - Digital hygiene
 - Immerse yourself into topics
 - Why and how you should take notes
+- Script everything
+- How to structure Neovim configuration
+
+## Things on my radar
+
+- Rust
+- WebAssembly
+- Design Tokens + automation
+- PowerDNS
+- Fuchsia OS
+- Bazel Remote Cache and Remote Execution
+- Python
+- Monitoring
+- Software testing
