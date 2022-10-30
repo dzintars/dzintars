@@ -1,38 +1,20 @@
-## Welcome to GitHub Pages X
+# This should by my blog, but I have no idea what should i write about,because in every topic i will be wrong.
 
-You can use the [editor on GitHub](https://github.com/dzintars/dzintars/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Potential article headlines
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dzintars/dzintars/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
+- Ansible project structure
+- Monorepository structure
+- SSH Certificates (not the SSH keys)
+- Terraform structure
+- How to get into DevOps as beginer. Where to start.
+- What is Bazel build system and why do you need one
+- Ansible collections
+- Testing Ansible with Molecule
+- Why and how to ues Password Managers and security keys
+- How to setup HAProxy for the home-lab environment
+- Why you should learn Touch Typing
+- Invest in your keyboard
+- Invest in your chair, pillow and mattress
+- Digital hygiene
+- Immerse yourself into topics
+- Why and how you should take notes
