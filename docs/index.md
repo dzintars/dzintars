@@ -1,4 +1,6 @@
-# This should by my blog, but I have no idea what should i write about,because in every topic i will be wrong.
+# This should be my blog...
+
+... but I have no idea what should i write about,because in every topic i will be wrong.
 
 ## Potential article headlines
 
