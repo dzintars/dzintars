@@ -1,3 +1,4 @@
+<p>These are few fancy things I had heard about 😃</p>
 <p>
   <img alt="Fedora" src="https://img.shields.io/badge/Fedora-3A6BAE?style=flat&logo=fedora" />
   <img alt="Vim" src="https://img.shields.io/badge/-Vim-019733?style=flat&logo=vim&logoColor=white" /> 
@@ -33,6 +34,8 @@
   <img alt="OpenShift" src="https://img.shields.io/badge/-OpenShift-EE0000?style=flat&logo=Red%20Hat%20Open%20Shift&logoColor=white" />
   <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=Kubernetes&logoColor=white" />
 </p>
+<p>🗨️ Let's Chat at my little <a href="https://discord.com/api/guilds/1045681416911994921/widget.json" target="_blank">Discord</a> server 🚀</p>
+<br/>
 <details>
   <summary><b>:computer: &nbsp;Little bit more ...</b></summary>
   <br/>
