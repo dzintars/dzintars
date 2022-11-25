@@ -34,7 +34,7 @@
   <img alt="OpenShift" src="https://img.shields.io/badge/-OpenShift-EE0000?style=flat&logo=Red%20Hat%20Open%20Shift&logoColor=white" />
   <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=Kubernetes&logoColor=white" />
 </p>
-<p>🗨️ Let's Chat at my little <a href="https://discord.com" target="_blank">Discord</a> server 🚀</p>
+<p>🗨️ Let's Chat at my little <a href="https://discord.gg/nS76vcwf" target="_blank">Discord</a> server 🚀</p>
 <br/>
 <details>
   <summary><b>:computer: &nbsp;Little bit more ...</b></summary>
