@@ -22,15 +22,17 @@
 - Why and how you should take notes
 - Script everything
 - How to structure Neovim configuration
+- Incremental progression
 
 ## Things on my radar
 
 - Rust
 - WebAssembly
-- Design Tokens + automation
+- Monitoring
+- Infosec
 - PowerDNS
-- Fuchsia OS
 - Bazel Remote Cache and Remote Execution
 - Python
-- Monitoring
 - Software testing
+- Design Tokens + automation
+- Fuchsia OS
