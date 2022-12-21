@@ -9,6 +9,7 @@
 - SSH Certificates (not the SSH keys)
 - Terraform structure
 - How to get into DevOps as beginer. Where to start.
+  - or My take on How to become full-stack unicorn developer the hard way 😏
 - What is Bazel build system and why do you need one
 - Ansible collections
 - Testing Ansible with Molecule
