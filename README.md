@@ -37,7 +37,7 @@
 <p>🗨️ Let's Chat at my little <a href="https://discord.gg/nS76vcwf" target="_blank">Discord</a> server 🚀</p>
 <br/>
 <article>
-  <h2>Currently working on (2023-OCT-04):</h2>
+  <h3>Currently working on (2023-OCT-04):</h3>
   <p>I'm trying to explore Gerrit, Zuul CI and Jiri workflow.</p>
   <p>It's quite challenging due to many moving parts. On top of that I'm trying
     to come up with neat repository structure, write the deployment manifests
@@ -52,28 +52,25 @@
         environment on my own rack servers. Podman is just a temporary step
         before switching to full blown Kubernetes cluster.</p>
   <details>
+    <br/>
     <summary><b>:hammer_and_wrench: &nbsp;My hacking log and accomplishments ...</b></summary>
     <br/>
     <article>
-    <h3>HashiCorp Vault as Podman Qubelet:</h3>
+    <h4>HashiCorp Vault as Podman Qubelet:</h4>
     </article>
-    <br/>
     <article>
-    <h3>Gerrit as Podman Qubelet:</h3>
+    <h4>Gerrit as Podman Qubelet:</h4>
     </article>
-    <br/>
     <article>
-    <h3>Entire Zuul CI as Podman kube deployment:</h3>
+    <h4>Entire Zuul CI as Podman kube deployment:</h4>
     </article>
-    <br/>
     <article>
-    <h3>Internal Bind9 DNS server as Podman kube deployment:</h3>
+    <h4>Internal Bind9 DNS server as Podman kube deployment:</h4>
     </article>
-    <br/>
   </details>
 </article>
 <details>
-  <summary><b>:computer: &nbsp;Little bit more ...</b></summary>
+  <summary><b>:computer: &nbsp;Little bit more about me ...</b></summary>
   <br/>
   <article>
     <h4>Self-taught solo engineer</h4>
@@ -82,7 +79,7 @@
     <p>Managing set of Linux servers and networks</p>
     <p>Quite familiar with Figma and Axure for design and prototyping</p>
   </article>
-  <h3>Primary project I am currently working on:</h3>
+  <h3>Primary projects I am currently working on:</h3>
   <article>
     <h4><a href="https://github.com/oswee/oswee">Oswee - Bazel monorepository</a></h4>
     <p><b>UPDATE 2023-OCT-04:</b> Not working on it anymore. In process to move everything in-house
@@ -90,7 +87,25 @@
     <p>Main intention is to create single repository for all things i am working with. Like a personal workshop with the tools placed in the right places. Some like to call it Personal Development Environment.</p>
     <p>Repository contains infrastructure code to set up my development environment, component libraries, protobufs, services, scripts, etc.</p>
     <p>Single repository is easier to reason about by looking at Git history, but its much harder to set it up for fluent IDE workflow.</p>
-    <p>Most challenging I found to develop the project structures so that it is easy to maintain for myself alone and that it is future proof. Still havily experimenting with it.</p>
+    <p>Most challenging I found to develop the project structures so that it is easy to maintain for myself alone and that it is future proof. Still heavily experimenting with it.</p>
+  </article>
+  <article>
+    <h4>SMBs tech support</h4>
+    <p>I am helping some SMBs to maintain their internal servers. Just a little
+        things. Some networking, some backups, some reinstalls, some software
+            and hardware. Nothing too serious. But it's working for many years.</p>
+  </article>
+  <article>
+    <h4>Other things I had done in the past:</h4>
+    <p>Finally learned touch-typing. On top of that learned Colemak-DH layout on
+        a custom built split mechanical keyboard.</p>
+    <p>Done full electricity, plumbing and construction renovation at my wifes
+            parent house.</p>
+    <p>In 4 years I failed on running my own transportation company with 300+
+            partners/employees.</p>
+    <p>I was Product Owner for 2 fairly large PHP enterprise intranets in
+            transportation domain which are still in use in some SMBs.</p>
+    <p>I have carpentry education thou I never worked professionally in that.</p>
   </article>
   <article>
     <h4>Things I am keeping my eyes on and planning to use</h4>
