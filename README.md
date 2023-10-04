@@ -34,6 +34,20 @@
   <img alt="OpenShift" src="https://img.shields.io/badge/-OpenShift-EE0000?style=flat&logo=Red%20Hat%20Open%20Shift&logoColor=white" />
   <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=Kubernetes&logoColor=white" />
 </p>
+<article>
+    <p>In general... I am able to design and develop full-stack (Go (gRPC) + TypeScript (Lit +
+        Redux + Websocket)) web applications from scratch. To deploy them. To
+        maintain them.</p>
+    <p>But I'm not doing that ATM, because I went into realm of enterprise
+        automation. From Day 0 automated provisioning, poly-repo DX, Code
+        Reviews, Static Code Analysis up to automated deployments. I'm a
+        believer that without some sort of automation nobody is able to create
+        successful SaaS product these days due to various reasons. So... there
+        is no point for me to waste my time on Go or TypeScript skills at this
+        point of time. But I am aware that I went too deep into this reaching
+        things like Gerrit, Zuul CI and what not.
+        Those are too complex systems for a simple products.</p>
+</article>
 <p>🗨️ Let's Chat at my little <a href="https://discord.gg/nS76vcwf" target="_blank">Discord</a> server 🚀</p>
 <br/>
 <article>
@@ -91,26 +105,30 @@
   </article>
   <article>
     <h4>SMBs tech support</h4>
-    <p>I am helping some SMBs to maintain their internal servers. Just a little
+    <p>I am helping some SMBs to maintain their internal infrastructure. Just a little
         things. Some networking, some backups, some reinstalls, some software
             and hardware. Nothing too serious. But it's working for many years.</p>
+    <p>In past was also managing Nortel BMC400 call center server.</p>
   </article>
   <article>
     <h4>Other things I had done in the past:</h4>
-    <p>Finally learned touch-typing. On top of that learned Colemak-DH layout on
-        a custom built split mechanical keyboard.</p>
-    <p>Done full electricity, plumbing and construction renovation at my wifes
-            parent house.</p>
-    <p>In 4 years I failed on running my own transportation company with 300+
-            partners/employees.</p>
-    <p>I was Product Owner for 2 fairly large PHP enterprise intranets in
-            transportation domain which are still in use in some SMBs.</p>
-    <p>I have carpentry education thou I never worked professionally in that.</p>
+    <ul>
+        <li>Finally learned touch-typing. On top of that learned Colemak-DH layout on
+            a custom built split mechanical keyboard.</li>
+        <li>Done full electricity, plumbing and construction renovation at my wifes
+                parent house.</li>
+        <li>In 4 years I failed on running my own transportation company with 300+
+                partners/employees.</li>
+        <li>I was Product Owner for 2 fairly large PHP enterprise intranets in
+                transportation domain which are still in use in some SMBs.</li>
+        <li>I have carpentry education thou I never worked professionally in that.</li>
+    </ul>
   </article>
   <article>
     <h4>Things I am keeping my eyes on and planning to use</h4>
     <ul>
       <li>Storybook</li>
+      <li>Design Systems</li>
       <li>Angular</li>
       <li>Rust</li>
       <li>WebAssembly</li>
