@@ -36,12 +36,48 @@
 </p>
 <p>🗨️ Let's Chat at my little <a href="https://discord.gg/nS76vcwf" target="_blank">Discord</a> server 🚀</p>
 <br/>
+<article>
+  <h2>Currently working on (2023-OCT-04):</h2>
+  <p>I'm trying to explore Gerrit, Zuul CI and Jiri workflow.</p>
+  <p>It's quite challenging due to many moving parts. On top of that I'm trying
+    to come up with neat repository structure, write the deployment manifests
+        for Podman Qubelets, encapsulate the deployment logic in Ansible and
+        Terraform.</p>
+  <p>Organizing Terraform state files also have its own challenges
+    because... I just want to have clean and easy to follow structure. Sure, I
+        can just make it work, but that will not scale in the long term.</p>
+  <p>What belongs to Infra, what belongs to Platform, etc. These kind of
+        questions.</p>
+  <p>Main goal is to move away from GitHub and deploy my entire development
+        environment on my own rack servers. Podman is just a temporary step
+        before switching to full blown Kubernetes cluster.</p>
+  <details>
+    <summary><b>:hammer_and_wrench: &nbsp;My hacking log and accomplishments ...</b></summary>
+    <br/>
+    <article>
+    <h3>HashiCorp Vault as Podman Qubelet:</h3>
+    </article>
+    <br/>
+    <article>
+    <h3>Gerrit as Podman Qubelet:</h3>
+    </article>
+    <br/>
+    <article>
+    <h3>Entire Zuul CI as Podman kube deployment:</h3>
+    </article>
+    <br/>
+    <article>
+    <h3>Internal Bind9 DNS server as Podman kube deployment:</h3>
+    </article>
+    <br/>
+  </details>
+</article>
 <details>
   <summary><b>:computer: &nbsp;Little bit more ...</b></summary>
   <br/>
   <article>
     <h4>Self-taught solo engineer</h4>
-    <p>Mostly interested in transportation domain to solve practical business challanges via software automation</p>
+    <p>Mostly interested in transportation domain to solve practical business challenges via software automation</p>
     <p>Using customized Linux, Neovim, Colemak and custom mechanical keyboard as my daily drivers</p>
     <p>Managing set of Linux servers and networks</p>
     <p>Quite familiar with Figma and Axure for design and prototyping</p>
@@ -49,6 +85,8 @@
   <h3>Primary project I am currently working on:</h3>
   <article>
     <h4><a href="https://github.com/oswee/oswee">Oswee - Bazel monorepository</a></h4>
+    <p><b>UPDATE 2023-OCT-04:</b> Not working on it anymore. In process to move everything in-house
+        in poly-repo (Gerrit + Submodules) setting.</p>
     <p>Main intention is to create single repository for all things i am working with. Like a personal workshop with the tools placed in the right places. Some like to call it Personal Development Environment.</p>
     <p>Repository contains infrastructure code to set up my development environment, component libraries, protobufs, services, scripts, etc.</p>
     <p>Single repository is easier to reason about by looking at Git history, but its much harder to set it up for fluent IDE workflow.</p>
