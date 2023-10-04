@@ -66,7 +66,6 @@
   <details>
     <br/>
     <summary><b>:hammer_and_wrench: &nbsp;My hacking log and accomplishments ...</b></summary>
-    <br/>
     <article>
     <h4>HashiCorp Vault as Podman Qubelet:</h4>
     </article>
