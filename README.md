@@ -48,8 +48,6 @@
         things like Gerrit, Zuul CI and what not.
         Those are too complex systems for a simple products.</p>
 </article>
-<p>🗨️ Let's Chat at my little <a href="https://discord.gg/nS76vcwf" target="_blank">Discord</a> server 🚀</p>
-<br/>
 <article>
   <h3>Currently working on (2023-OCT-04):</h3>
   <p>I'm trying to explore Gerrit, Zuul CI and Jiri workflow.</p>
@@ -142,3 +140,5 @@
     <a href="https://soundcloud.com/dzintars/sets/session">SoundCloud playlist</a>
   </article>
 </details>
+<p>🗨️ Let's Chat at my little <a href="https://discord.gg/nS76vcwf" target="_blank">Discord</a> server 🚀</p>
+<br/>
