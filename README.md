@@ -3,7 +3,7 @@
 <section>
   <h2>Technologies</h2>
   <article>
-    <h3>My primary technologies today:</h3>
+    <h3>My primary stack today:</h3>
     <p>
       <img alt="Ansible" src="https://img.shields.io/badge/-Ansible-C60000?style=flat&logo=ansible&logoColor=white" />
       <img alt="Terraform" src="https://img.shields.io/badge/-Terraform-5C41E2?style=flat&logo=terraform&logoColor=white" /> 
@@ -13,7 +13,7 @@
   <details>
     <summary><b>:hammer_and_wrench: &nbsp;Other technologies</b></summary>
     <article>
-      <h3>I am also familiar with these</h3>
+      <h3>I used these in my other projects:</h3>
       <p>
         <img alt="Figma" src="https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=figma&logoColor=white" />
         <img alt="WebComponents" src="https://img.shields.io/badge/-WebComponents-29ABE2?style=flat&logo=webcomponents.org&logoColor=white" />
@@ -27,7 +27,7 @@
   </details>
 </section>
 <section>
-  <h2>Currently working on</h2>
+  <h2>Now</h2>
     <article>
       <h3>2024-Feb: Gerrit, Zuul-CI, Podman Quadlets</h3>
       <p>Working on Ansible collections for local IDP (Integrated Development
@@ -38,13 +38,19 @@
          dirty" approach. Current goal is to get neat Ansible collections for
          that.
         </p>
+        <p>My GitHub activity stagnates due to migration to self hosted Git
+          (Gerrit) server. Some day I might choose to cross-publish my work on
+          GitHub. Primary reasoning - "Don't feed the beast".
+        </p>
     </article>
   <details>
-    <summary><b>:hammer_and_wrench: &nbsp;Activity log</b></summary>
-    <article>
-      <h3>Activity name and date</h3>
-      <p>Some previous activity description</p>
-    </article>
+    <summary><b>:hammer_and_wrench: &nbsp;Log</b></summary>
+    <section>
+      <article>
+        <h3>Activity name and date</h3>
+        <p>Some previous activity description</p>
+      </article>
+    </section>
   </details>
 </section>
 <section>
