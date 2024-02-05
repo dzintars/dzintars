@@ -1,4 +1,4 @@
-<h2>Welcome to my profile</h2>
+<h1>Welcome to my profile</h1>
 <p>I am self-taught full-stack software engineer and this is my resume</p>
 <section>
   <h3>Currently used technologies</h3>
