@@ -3,7 +3,7 @@
 <section>
   <h2>Technologies</h2>
   <article>
-    <h3>Currently I'm using these:</h3>>
+    <h3>My primary technologies today:</h3>
     <p>
       <img alt="Ansible" src="https://img.shields.io/badge/-Ansible-C60000?style=flat&logo=ansible&logoColor=white" />
       <img alt="Terraform" src="https://img.shields.io/badge/-Terraform-5C41E2?style=flat&logo=terraform&logoColor=white" /> 
@@ -13,7 +13,7 @@
   <details>
     <summary><b>:hammer_and_wrench: &nbsp;Other technologies</b></summary>
     <article>
-      <h4>I am also familiar with these</h4>
+      <h3>I am also familiar with these</h3>
       <p>
         <img alt="Figma" src="https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=figma&logoColor=white" />
         <img alt="WebComponents" src="https://img.shields.io/badge/-WebComponents-29ABE2?style=flat&logo=webcomponents.org&logoColor=white" />
@@ -27,9 +27,9 @@
   </details>
 </section>
 <section>
-  <h3>Currently working on</h3>
+  <h2>Currently working on</h2>
     <article>
-      <h4>2024-Feb: Gerrit, Zuul-CI, Podman Quadlets</h4>
+      <h3>2024-Feb: Gerrit, Zuul-CI, Podman Quadlets</h3>
       <p>Working on Ansible collections for local IDP (Integrated Development
          Platform) setup which consists of multitude of components. Primary
          goal is to get it running smooth on a single developer server by
@@ -42,25 +42,25 @@
   <details>
     <summary><b>:hammer_and_wrench: &nbsp;Activity log</b></summary>
     <article>
-      <h4>Activity name and date</h4>
+      <h3>Activity name and date</h3>
       <p>Some previous activity description</p>
     </article>
   </details>
 </section>
 <section>
-  <h3>My setup</h3>
+  <h2>My setup</h2>
   <p>
     <img alt="Fedora" src="https://img.shields.io/badge/Fedora-3A6BAE?style=flat&logo=fedora" />
     <img alt="Vim" src="https://img.shields.io/badge/-Vim-019733?style=flat&logo=vim&logoColor=white" /> 
   </p>
 </section>
 <section>
-  <h3>Learning</h3>
+  <h2>Learning</h2>
   <p></p>
 </section>
 <section>
-  <h3>A little bit more about me</h3>
+  <h2>A little bit more about me</h2>
 </section>
 <section>
-  <h3>Let's talk</h3>
+  <h2>Let's talk</h2>
 </section>
