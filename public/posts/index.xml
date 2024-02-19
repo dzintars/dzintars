@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Dzintars Klavins</title>
-    <link>https://dzintars.dev/</link>
-    <description>Recent content on Dzintars Klavins</description>
+    <title>Posts on Dzintars Klavins</title>
+    <link>https://dzintars.dev/posts/</link>
+    <description>Recent content in Posts on Dzintars Klavins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Feb 2024 13:55:55 +0200</lastBuildDate>
-    <atom:link href="https://dzintars.dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dzintars.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://dzintars.dev/posts/about/</link>
