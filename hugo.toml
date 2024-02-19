@@ -1,4 +1,4 @@
 baseURL = 'https://dzintars.dev/'
 languageCode = 'en-us'
 title = 'Dzintars Klavins'
-theme = 'ananke'
+theme = 'PaperMod'
