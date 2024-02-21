@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Productivity on Dzintars Klavins</title>
-    <link>https://dzintars.dev/categories/productivity/</link>
-    <description>Recent content in Productivity on Dzintars Klavins</description>
+    <title>Sway on Dzintars Klavins</title>
+    <link>https://dzintars.dev/tags/sway/</link>
+    <description>Recent content in Sway on Dzintars Klavins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 Feb 2024 22:12:40 +0200</lastBuildDate>
-    <atom:link href="https://dzintars.dev/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dzintars.dev/tags/sway/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My CLI Centric Workflow</title>
       <link>https://dzintars.dev/posts/my-cli-centric-workflow/</link>
       <pubDate>Wed, 21 Feb 2024 22:12:40 +0200</pubDate>
       <guid>https://dzintars.dev/posts/my-cli-centric-workflow/</guid>
       <description>For a very long time I was Windows only user. Nor did I liked it, nor did I hated it. I just was somewhat above average user. But it all ended when I started to work with Go and Kafka Go library which I needed to cross-compile for an Linux system. And it was pain. CygWin, MinGW an a lot of gymnastics around it. In parallel I was trying to be in the &amp;ldquo;microservices&amp;rdquo; hype train.</description>
-    </item>
-    <item>
-      <title>Zettelkasten Note Taking</title>
-      <link>https://dzintars.dev/posts/zettelkasten-note-taking/</link>
-      <pubDate>Wed, 21 Feb 2024 20:24:52 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/zettelkasten-note-taking/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

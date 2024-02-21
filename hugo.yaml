@@ -4,7 +4,7 @@ languageCode: 'en-us'
 title: 'Dzintars Klavins'
 theme: 'PaperMod'
 
-googleAnalytics: 'G-ZDYZTVD1N3'
+# googleAnalytics: 'G-ZDYZTVD1N3'
 
 params:
   env: production
@@ -23,8 +23,9 @@ params:
   homeInfoParams:
     Title: Hi there
     Content: |
-     I'm a software engineer from Europe/Riga
-     Learn more about me [there](https://dzintars.dev/posts/about/)
+     I'm a software engineer from Europe/Riga.
+     Learn more about me [there](https://dzintars.dev/posts/about/).
+     Currently the all content in this blog is temporary garbage for the sake of making/testing Hugo.
 
 
   socialIcons:
@@ -38,9 +39,9 @@ params:
       SiteVerificationTag: "G-ZDYZTVD1N3"
 
   editPost:
-    URL: "https://github.com/dzintars/dzintars/content"
+    URL: "https://github.com/dzintars/dzintars/tree/hugo/content"
     Text: "Suggest Changes"  # edit text
-    appendFilePath: false  # to append file path to Edit link
+    appendFilePath: true  # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
