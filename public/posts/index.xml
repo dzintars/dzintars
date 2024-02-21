@@ -6,15 +6,55 @@
     <description>Recent content in Posts on Dzintars Klavins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Feb 2024 13:55:55 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 21 Feb 2024 20:24:52 +0200</lastBuildDate>
     <atom:link href="https://dzintars.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zettelkasten Note Taking</title>
+      <link>https://dzintars.dev/posts/zettelkasten-note-taking/</link>
+      <pubDate>Wed, 21 Feb 2024 20:24:52 +0200</pubDate>
+      <guid>https://dzintars.dev/posts/zettelkasten-note-taking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Websockets and Kafka</title>
+      <link>https://dzintars.dev/posts/websockets-and-kafka/</link>
+      <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
+      <guid>https://dzintars.dev/posts/websockets-and-kafka/</guid>
+      <description>Why I had this idea about the highly reactive collaborative web application. After messing around I ended up with PoC which consisted of bunch of Go services and on top of that I somewhat implemented CQRS architecture.
+How front wss srp
+General idea was that websocket is used as protocol. Custom message format is created and synchronized between TypeScript and Go with help of Protocol Buffers, gRPC and few gRPC extensions.</description>
+    </item>
+    <item>
+      <title>2024 Feb 21</title>
+      <link>https://dzintars.dev/posts/2024-feb-21/</link>
+      <pubDate>Wed, 21 Feb 2024 17:50:12 +0200</pubDate>
+      <guid>https://dzintars.dev/posts/2024-feb-21/</guid>
+      <description>Tinkering with my Hugo blog I&amp;rsquo;m still not sure what will I do with it, but&amp;hellip; at least this will be done.
+I picked Hugo as it seems simple enough for my current needs. Just drop some markdown and you are done. Sounds good. I don&amp;rsquo;t even plan to customize default theme for now as typography looks good, theme is supported. Like&amp;hellip; there is everything I need. Most important goal for me is to start accumulate some content.</description>
+    </item>
+    <item>
+      <title>My Setup</title>
+      <link>https://dzintars.dev/posts/my-setup/</link>
+      <pubDate>Wed, 21 Feb 2024 17:28:52 +0200</pubDate>
+      <guid>https://dzintars.dev/posts/my-setup/</guid>
+      <description>Linux For quite some years I now use Linux as my daily driver.
+CLI centric workflow </description>
+    </item>
+    <item>
+      <title>SPA Front page application</title>
+      <link>https://dzintars.dev/posts/front/</link>
+      <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
+      <guid>https://dzintars.dev/posts/front/</guid>
+      <description>About the project It&amp;rsquo;s a SPA kind of web application based on bunch of buzzword technologies, most importantly Web Components. The idea behind picking web components was that over time I will accumulate bunch of reusable components which will be any framework agnostic. At time of creating that project React was the only framework which didn&amp;rsquo;t support web components, but times might be changed since then.
+Images
+TIL Redux features</description>
+    </item>
     <item>
       <title>About</title>
       <link>https://dzintars.dev/posts/about/</link>
-      <pubDate>Mon, 19 Feb 2024 13:55:55 +0200</pubDate>
+      <pubDate>Thu, 15 Feb 2024 11:30:03 +0000</pubDate>
       <guid>https://dzintars.dev/posts/about/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
+      <description>About me post</description>
     </item>
   </channel>
 </rss>

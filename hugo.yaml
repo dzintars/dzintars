@@ -5,4 +5,87 @@ title: 'Dzintars Klavins'
 theme: 'PaperMod'
 
 googleAnalytics: 'G-ZDYZTVD1N3'
+
+params:
+  env: production
+  title: 'Dzintars Klavins'
+  description: 'Personal blog'
+  keywords: [Blog, Portfolio, Resume, Now]
+  author: 'Dzintars'
+  dateFormat: '2006 Jan 02'
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowShareButtons: true
+  ShowCodeCopyButtons: true
+
+  showBreadCrumbs: true
+
+  homeInfoParams:
+    Title: Hi there
+    Content: |
+     I'm a software engineer from Europe/Riga
+     Learn more about me [there](https://dzintars.dev/posts/about/)
+
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/dzintars"
+    - name: x
+      url: "https://twitter.com/DzintarsDev"
+
+  analytics:
+    google:
+      SiteVerificationTag: "G-ZDYZTVD1N3"
+
+  editPost:
+    URL: "https://github.com/dzintars/dzintars/content"
+    Text: "Suggest Changes"  # edit text
+    appendFilePath: false  # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10  # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 30
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 40
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    style: monokai
+    # noClasses: false
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON  # necessary for search
 ...

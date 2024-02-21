@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Dzintars Klavins</title>
+    <link>https://dzintars.dev/categories/projects/</link>
+    <description>Recent content in Projects on Dzintars Klavins</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Feb 2024 19:46:43 +0200</lastBuildDate>
+    <atom:link href="https://dzintars.dev/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Websockets and Kafka</title>
+      <link>https://dzintars.dev/posts/websockets-and-kafka/</link>
+      <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
+      <guid>https://dzintars.dev/posts/websockets-and-kafka/</guid>
+      <description>Why I had this idea about the highly reactive collaborative web application. After messing around I ended up with PoC which consisted of bunch of Go services and on top of that I somewhat implemented CQRS architecture.
+How front wss srp
+General idea was that websocket is used as protocol. Custom message format is created and synchronized between TypeScript and Go with help of Protocol Buffers, gRPC and few gRPC extensions.</description>
+    </item>
+    <item>
+      <title>SPA Front page application</title>
+      <link>https://dzintars.dev/posts/front/</link>
+      <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
+      <guid>https://dzintars.dev/posts/front/</guid>
+      <description>About the project It&amp;rsquo;s a SPA kind of web application based on bunch of buzzword technologies, most importantly Web Components. The idea behind picking web components was that over time I will accumulate bunch of reusable components which will be any framework agnostic. At time of creating that project React was the only framework which didn&amp;rsquo;t support web components, but times might be changed since then.
+Images
+TIL Redux features</description>
+    </item>
+  </channel>
+</rss>

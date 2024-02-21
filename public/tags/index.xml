@@ -6,6 +6,91 @@
     <description>Recent content in Tags on Dzintars Klavins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 21 Feb 2024 20:24:52 +0200</lastBuildDate>
     <atom:link href="https://dzintars.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes</title>
+      <link>https://dzintars.dev/tags/notes/</link>
+      <pubDate>Wed, 21 Feb 2024 20:24:52 +0200</pubDate>
+      <guid>https://dzintars.dev/tags/notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CQRS</title>
+      <link>https://dzintars.dev/tags/cqrs/</link>
+      <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
+      <guid>https://dzintars.dev/tags/cqrs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kafka</title>
+      <link>https://dzintars.dev/tags/kafka/</link>
+      <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
+      <guid>https://dzintars.dev/tags/kafka/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Websocket</title>
+      <link>https://dzintars.dev/tags/websocket/</link>
+      <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
+      <guid>https://dzintars.dev/tags/websocket/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>https://dzintars.dev/tags/blog/</link>
+      <pubDate>Wed, 21 Feb 2024 17:50:12 +0200</pubDate>
+      <guid>https://dzintars.dev/tags/blog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://dzintars.dev/tags/linux/</link>
+      <pubDate>Wed, 21 Feb 2024 17:28:52 +0200</pubDate>
+      <guid>https://dzintars.dev/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bazel</title>
+      <link>https://dzintars.dev/tags/bazel/</link>
+      <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
+      <guid>https://dzintars.dev/tags/bazel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Redux</title>
+      <link>https://dzintars.dev/tags/redux/</link>
+      <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
+      <guid>https://dzintars.dev/tags/redux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>https://dzintars.dev/tags/web/</link>
+      <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
+      <guid>https://dzintars.dev/tags/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Components</title>
+      <link>https://dzintars.dev/tags/web-components/</link>
+      <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
+      <guid>https://dzintars.dev/tags/web-components/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webpack</title>
+      <link>https://dzintars.dev/tags/webpack/</link>
+      <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
+      <guid>https://dzintars.dev/tags/webpack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Me</title>
+      <link>https://dzintars.dev/tags/me/</link>
+      <pubDate>Thu, 15 Feb 2024 11:30:03 +0000</pubDate>
+      <guid>https://dzintars.dev/tags/me/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

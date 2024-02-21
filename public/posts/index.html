@@ -8,8 +8,9 @@
 <title>Posts | Dzintars Klavins</title>
 <meta name="keywords" content="">
 <meta name="description" content="Posts - Dzintars Klavins">
-<meta name="author" content="">
+<meta name="author" content="Dzintars">
 <link rel="canonical" href="https://dzintars.dev/posts/">
+<meta name="google-site-verification" content="G-ZDYZTVD1N3">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://dzintars.dev/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://dzintars.dev/favicon-16x16.png">
@@ -67,13 +68,13 @@ if (!doNotTrack) {
 }
 </script>
 <meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="Personal blog" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://dzintars.dev/posts/" />
+<meta property="og:url" content="https://dzintars.dev/posts/" /><meta property="og:site_name" content="Dzintars Klavins" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="Personal blog"/>
 
 
 <script type="application/ld+json">
@@ -132,11 +133,31 @@ if (!doNotTrack) {
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="https://dzintars.dev/categories/" title="categories">
+                    <span>categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dzintars.dev/tags/" title="tags">
+                    <span>tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dzintars.dev/archives/" title="archives">
+                    <span>archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://dzintars.dev/search/" title="search (Alt &#43; /)" accesskey=/>
+                    <span>search</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header">
+<header class="page-header"><div class="breadcrumbs"><a href="https://dzintars.dev/">Home</a></div>
   <h1>
     Posts
   </h1>
@@ -144,14 +165,84 @@ if (!doNotTrack) {
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Zettelkasten Note Taking
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p></p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-21 20:24:52 +0200 EET'>2024 Feb 21</span>&nbsp;·&nbsp;Dzintars</footer>
+  <a class="entry-link" aria-label="post link to Zettelkasten Note Taking" href="https://dzintars.dev/posts/zettelkasten-note-taking/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Websockets and Kafka
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Why I had this idea about the highly reactive collaborative web application. After messing around I ended up with PoC which consisted of bunch of Go services and on top of that I somewhat implemented CQRS architecture.
+How front wss srp
+General idea was that websocket is used as protocol. Custom message format is created and synchronized between TypeScript and Go with help of Protocol Buffers, gRPC and few gRPC extensions....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-21 19:46:43 +0200 EET'>2024 Feb 21</span>&nbsp;·&nbsp;Dzintars</footer>
+  <a class="entry-link" aria-label="post link to Websockets and Kafka" href="https://dzintars.dev/posts/websockets-and-kafka/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">2024 Feb 21
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Tinkering with my Hugo blog I’m still not sure what will I do with it, but… at least this will be done.
+I picked Hugo as it seems simple enough for my current needs. Just drop some markdown and you are done. Sounds good. I don’t even plan to customize default theme for now as typography looks good, theme is supported. Like… there is everything I need. Most important goal for me is to start accumulate some content....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-21 17:50:12 +0200 EET'>2024 Feb 21</span>&nbsp;·&nbsp;Dzintars</footer>
+  <a class="entry-link" aria-label="post link to 2024 Feb 21" href="https://dzintars.dev/posts/2024-feb-21/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">My Setup
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Linux For quite some years I now use Linux as my daily driver.
+CLI centric workflow </p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-21 17:28:52 +0200 EET'>2024 Feb 21</span>&nbsp;·&nbsp;Dzintars</footer>
+  <a class="entry-link" aria-label="post link to My Setup" href="https://dzintars.dev/posts/my-setup/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">SPA Front page application
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>About the project It’s a SPA kind of web application based on bunch of buzzword technologies, most importantly Web Components. The idea behind picking web components was that over time I will accumulate bunch of reusable components which will be any framework agnostic. At time of creating that project React was the only framework which didn’t support web components, but times might be changed since then.
+Images
+TIL Redux features...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-19 18:33:05 +0200 EET'>2024 Feb 19</span>&nbsp;·&nbsp;Dzintars</footer>
+  <a class="entry-link" aria-label="post link to SPA Front page application" href="https://dzintars.dev/posts/front/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">About
     </h2>
   </header>
   <div class="entry-content">
-    <p>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</p>
+    <p>About This is bold text, and this is emphasized text.
+Visit the Hugo website!
+This is just test page to test Hugo features.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley.
+Testing code snippet:
+1 2 3 4 5 6 7 package main import &#34;fmt&#34; func main() { fmt....</p>
   </div>
-  <footer class="entry-footer"><span title='2024-02-19 13:55:55 +0200 EET'>February 19, 2024</span></footer>
+  <footer class="entry-footer"><span title='2024-02-15 11:30:03 +0000 +0000'>2024 Feb 15</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;75 words&nbsp;·&nbsp;Me</footer>
   <a class="entry-link" aria-label="post link to About" href="https://dzintars.dev/posts/about/"></a>
 </article>
     </main>

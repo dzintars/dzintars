@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Me on Dzintars Klavins</title>
+    <link>https://dzintars.dev/tags/me/</link>
+    <description>Recent content in Me on Dzintars Klavins</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Feb 2024 11:30:03 +0000</lastBuildDate>
+    <atom:link href="https://dzintars.dev/tags/me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://dzintars.dev/posts/about/</link>
+      <pubDate>Thu, 15 Feb 2024 11:30:03 +0000</pubDate>
+      <guid>https://dzintars.dev/posts/about/</guid>
+      <description>About me post</description>
+    </item>
+  </channel>
+</rss>
