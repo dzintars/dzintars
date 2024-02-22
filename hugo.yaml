@@ -4,7 +4,7 @@ languageCode: 'en-us'
 title: 'Dzintars Klavins'
 theme: 'PaperMod'
 
-# googleAnalytics: 'G-ZDYZTVD1N3'
+googleAnalytics: 'G-ZDYZTVD1N3'
 
 params:
   env: production
@@ -34,9 +34,9 @@ params:
     - name: x
       url: "https://twitter.com/DzintarsDev"
 
-  analytics:
-    google:
-      SiteVerificationTag: "G-ZDYZTVD1N3"
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "G-ZDYZTVD1N3"
 
   editPost:
     URL: "https://github.com/dzintars/dzintars/tree/hugo/content"
