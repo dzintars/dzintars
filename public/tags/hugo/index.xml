@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hugo on Dzintars Klavins</title>
+    <link>https://dzintars.dev/tags/hugo/</link>
+    <description>Recent content in Hugo on Dzintars Klavins</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Feb 2024 12:38:03 +0200</lastBuildDate>
+    <atom:link href="https://dzintars.dev/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Integrate Google Analytics Into Hugo PaperMod Theme</title>
+      <link>https://dzintars.dev/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/</link>
+      <pubDate>Thu, 22 Feb 2024 12:38:03 +0200</pubDate>
+      <guid>https://dzintars.dev/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/</guid>
+      <description>As I&amp;rsquo;m setting up my shiny new blog, I stuck at Google Analytics integration. It looks like official PaperMod lacks some documentation on this topic.
+So&amp;hellip; there is what worked for me.
+Don&amp;rsquo;t use analytics.google.SiteVerificationTag directive.
+Use only googleAnalytics: G-xxxxxxx directive.
+Create new file in layouts/_internal/google_analytics.html and paste the entire code snippet you got from GA property setup page.
+Basically that&amp;rsquo;s it.
+This partial will be automatically included in every Hugo page.</description>
+    </item>
+  </channel>
+</rss>
