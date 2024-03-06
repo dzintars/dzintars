@@ -1,0 +1,20 @@
+.note {
+	background-color: #FEEDEC;
+	padding: 0 8px;
+}
+
+/*
+https://hugoloveit.com/theme-documentation-extended-shortcodes/#4-admonition
+note
+abstract
+info
+tip
+success
+question
+warning
+failure
+danger
+bug
+example
+quote
+*/
