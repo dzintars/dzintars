@@ -1,9 +1,9 @@
 ---
-title: "Nixos"
+title: "NixOS vs Ansible"
 date: "2024-02-28T12:55:08+02:00"
 draft: false
-tags: ["NixOS"]
-categories: ["Linux"]
+tags: ["NixOS", "Ansible"]
+categories: ["Linux", "Ansible"]
 ---
 
 {{< note title="My opinion on this is still not stable or true and I might change my mind later when I will really try NixOS." >}}

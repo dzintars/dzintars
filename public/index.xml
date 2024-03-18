@@ -9,7 +9,7 @@
     <lastBuildDate>Wed, 28 Feb 2024 12:55:08 +0200</lastBuildDate>
     <atom:link href="https://dzintars.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Nixos</title>
+      <title>NixOS vs Ansible</title>
       <link>https://dzintars.dev/posts/nixos/</link>
       <pubDate>Wed, 28 Feb 2024 12:55:08 +0200</pubDate>
       <guid>https://dzintars.dev/posts/nixos/</guid>
@@ -77,6 +77,13 @@ PC Monitor setup I&amp;rsquo;ve been everywhere. From a single tiny 15&amp;quot;
       <description>About the Project It&amp;rsquo;s a SPA-style web application based on a bunch of buzzword technologies, most importantly Web Components. The idea behind choosing web components was to accumulate a bunch of reusable components that would be framework-agnostic over time. At the time of creating the project, React was the only framework that didn&amp;rsquo;t support web components, but times might have changed since then.
 TODO: Add some images
 TIL (Today I Learned) Redux features: Thinking in terms of &amp;ldquo;features&amp;rdquo; helped me come up with a better code structure.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://dzintars.dev/posts/about/</link>
+      <pubDate>Thu, 15 Feb 2024 11:30:03 +0000</pubDate>
+      <guid>https://dzintars.dev/posts/about/</guid>
+      <description>A little bit about me</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,7 @@
+{{ $alt := .Get "alt" | safeHTMLAttr }}
+{{ $color := .Get "color" | safeHTMLAttr }}
+{{ $label := .Get "label" | safeHTMLAttr }}
+{{ $icon := .Get "icon" | safeHTMLAttr }}
+<img class="badge"
+	src="https://img.shields.io/badge/{{ $label }}-{{ $color }}?logo={{ $icon }}&logoColor=FFF&style=flat"
+	alt="{{ $alt }}" />

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dzintars.dev/tags/ansible/</loc>
+    <lastmod>2024-02-28T12:55:08+02:00</lastmod>
+  </url><url>
+    <loc>https://dzintars.dev/categories/ansible/</loc>
+    <lastmod>2024-02-28T12:55:08+02:00</lastmod>
+  </url><url>
     <loc>https://dzintars.dev/categories/</loc>
     <lastmod>2024-02-28T12:55:08+02:00</lastmod>
   </url><url>
@@ -11,10 +17,10 @@
     <loc>https://dzintars.dev/categories/linux/</loc>
     <lastmod>2024-02-28T12:55:08+02:00</lastmod>
   </url><url>
-    <loc>https://dzintars.dev/posts/nixos/</loc>
+    <loc>https://dzintars.dev/tags/nixos/</loc>
     <lastmod>2024-02-28T12:55:08+02:00</lastmod>
   </url><url>
-    <loc>https://dzintars.dev/tags/nixos/</loc>
+    <loc>https://dzintars.dev/posts/nixos/</loc>
     <lastmod>2024-02-28T12:55:08+02:00</lastmod>
   </url><url>
     <loc>https://dzintars.dev/posts/</loc>
@@ -100,6 +106,9 @@
   </url><url>
     <loc>https://dzintars.dev/tags/webpack/</loc>
     <lastmod>2024-02-19T18:33:05+02:00</lastmod>
+  </url><url>
+    <loc>https://dzintars.dev/posts/about/</loc>
+    <lastmod>2024-02-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://dzintars.dev/archives/</loc>
   </url><url>
