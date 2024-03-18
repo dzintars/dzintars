@@ -6,8 +6,24 @@
     <description>Recent content in Posts on Dzintars Klavins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Feb 2024 12:38:03 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 28 Feb 2024 12:55:08 +0200</lastBuildDate>
     <atom:link href="https://dzintars.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nixos</title>
+      <link>https://dzintars.dev/posts/nixos/</link>
+      <pubDate>Wed, 28 Feb 2024 12:55:08 +0200</pubDate>
+      <guid>https://dzintars.dev/posts/nixos/</guid>
+      <description>My opinion on this is still not stable or true and I might change my mind later when I will really try NixOS.
+I see the constant hype around the NixOS and one of the main selling points is its reproducibility. Under the Ansible, you configure only whats in your playbooks. And it&amp;rsquo;s easy to mess around the system bypassing the Ansible. In NixOS that&amp;rsquo;s not the case. If you make any add-hock changes on NixOS and then run nixos-rebuild all your crafted changes will be gone because they are not in your NixOS config.</description>
+    </item>
+    <item>
+      <title>My Note Taking System</title>
+      <link>https://dzintars.dev/posts/my-note-taking-system/</link>
+      <pubDate>Sat, 24 Feb 2024 14:10:25 +0200</pubDate>
+      <guid>https://dzintars.dev/posts/my-note-taking-system/</guid>
+      <description>Why For a long time I didn&amp;rsquo;t care about the note taking too much, thou, I was writing long MS Word documents with the ideas of the project, user stories and other things.
+It all changed when I switched to the Linux. Because Linux was pretty much new to me, I had a lot to learn and remember. So, gradually I started to write my little runbooks to document the steps I took to get to the point B.</description>
+    </item>
     <item>
       <title>How to Integrate Google Analytics Into Hugo PaperMod Theme</title>
       <link>https://dzintars.dev/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/</link>
@@ -29,13 +45,6 @@ This partial will be automatically included in every Hugo page.</description>
       <description>For a very long time I was Windows only user. Nor did I liked it, nor did I hated it. I just was somewhat above average user. But it all ended when I started to work with Go and Kafka Go library which I needed to cross-compile for an Linux system. And it was pain. CygWin, MinGW an a lot of gymnastics around it. In parallel I was trying to be in the &amp;ldquo;microservices&amp;rdquo; hype train.</description>
     </item>
     <item>
-      <title>Zettelkasten Note Taking</title>
-      <link>https://dzintars.dev/posts/zettelkasten-note-taking/</link>
-      <pubDate>Wed, 21 Feb 2024 20:24:52 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/zettelkasten-note-taking/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Websockets and Kafka</title>
       <link>https://dzintars.dev/posts/websockets-and-kafka/</link>
       <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
@@ -53,28 +62,21 @@ General idea was that websocket is used as protocol. Custom message format is cr
 I picked Hugo as it seems simple enough for my current needs. Just drop some markdown and you are done. Sounds good. I don&amp;rsquo;t even plan to customize default theme for now as typography looks good, theme is supported. Like&amp;hellip; there is everything I need. Most important goal for me is to start accumulate some content.</description>
     </item>
     <item>
-      <title>My Setup</title>
-      <link>https://dzintars.dev/posts/my-setup/</link>
+      <title>My Personal Productivity Environment</title>
+      <link>https://dzintars.dev/posts/my-personal-productivity-environment/</link>
       <pubDate>Wed, 21 Feb 2024 17:28:52 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/my-setup/</guid>
-      <description>Linux For quite some years I now use Linux as my daily driver.
-CLI centric workflow </description>
+      <guid>https://dzintars.dev/posts/my-personal-productivity-environment/</guid>
+      <description>This post is a public draft, which may or may not be completed. As new thoughts come to mind, I may improve this article over time.
+PC Monitor setup I&amp;rsquo;ve been everywhere. From a single tiny 15&amp;quot; laptop to 4 screens + TV. But currently I&amp;rsquo;m at two monitor setup and even seriously considering one 32&amp;quot; 4K monitor setup. The thing about the multi-monitor setup is that it is misleading feeling about boosted productivity, because you &amp;ldquo;control&amp;rdquo; more things at once.</description>
     </item>
     <item>
       <title>SPA Front page application</title>
-      <link>https://dzintars.dev/posts/front/</link>
+      <link>https://dzintars.dev/posts/spa-front-page-application/</link>
       <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/front/</guid>
-      <description>About the project It&amp;rsquo;s a SPA kind of web application based on bunch of buzzword technologies, most importantly Web Components. The idea behind picking web components was that over time I will accumulate bunch of reusable components which will be any framework agnostic. At time of creating that project React was the only framework which didn&amp;rsquo;t support web components, but times might be changed since then.
-Images
-TIL Redux features</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>https://dzintars.dev/posts/about/</link>
-      <pubDate>Thu, 15 Feb 2024 11:30:03 +0000</pubDate>
-      <guid>https://dzintars.dev/posts/about/</guid>
-      <description>About me post</description>
+      <guid>https://dzintars.dev/posts/spa-front-page-application/</guid>
+      <description>About the Project It&amp;rsquo;s a SPA-style web application based on a bunch of buzzword technologies, most importantly Web Components. The idea behind choosing web components was to accumulate a bunch of reusable components that would be framework-agnostic over time. At the time of creating the project, React was the only framework that didn&amp;rsquo;t support web components, but times might have changed since then.
+TODO: Add some images
+TIL (Today I Learned) Redux features: Thinking in terms of &amp;ldquo;features&amp;rdquo; helped me come up with a better code structure.</description>
     </item>
   </channel>
 </rss>

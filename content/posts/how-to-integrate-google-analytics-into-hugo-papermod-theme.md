@@ -34,3 +34,8 @@ situation where I do encounter dilemma. Like... I have no intention to track
 users, but in the same time I do want to see statistics about my blog. What
 articles went good, which were bad. And so on.
 IDK... I will think about this case.
+
+## Resources
+
+Today I accidentally came up to this
+[PaperMod discussion](https://github.com/adityatelange/hugo-PaperMod/discussions/248)

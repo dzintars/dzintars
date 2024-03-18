@@ -11,7 +11,7 @@
 <meta name="description" content="Personal blog">
 <meta name="author" content="Dzintars">
 <link rel="canonical" href="https://dzintars.dev/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.46dca418c490237bf8b8006fb46cedcef6e9ddb3b431d01c650fb15e483430db.css" integrity="sha256-RtykGMSQI3v4uABvtGztzvbp3bO0MdAcZQ&#43;xXkg0MNs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://dzintars.dev/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://dzintars.dev/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://dzintars.dev/favicon-32x32.png">
@@ -191,6 +191,32 @@ Currently the all content in this blog is temporary garbage for the sake of maki
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Nixos
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>My opinion on this is still not stable or true and I might change my mind later when I will really try NixOS.
+I see the constant hype around the NixOS and one of the main selling points is its reproducibility. Under the Ansible, you configure only whats in your playbooks. And it’s easy to mess around the system bypassing the Ansible. In NixOS that’s not the case. If you make any add-hock changes on NixOS and then run nixos-rebuild all your crafted changes will be gone because they are not in your NixOS config....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-28 12:55:08 +0200 EET'>2024 Feb 28</span>&nbsp;·&nbsp;Dzintars</footer>
+  <a class="entry-link" aria-label="post link to Nixos" href="https://dzintars.dev/posts/nixos/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">My Note Taking System
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Why For a long time I didn’t care about the note taking too much, thou, I was writing long MS Word documents with the ideas of the project, user stories and other things.
+It all changed when I switched to the Linux. Because Linux was pretty much new to me, I had a lot to learn and remember. So, gradually I started to write my little runbooks to document the steps I took to get to the point B....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-24 14:10:25 +0200 EET'>2024 Feb 24</span>&nbsp;·&nbsp;Dzintars</footer>
+  <a class="entry-link" aria-label="post link to My Note Taking System" href="https://dzintars.dev/posts/my-note-taking-system/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">How to Integrate Google Analytics Into Hugo PaperMod Theme
     </h2>
   </header>
@@ -217,18 +243,6 @@ This partial will be automatically included in every Hugo page....</p>
   </div>
   <footer class="entry-footer"><span title='2024-02-21 22:12:40 +0200 EET'>2024 Feb 21</span>&nbsp;·&nbsp;Dzintars</footer>
   <a class="entry-link" aria-label="post link to My CLI Centric Workflow" href="https://dzintars.dev/posts/my-cli-centric-workflow/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Zettelkasten Note Taking
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p></p>
-  </div>
-  <footer class="entry-footer"><span title='2024-02-21 20:24:52 +0200 EET'>2024 Feb 21</span>&nbsp;·&nbsp;Dzintars</footer>
-  <a class="entry-link" aria-label="post link to Zettelkasten Note Taking" href="https://dzintars.dev/posts/zettelkasten-note-taking/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -260,15 +274,15 @@ I picked Hugo as it seems simple enough for my current needs. Just drop some mar
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">My Setup
+    <h2 class="entry-hint-parent">My Personal Productivity Environment
     </h2>
   </header>
   <div class="entry-content">
-    <p>Linux For quite some years I now use Linux as my daily driver.
-CLI centric workflow </p>
+    <p>This post is a public draft, which may or may not be completed. As new thoughts come to mind, I may improve this article over time.
+PC Monitor setup I’ve been everywhere. From a single tiny 15&#34; laptop to 4 screens &#43; TV. But currently I’m at two monitor setup and even seriously considering one 32&#34; 4K monitor setup. The thing about the multi-monitor setup is that it is misleading feeling about boosted productivity, because you “control” more things at once....</p>
   </div>
   <footer class="entry-footer"><span title='2024-02-21 17:28:52 +0200 EET'>2024 Feb 21</span>&nbsp;·&nbsp;Dzintars</footer>
-  <a class="entry-link" aria-label="post link to My Setup" href="https://dzintars.dev/posts/my-setup/"></a>
+  <a class="entry-link" aria-label="post link to My Personal Productivity Environment" href="https://dzintars.dev/posts/my-personal-productivity-environment/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -277,29 +291,12 @@ CLI centric workflow </p>
     </h2>
   </header>
   <div class="entry-content">
-    <p>About the project It’s a SPA kind of web application based on bunch of buzzword technologies, most importantly Web Components. The idea behind picking web components was that over time I will accumulate bunch of reusable components which will be any framework agnostic. At time of creating that project React was the only framework which didn’t support web components, but times might be changed since then.
-Images
-TIL Redux features...</p>
+    <p>About the Project It’s a SPA-style web application based on a bunch of buzzword technologies, most importantly Web Components. The idea behind choosing web components was to accumulate a bunch of reusable components that would be framework-agnostic over time. At the time of creating the project, React was the only framework that didn’t support web components, but times might have changed since then.
+TODO: Add some images
+TIL (Today I Learned) Redux features: Thinking in terms of “features” helped me come up with a better code structure....</p>
   </div>
   <footer class="entry-footer"><span title='2024-02-19 18:33:05 +0200 EET'>2024 Feb 19</span>&nbsp;·&nbsp;Dzintars</footer>
-  <a class="entry-link" aria-label="post link to SPA Front page application" href="https://dzintars.dev/posts/front/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">About
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>About This is bold text, and this is emphasized text.
-Visit the Hugo website!
-This is just test page to test Hugo features.
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley.
-Testing code snippet:
-1 2 3 4 5 6 7 package main import &#34;fmt&#34; func main() { fmt....</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-02-15 11:30:03 +0000 +0000'>2024 Feb 15</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;75 words&nbsp;·&nbsp;Me</footer>
-  <a class="entry-link" aria-label="post link to About" href="https://dzintars.dev/posts/about/"></a>
+  <a class="entry-link" aria-label="post link to SPA Front page application" href="https://dzintars.dev/posts/spa-front-page-application/"></a>
 </article>
     </main>
     

@@ -6,8 +6,16 @@
     <description>Recent content in Productivity on Dzintars Klavins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Feb 2024 22:12:40 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 24 Feb 2024 14:10:25 +0200</lastBuildDate>
     <atom:link href="https://dzintars.dev/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Note Taking System</title>
+      <link>https://dzintars.dev/posts/my-note-taking-system/</link>
+      <pubDate>Sat, 24 Feb 2024 14:10:25 +0200</pubDate>
+      <guid>https://dzintars.dev/posts/my-note-taking-system/</guid>
+      <description>Why For a long time I didn&amp;rsquo;t care about the note taking too much, thou, I was writing long MS Word documents with the ideas of the project, user stories and other things.
+It all changed when I switched to the Linux. Because Linux was pretty much new to me, I had a lot to learn and remember. So, gradually I started to write my little runbooks to document the steps I took to get to the point B.</description>
+    </item>
     <item>
       <title>My CLI Centric Workflow</title>
       <link>https://dzintars.dev/posts/my-cli-centric-workflow/</link>
@@ -16,11 +24,12 @@
       <description>For a very long time I was Windows only user. Nor did I liked it, nor did I hated it. I just was somewhat above average user. But it all ended when I started to work with Go and Kafka Go library which I needed to cross-compile for an Linux system. And it was pain. CygWin, MinGW an a lot of gymnastics around it. In parallel I was trying to be in the &amp;ldquo;microservices&amp;rdquo; hype train.</description>
     </item>
     <item>
-      <title>Zettelkasten Note Taking</title>
-      <link>https://dzintars.dev/posts/zettelkasten-note-taking/</link>
-      <pubDate>Wed, 21 Feb 2024 20:24:52 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/zettelkasten-note-taking/</guid>
-      <description></description>
+      <title>My Personal Productivity Environment</title>
+      <link>https://dzintars.dev/posts/my-personal-productivity-environment/</link>
+      <pubDate>Wed, 21 Feb 2024 17:28:52 +0200</pubDate>
+      <guid>https://dzintars.dev/posts/my-personal-productivity-environment/</guid>
+      <description>This post is a public draft, which may or may not be completed. As new thoughts come to mind, I may improve this article over time.
+PC Monitor setup I&amp;rsquo;ve been everywhere. From a single tiny 15&amp;quot; laptop to 4 screens + TV. But currently I&amp;rsquo;m at two monitor setup and even seriously considering one 32&amp;quot; 4K monitor setup. The thing about the multi-monitor setup is that it is misleading feeling about boosted productivity, because you &amp;ldquo;control&amp;rdquo; more things at once.</description>
     </item>
   </channel>
 </rss>

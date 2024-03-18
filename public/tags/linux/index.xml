@@ -9,12 +9,12 @@
     <lastBuildDate>Wed, 21 Feb 2024 17:28:52 +0200</lastBuildDate>
     <atom:link href="https://dzintars.dev/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My Setup</title>
-      <link>https://dzintars.dev/posts/my-setup/</link>
+      <title>My Personal Productivity Environment</title>
+      <link>https://dzintars.dev/posts/my-personal-productivity-environment/</link>
       <pubDate>Wed, 21 Feb 2024 17:28:52 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/my-setup/</guid>
-      <description>Linux For quite some years I now use Linux as my daily driver.
-CLI centric workflow </description>
+      <guid>https://dzintars.dev/posts/my-personal-productivity-environment/</guid>
+      <description>This post is a public draft, which may or may not be completed. As new thoughts come to mind, I may improve this article over time.
+PC Monitor setup I&amp;rsquo;ve been everywhere. From a single tiny 15&amp;quot; laptop to 4 screens + TV. But currently I&amp;rsquo;m at two monitor setup and even seriously considering one 32&amp;quot; 4K monitor setup. The thing about the multi-monitor setup is that it is misleading feeling about boosted productivity, because you &amp;ldquo;control&amp;rdquo; more things at once.</description>
     </item>
   </channel>
 </rss>

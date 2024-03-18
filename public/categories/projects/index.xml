@@ -19,12 +19,12 @@ General idea was that websocket is used as protocol. Custom message format is cr
     </item>
     <item>
       <title>SPA Front page application</title>
-      <link>https://dzintars.dev/posts/front/</link>
+      <link>https://dzintars.dev/posts/spa-front-page-application/</link>
       <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/front/</guid>
-      <description>About the project It&amp;rsquo;s a SPA kind of web application based on bunch of buzzword technologies, most importantly Web Components. The idea behind picking web components was that over time I will accumulate bunch of reusable components which will be any framework agnostic. At time of creating that project React was the only framework which didn&amp;rsquo;t support web components, but times might be changed since then.
-Images
-TIL Redux features</description>
+      <guid>https://dzintars.dev/posts/spa-front-page-application/</guid>
+      <description>About the Project It&amp;rsquo;s a SPA-style web application based on a bunch of buzzword technologies, most importantly Web Components. The idea behind choosing web components was to accumulate a bunch of reusable components that would be framework-agnostic over time. At the time of creating the project, React was the only framework that didn&amp;rsquo;t support web components, but times might have changed since then.
+TODO: Add some images
+TIL (Today I Learned) Redux features: Thinking in terms of &amp;ldquo;features&amp;rdquo; helped me come up with a better code structure.</description>
     </item>
   </channel>
 </rss>

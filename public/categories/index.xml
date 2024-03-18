@@ -6,20 +6,27 @@
     <description>Recent content in Categories on Dzintars Klavins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Feb 2024 12:38:03 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 28 Feb 2024 12:55:08 +0200</lastBuildDate>
     <atom:link href="https://dzintars.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How To&#39;s</title>
-      <link>https://dzintars.dev/categories/how-tos/</link>
-      <pubDate>Thu, 22 Feb 2024 12:38:03 +0200</pubDate>
-      <guid>https://dzintars.dev/categories/how-tos/</guid>
+      <title>Linux</title>
+      <link>https://dzintars.dev/categories/linux/</link>
+      <pubDate>Wed, 28 Feb 2024 12:55:08 +0200</pubDate>
+      <guid>https://dzintars.dev/categories/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Productivity</title>
       <link>https://dzintars.dev/categories/productivity/</link>
-      <pubDate>Wed, 21 Feb 2024 22:12:40 +0200</pubDate>
+      <pubDate>Sat, 24 Feb 2024 14:10:25 +0200</pubDate>
       <guid>https://dzintars.dev/categories/productivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How To&#39;s</title>
+      <link>https://dzintars.dev/categories/how-tos/</link>
+      <pubDate>Thu, 22 Feb 2024 12:38:03 +0200</pubDate>
+      <guid>https://dzintars.dev/categories/how-tos/</guid>
       <description></description>
     </item>
     <item>

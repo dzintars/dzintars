@@ -6,8 +6,16 @@
     <description>Recent content in Sway on Dzintars Klavins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Feb 2024 22:12:40 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 24 Feb 2024 14:10:25 +0200</lastBuildDate>
     <atom:link href="https://dzintars.dev/tags/sway/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Note Taking System</title>
+      <link>https://dzintars.dev/posts/my-note-taking-system/</link>
+      <pubDate>Sat, 24 Feb 2024 14:10:25 +0200</pubDate>
+      <guid>https://dzintars.dev/posts/my-note-taking-system/</guid>
+      <description>Why For a long time I didn&amp;rsquo;t care about the note taking too much, thou, I was writing long MS Word documents with the ideas of the project, user stories and other things.
+It all changed when I switched to the Linux. Because Linux was pretty much new to me, I had a lot to learn and remember. So, gradually I started to write my little runbooks to document the steps I took to get to the point B.</description>
+    </item>
     <item>
       <title>My CLI Centric Workflow</title>
       <link>https://dzintars.dev/posts/my-cli-centric-workflow/</link>
