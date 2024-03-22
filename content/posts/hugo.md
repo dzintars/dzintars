@@ -23,7 +23,9 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 Ipsum has been the industry's standard dummy text ever since the 1500s, when an
 unknown printer took a galley.
 
-{{< time >}}
+{{< edit >}}
+I can't use this shortcode, as it will always return latest date every time I
+render Hugo templates.
 
 {{< note title="This is custom note title" >}}
 

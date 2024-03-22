@@ -1,0 +1,17 @@
+{
+	"name": "dzintars",
+	"version": "1.0.0",
+	"description": "<h1>Readme</h1>",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dzintars/dzintars.git"
+	},
+	"bugs": {
+		"url": "https://github.com/dzintars/dzintars/issues"
+	},
+	"homepage": "https://github.com/dzintars/dzintars#readme",
+	"devDependencies": {
+		"prettier-plugin-go-template": "^0.0.15"
+	}
+}

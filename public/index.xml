@@ -85,5 +85,20 @@ TIL (Today I Learned) Redux features: Thinking in terms of &amp;ldquo;features&a
       <guid>https://dzintars.dev/posts/about/</guid>
       <description>A little bit about me</description>
     </item>
+    <item>
+      <title>Privacy</title>
+      <link>https://dzintars.dev/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dzintars.dev/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resume - Systems Analyst</title>
+      <link>https://dzintars.dev/resume-systems-analyst/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dzintars.dev/resume-systems-analyst/</guid>
+      <description>Dzintars Kļaviņš Resume for Systems Analyst role
+Phone: +371 25-718-seven-seven-seven E-mail: dzintars.dev at gmail.com GitHub: https://github.com/dzintars Blog: https://dzintars.dev Web version: https://dzintars.dev/resume About Passionate Technologist: Experienced in software engineering with a keen interest in both front-end and back-end development. Advocate Personality: Identified as an INFJ-T, embodying traits of empathy, creativity, and a strong sense of purpose. Team Collaboration: Skilled at working well within teams and fostering a collaborative environment, making me a valued team member.</description>
+    </item>
   </channel>
 </rss>

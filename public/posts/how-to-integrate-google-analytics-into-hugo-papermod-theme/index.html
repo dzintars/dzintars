@@ -16,7 +16,7 @@ Basically that&rsquo;s it.
 This partial will be automatically included in every Hugo page.">
 <meta name="author" content="Dzintars">
 <link rel="canonical" href="https://dzintars.dev/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.43c4b6fd17459784f2fb684bf728f5b1be5b79c8ed4b8c6add83c43e651dde36.css" integrity="sha256-Q8S2/RdFl4Ty&#43;2hL9yj1sb5becjtS4xq3YPEPmUd3jY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.282e36678f3d41d90ba927f6c4e1b0795fddc98f3979add040efdf1279b064ff.css" integrity="sha256-KC42Z489QdkLqSf2xOGweV/dyY85ea3QQO/fEnmwZP8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://dzintars.dev/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://dzintars.dev/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://dzintars.dev/favicon-32x32.png">
@@ -60,16 +60,76 @@ This partial will be automatically included in every Hugo page.">
         }
 
     </style>
-</noscript>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDYZTVD1N3"></script>
+</noscript><div id="cookie-notice">
+<span>We would like to use third party cookies and scripts to improve the 
+functionality of this website.</span>
+<a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a>
+<a id="cookie-notice-deny" class="btn btn-primary btn-sm">Deny</a>
+<a href="/privacy" class="btn btn-primary btn-sm">More info</a></div>
 <script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag() {
-		dataLayer.push(arguments);
-	}
-	gtag("js", new Date());
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
 
-	gtag("config", "G-ZDYZTVD1N3");
+    if(readCookie('cookie-notice-option')=='true') {
+        
+        
+        function loadScriptAsync(scriptSrc, callback) {
+            if (typeof callback !== 'function') {
+                throw new Error('Not a valid callback for async script load');
+            }
+            var script = document.createElement('script');
+            script.onload = callback;
+            script.src = scriptSrc;
+            document.head.appendChild(script);
+        }
+
+        
+
+        
+        loadScriptAsync('https://www.googletagmanager.com/gtag/js?id=G-ZDYZTVD1N3', function () {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-ZDYZTVD1N3', { 'anonymize_ip': true }); 
+        })
+
+        
+    } else if (readCookie('cookie-notice-option')!='false'){
+        document.getElementById('cookie-notice').style.display = 'block';
+    }
+
+    document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+        createCookie('cookie-notice-option','true',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+
+    document.getElementById('cookie-notice-deny').addEventListener("click",function() {
+        createCookie('cookie-notice-option','false',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+
 </script>
 <meta property="og:title" content="How to Integrate Google Analytics Into Hugo PaperMod Theme" />
 <meta property="og:description" content="As I&rsquo;m setting up my shiny new blog, I stuck at Google Analytics integration. It looks like official PaperMod lacks some documentation on this topic.
@@ -125,8 +185,8 @@ This partial will be automatically included in every Hugo page."/>
   "keywords": [
     "Hugo"
   ],
-  "articleBody": "As I’m setting up my shiny new blog, I stuck at Google Analytics integration. It looks like official PaperMod lacks some documentation on this topic.\nSo… there is what worked for me.\nDon’t use analytics.google.SiteVerificationTag directive.\nUse only googleAnalytics: G-xxxxxxx directive.\nCreate new file in layouts/_internal/google_analytics.html and paste the entire code snippet you got from GA property setup page.\nBasically that’s it.\nThis partial will be automatically included in every Hugo page. And after your first visit to the page, you will see the firs visitor stats on your GA dashboard. If it doesn’t work immediately, then something is wrong.\nUse GitHub search to find setup examples. For example use this search query path:_internal/google_analytics.html.\nEthics Thou… I am very triggered about everything anti-privacy… this is a weird situation where I do encounter dilemma. Like… I have no intention to track users, but in the same time I do want to see statistics about my blog. What articles went good, which were bad. And so on. IDK… I will think about this case.\nResources Today I accidentally came up to this PaperMod discussion\n",
-  "wordCount" : "182",
+  "articleBody": "As I’m setting up my shiny new blog, I stuck at Google Analytics integration. It looks like official PaperMod lacks some documentation on this topic.\nSo… there is what worked for me.\nDon’t use analytics.google.SiteVerificationTag directive.\nUse only googleAnalytics: G-xxxxxxx directive.\nCreate new file in layouts/_internal/google_analytics.html and paste the entire code snippet you got from GA property setup page.\nBasically that’s it.\nThis partial will be automatically included in every Hugo page. And after your first visit to the page, you will see the firs visitor stats on your GA dashboard. If it doesn’t work immediately, then something is wrong.\nUse GitHub search to find setup examples. For example use this search query path:_internal/google_analytics.html.\nEthics Thou… I am very triggered about everything anti-privacy… this is a weird situation where I do encounter dilemma. Like… I have no intention to track users, but in the same time I do want to see statistics about my blog. What articles went good, which were bad. And so on. IDK… I will think about this case.\nGDPR Compliance I totally forgot about GDPR rules if GA is enabled. I should implement that banner. Looking for the solution…\nI think I will steal for now from LittleBigTech with some styling modifications. Looks like I need some z-index to bring that consent up. By inspecting the F12 developer tools, I can see that it works. There is no network requests to Google before accepting the consent. Later I will look closer to this thing. For now it’s good enough.\nResources Today I accidentally came up to this PaperMod discussion\n",
+  "wordCount" : "263",
   "inLanguage": "en",
   "datePublished": "2024-02-22T12:38:03+02:00",
   "dateModified": "2024-02-22T12:38:03+02:00",
@@ -244,6 +304,16 @@ situation where I do encounter dilemma. Like&hellip; I have no intention to trac
 users, but in the same time I do want to see statistics about my blog. What
 articles went good, which were bad. And so on.
 IDK&hellip; I will think about this case.</p>
+<h2 id="gdpr-compliance">GDPR Compliance<a hidden class="anchor" aria-hidden="true" href="#gdpr-compliance">#</a></h2>
+<p>I totally forgot about GDPR rules if GA is enabled.
+I should implement that banner. Looking for the solution&hellip;</p>
+<p>I think I will steal for now from
+<a href="https://littlebigtech.net/posts/hugo-gdpr-cookie-consent-banner">LittleBigTech</a>
+with some styling modifications. Looks like I need some <code>z-index</code> to bring that
+consent up.
+By inspecting the F12 developer tools, I can see that it works. There is no
+network requests to Google before accepting the consent.
+Later I will look closer to this thing. For now it&rsquo;s good enough.</p>
 <h2 id="resources">Resources<a hidden class="anchor" aria-hidden="true" href="#resources">#</a></h2>
 <p>Today I accidentally came up to this
 <a href="https://github.com/adityatelange/hugo-PaperMod/discussions/248">PaperMod discussion</a></p>

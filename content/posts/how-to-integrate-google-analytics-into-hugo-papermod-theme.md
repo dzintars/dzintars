@@ -35,6 +35,19 @@ users, but in the same time I do want to see statistics about my blog. What
 articles went good, which were bad. And so on.
 IDK... I will think about this case.
 
+## GDPR Compliance
+
+I totally forgot about GDPR rules if GA is enabled.
+I should implement that banner. Looking for the solution...
+
+I think I will steal for now from
+[LittleBigTech](https://littlebigtech.net/posts/hugo-gdpr-cookie-consent-banner)
+with some styling modifications. Looks like I need some `z-index` to bring that
+consent up.
+By inspecting the F12 developer tools, I can see that it works. There is no
+network requests to Google before accepting the consent.
+Later I will look closer to this thing. For now it's good enough.
+
 ## Resources
 
 Today I accidentally came up to this

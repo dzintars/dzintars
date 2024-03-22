@@ -30,7 +30,7 @@ cover:
 So, I am Dzintars Klavins. A guy from **Riga / Latvia / Europe**. Wannabe full-stack software
 engineer. :)
 
-According Myers-Briggs personality test [^1] result - INFJ-T (Advocate). Yes, I think
+According Myers-Briggs personality test [^1] result - **INFJ-T** (Advocate). Yes, I think
 in general people can be categorized in several categories. :)
 
 ## How did I ended up there?

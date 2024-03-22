@@ -10,7 +10,7 @@
 <meta name="description" content="A little bit about me">
 <meta name="author" content="Me">
 <link rel="canonical" href="https://dzintars.dev/posts/about/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.43c4b6fd17459784f2fb684bf728f5b1be5b79c8ed4b8c6add83c43e651dde36.css" integrity="sha256-Q8S2/RdFl4Ty&#43;2hL9yj1sb5becjtS4xq3YPEPmUd3jY=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.282e36678f3d41d90ba927f6c4e1b0795fddc98f3979add040efdf1279b064ff.css" integrity="sha256-KC42Z489QdkLqSf2xOGweV/dyY85ea3QQO/fEnmwZP8=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://dzintars.dev/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://dzintars.dev/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://dzintars.dev/favicon-32x32.png">
@@ -54,16 +54,76 @@
         }
 
     </style>
-</noscript>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDYZTVD1N3"></script>
+</noscript><div id="cookie-notice">
+<span>We would like to use third party cookies and scripts to improve the 
+functionality of this website.</span>
+<a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a>
+<a id="cookie-notice-deny" class="btn btn-primary btn-sm">Deny</a>
+<a href="/privacy" class="btn btn-primary btn-sm">More info</a></div>
 <script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag() {
-		dataLayer.push(arguments);
-	}
-	gtag("js", new Date());
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
 
-	gtag("config", "G-ZDYZTVD1N3");
+    if(readCookie('cookie-notice-option')=='true') {
+        
+        
+        function loadScriptAsync(scriptSrc, callback) {
+            if (typeof callback !== 'function') {
+                throw new Error('Not a valid callback for async script load');
+            }
+            var script = document.createElement('script');
+            script.onload = callback;
+            script.src = scriptSrc;
+            document.head.appendChild(script);
+        }
+
+        
+
+        
+        loadScriptAsync('https://www.googletagmanager.com/gtag/js?id=G-ZDYZTVD1N3', function () {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-ZDYZTVD1N3', { 'anonymize_ip': true }); 
+        })
+
+        
+    } else if (readCookie('cookie-notice-option')!='false'){
+        document.getElementById('cookie-notice').style.display = 'block';
+    }
+
+    document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+        createCookie('cookie-notice-option','true',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+
+    document.getElementById('cookie-notice-deny').addEventListener("click",function() {
+        createCookie('cookie-notice-option','false',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+
 </script>
 <meta property="og:title" content="About" />
 <meta property="og:description" content="A little bit about me" />
@@ -109,8 +169,8 @@
   "keywords": [
     "Me"
   ],
-  "articleBody": "So, I am Dzintars Klavins. A guy from Riga / Latvia / Europe. Wannabe full-stack software engineer. :)\nAccording Myers-Briggs personality test 1 result - INFJ-T (Advocate). Yes, I think in general people can be categorized in several categories. :)\nHow did I ended up there? Since 2007 I am more or less close to software engineering.\nFrom 2007 to 2011 I was a product owner for in-house intranet for local postal and courier company. jQuery barely was a thing back then. Google Maps just came out. A wild times was then. But we managed to create PHP backed software which still serves its purpose.\nFrom 2011 to 2016 I worked on another similar project but its key difference was totally different, more open, approach. Multi-tenant SPA application with the focus on cross-tenant collaboration. It used PHP CodeIgniter framework and some “fancy” front-end framework I would not name there. That framework is mostly dead these days. There I also took Product Owner role and the software is still in the service.\nIn 2017 I decided to look closer to the web development (full-stack) as my side-activity. So I invested my free time into Golang and TypeScript learning.\nThat led me to bunch of supportive technologies. Build systems, collaboration, testing, automation, containers and everything in between. You might know how wild all this field is. But my lighthouse in all this journey was my personal goal to create my little own SaaS solution. So… I just picked things which might help me to achieve my goals and discarded any noise. For example, I discarded React just because of my Facebook and my hate against it. I DON’T CARE how great it is. I DON’T CARE about any argument about it. It is just one of those tech which I will NEVER use. I think Angular and vanilla Web Components are FAR FAR more sustainable in a long term.\nCurrent state These days I am mostly working with and to bootstrap my personal development platform which consists of bunch of technologies. The goal for this year is to get finally back to Go and TypeScript programming.\nEvidence Most of my journey is documented in abandoned GitHub projects. There is no single complete project. Everything is WIP or abandoned.\nEven more, lately I am migrating to my own Gerrit instance to host all of my code. I just don’t want to “feed the beast”. I want to control my resources. I want to see full analytics. I want to control access. And all that. GitHub doesn’t offer anything of that. But it is nice “backup” at expense of giving away your privacy and possibility of you being removed from your own project. And overall, owning your own stuff is a good thing. Don’t feed the Medium. Don’t feed the GitHub, GitLab and the likes. Heck, don’t feed the Google either. As more you feed them, as more dangerous they become overall.\nSo, after my PDE will get setup smoothly, I most likely will abandon GitHub entirely.\nProfessional interests I’m mostly interested about the context of logistics and postal services. I am huge believer that in these old industries there are a lot to improve to speed up and make more effective process. But it’s certainly pretty complex area. In particular, I thing these industries could be hugely improved by introducing more real-time data exchange. Not emails. Not EDI (Electronic Data Interchange). Just pure real-time sub-second interaction and collaboration.\nI would like to learn Java and Angular some day. I don’t think they are too complicated, but I need to find time for that. Not that I would love to use them in my own projects, but… they are widely adopted in enterprise realm. And bunch of tools I use, uses Java.\nHobbies My college education was carpentry. But somehow I left all that thing im my career. And now I kind of regret that a bit and are bringing it back as my hobby. Buying new tools, making this and that. On top of that I got suck into metalworking. I can spend my whole evening just watching people making things out of metal. So… my summer 2024 project will be making furnace and do some basic casting. And leather. I believe wood, metal, leather and stone are the most incredible materials to work with. I would say - fundamental materials. I like how does wood with brass looks like. I like, how you can make any piece out of metal. You can make entire tools out of metal. For example - lathe. ;)\nFootnotes https://www.16personalities.com/free-personality-test ↩︎\n",
-  "wordCount" : "763",
+  "articleBody": "So, I am Dzintars Klavins. A guy from Riga / Latvia / Europe. Wannabe full-stack software engineer. :)\nAccording Myers-Briggs personality test 1 result - INFJ-T (Advocate). Yes, I think in general people can be categorized in several categories. :)\nHow did I ended up there? Since 2007 I am more or less close to software engineering.\nFrom 2007 to 2011 I was a product owner for in-house intranet for local postal and courier company. jQuery barely was a thing back then. Google Maps just came out. A wild times was then. But we managed to create PHP backed software which still serves its purpose.\nFrom 2011 to 2016 I worked on another similar project but its key difference was totally different, more open, approach. Multi-tenant SPA application with the focus on cross-tenant collaboration. It used PHP CodeIgniter framework and some “fancy” front-end framework I would not name there. That framework is mostly dead these days. There I also took Product Owner role and the software is still in the service.\nIn 2017 I decided to look closer to the web development (full-stack) as my side-activity. So I invested my free time into Golang and TypeScript learning.\nThat led me to bunch of supportive technologies. Build systems, collaboration, testing, automation, containers and everything in between. You might know how wild all this field is. But my lighthouse in all this journey was my personal goal to create my little own SaaS solution. So… I just picked things which might help me to achieve my goals and discarded any noise. For example, I discarded React just because of my Facebook and my hate against it. I DON’T CARE how great it is. I DON’T CARE about any argument about it. It is just one of those tech which I will NEVER use. I think Angular and vanilla Web Components are FAR FAR more sustainable in a long term.\nCurrent state These days I am mostly working with and to bootstrap my personal development platform which consists of bunch of technologies. The goal for this year is to get finally back to Go and TypeScript programming.\nEvidence Most of my journey is documented in abandoned GitHub projects. There is no single complete project. Everything is WIP or abandoned.\nEven more, lately I am migrating to my own Gerrit instance to host all of my code. I just don’t want to “feed the beast”. I want to control my resources. I want to see full analytics. I want to control access. And all that. GitHub doesn’t offer anything of that. But it is nice “backup” at expense of giving away your privacy and possibility of you being removed from your own project. And overall, owning your own stuff is a good thing. Don’t feed the Medium. Don’t feed the GitHub, GitLab and the likes. Heck, don’t feed the Google either. As more you feed them, as more dangerous they become overall.\nSo, after my PDE will get setup smoothly, I most likely will abandon GitHub entirely.\nProfessional interests I’m mostly interested about the context of logistics and postal services. I am huge believer that in these old industries there are a lot to improve to speed up and make more effective process. But it’s certainly pretty complex area. In particular, I thing these industries could be hugely improved by introducing more real-time data exchange. Not emails. Not EDI (Electronic Data Interchange). Just pure real-time sub-second interaction and collaboration.\nI would like to learn Java and Angular some day. I don’t think they are too complicated, but I need to find time for that. Not that I would love to use them in my own projects, but… they are widely adopted in enterprise realm. And bunch of tools I use, uses Java.\nAnother area of the interest is CyberSecurity. Automated testing. Red teaming. I am taking some entry level rooms in the Try Hack Me. IMHO in coming years this will be quite requested skills as AI are helping not only for the good guys… :)\nHobbies My college education was carpentry. But somehow I left all that thing im my career. And now I kind of regret that a bit and are bringing it back as my hobby. Buying new tools, making this and that. On top of that I got suck into metalworking. I can spend my whole evening just watching people making things out of metal. So… my summer 2024 project will be making furnace and do some basic casting. And leather. I believe wood, metal, leather and stone are the most incredible materials to work with. I would say - fundamental materials. I like how does wood with brass looks like. I like, how you can make any piece out of metal. You can make entire tools out of metal. For example - lathe. ;)\nFootnotes https://www.16personalities.com/free-personality-test ↩︎\n",
+  "wordCount" : "807",
   "inLanguage": "en",
   "image":"https://dzintars.dev/%3Cimage%20path/url%3E","datePublished": "2024-02-15T11:30:03Z",
   "dateModified": "2024-02-15T11:30:03Z",
@@ -208,13 +268,13 @@
     <div class="post-description">
       A little bit about me
     </div>
-    <div class="post-meta"><span title='2024-02-15 11:30:03 +0000 +0000'>2024 Feb 15</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;763 words&nbsp;·&nbsp;Me&nbsp;|&nbsp;<a href="https://github.com/dzintars/dzintars/tree/hugo/content/posts/about.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta"><span title='2024-02-15 11:30:03 +0000 +0000'>2024 Feb 15</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;807 words&nbsp;·&nbsp;Me&nbsp;|&nbsp;<a href="https://github.com/dzintars/dzintars/tree/hugo/content/posts/about.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 
 </div>
   </header> 
   <div class="post-content"><p>So, I am Dzintars Klavins. A guy from <strong>Riga / Latvia / Europe</strong>. Wannabe full-stack software
 engineer. :)</p>
-<p>According Myers-Briggs personality test <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> result - INFJ-T (Advocate). Yes, I think
+<p>According Myers-Briggs personality test <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> result - <strong>INFJ-T</strong> (Advocate). Yes, I think
 in general people can be categorized in several categories. :)</p>
 <h2 id="how-did-i-ended-up-there">How did I ended up there?<a hidden class="anchor" aria-hidden="true" href="#how-did-i-ended-up-there">#</a></h2>
 <p>Since 2007 I am more or less close to software engineering.</p>
@@ -282,6 +342,10 @@ Just pure real-time sub-second interaction and collaboration.</p>
 complicated, but I need to find time for that. Not that I would love to use them
 in my own projects, but&hellip; they are widely adopted in enterprise realm. And bunch
 of tools I use, uses Java.</p>
+<p>Another area of the interest is <strong>CyberSecurity</strong>. Automated testing. Red
+teaming. I am taking some entry level rooms in the <a href="https://tryhackme.com">Try Hack Me</a>.
+IMHO in coming years this will be quite requested skills as <strong>AI</strong> are helping not
+only for the good guys&hellip; :)</p>
 <h2 id="hobbies">Hobbies<a hidden class="anchor" aria-hidden="true" href="#hobbies">#</a></h2>
 <p>My college education was carpentry. But somehow I left all that thing im my
 career. And now I kind of regret that a bit and are bringing it back as my
