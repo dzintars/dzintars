@@ -4,10 +4,18 @@
     <title>Posts on Dzintars Klavins</title>
     <link>https://dzintars.dev/posts/</link>
     <description>Recent content in Posts on Dzintars Klavins</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.122.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Feb 2024 12:55:08 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2024 22:13:09 +0200</lastBuildDate>
     <atom:link href="https://dzintars.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 Mar 25</title>
+      <link>https://dzintars.dev/posts/2024-mar-25/</link>
+      <pubDate>Mon, 25 Mar 2024 22:13:09 +0200</pubDate>
+      <guid>https://dzintars.dev/posts/2024-mar-25/</guid>
+      <description>Looks like my little starter blog is working. At least there is some activity around it.
+After all the things I went back to rewriting my infra components to Podman Quadlets 1 by utilizing Ansible. I think, I figured out general pattern. Yet, I&amp;rsquo;m not quite happy how do I handle network creation. I need to encapsulate it into single generic role instead writing the same network role in every collection.</description>
+    </item>
     <item>
       <title>NixOS vs Ansible</title>
       <link>https://dzintars.dev/posts/nixos/</link>

@@ -170,8 +170,8 @@ I see the constant hype around the NixOS and one of the main selling points is i
   "keywords": [
     "NixOS", "Ansible"
   ],
-  "articleBody": " My opinion on this is still not stable or true and I might change my mind later when I will really try NixOS.\nI see the constant hype around the NixOS and one of the main selling points is its reproducibility. Under the Ansible, you configure only whats in your playbooks. And it’s easy to mess around the system bypassing the Ansible. In NixOS that’s not the case. If you make any add-hock changes on NixOS and then run nixos-rebuild all your crafted changes will be gone because they are not in your NixOS config. But this is what I like about the Ansible. I can mess around the system and put in my playbooks only the parts I really like. Next time I will install OS I will get only my particular features. I believe, you could do the same with NixOS, but… nixos-rebuild sounds too dangerous to have there. As of my understanding now, NixOS is more suitable for server setups, where the all components are well known and you truly need 100% reproducibility.\nThe feature of NixOS I might like is the rollback. You can’t do that with the Ansible.\n",
-  "wordCount" : "193",
+  "articleBody": " My opinion on this is still not stable or true and I might change my mind later when I will really try NixOS.\nI see the constant hype around the NixOS and one of the main selling points is its reproducibility. Under the Ansible, you configure only whats in your playbooks. And it’s easy to mess around the system bypassing the Ansible. In NixOS that’s not the case. If you make any add-hock changes on NixOS and then run nixos-rebuild all your crafted changes will be gone because they are not in your NixOS config. But this is what I like about the Ansible. I can mess around the system, use/evaluate my tweaks until the next OS reinstall or to put in my playbooks only those parts which I really like. Next time I will install OS I will get only my particular features. I don’t need to be afraid to loose some of my temporary tweaks by accidental nixos-rebuild. I believe, you could do the same with NixOS, but… nixos-rebuild sounds too dangerous to have there (as of my current understanding). As of my understanding now, NixOS is more suitable for server setups, where the all components are well known and you truly need 100% reproducibility.\nThe feature of NixOS I might like is the rollback. You can’t do that with the Ansible, thou… I’m not sure would I use it. If I can reproduce entire system just with a single Ansible play, then I prefer to do clean install to be sure, that there are no any leftovers.\n",
+  "wordCount" : "260",
   "inLanguage": "en",
   "datePublished": "2024-02-28T12:55:08+02:00",
   "dateModified": "2024-02-28T12:55:08+02:00",
@@ -280,15 +280,18 @@ playbooks. And it&rsquo;s easy to mess around the system bypassing the Ansible. 
 NixOS that&rsquo;s not the case. If you make any add-hock changes on NixOS and then
 run <code>nixos-rebuild</code> all your crafted changes will be gone because they are not
 in your NixOS config.
-But this is what I like about the Ansible. I can mess around the system and put
-in my playbooks only the parts I really like. Next time I will install OS I will
-get only my particular features.
+But this is what I like about the Ansible. I can mess around the system, use/evaluate
+my tweaks until the next OS reinstall or to put in my playbooks only those parts which I really like.
+Next time I will install OS I will get only my particular features. I don&rsquo;t need
+to be afraid to loose some of my temporary tweaks by accidental <code>nixos-rebuild</code>.
 I believe, you could do the same with NixOS, but&hellip; <code>nixos-rebuild</code> sounds too
-dangerous to have there.
+dangerous to have there (as of my current understanding).
 As of my understanding now, NixOS is more suitable for server setups, where the
 all components are well known and you truly need 100% reproducibility.</p>
 <p>The feature of NixOS I might like is the <strong>rollback</strong>. You can&rsquo;t do that with
-the Ansible.</p>
+the Ansible, thou&hellip; I&rsquo;m not sure would I use it. If I can reproduce entire
+system just with a single Ansible play, then I prefer to do clean install to be
+sure, that there are no any leftovers.</p>
 
 
   </div>
@@ -371,7 +374,8 @@ the Ansible.</p>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://dzintars.dev/">Dzintars Klavins</a></span>
+        <span>&copy; 2024 <a href="https://dzintars.dev/">Dzintars Klavins</a></span> · 
+
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

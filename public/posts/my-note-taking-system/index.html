@@ -170,8 +170,8 @@ It all changed when I switched to the Linux. Because Linux was pretty much new t
   "keywords": [
     "Neovim", "Sway"
   ],
-  "articleBody": "Why For a long time I didn’t care about the note taking too much, thou, I was writing long MS Word documents with the ideas of the project, user stories and other things.\nIt all changed when I switched to the Linux. Because Linux was pretty much new to me, I had a lot to learn and remember. So, gradually I started to write my little runbooks to document the steps I took to get to the point B. For example, how do I create SSH keys. Or how do I configure my firewall. And so on.\nTouch Typing Almost all of the “productivity’fluencers” never mentions the importance of the touch typing to get into habit of note taking. But in my opinion… that is the very first pill, you should take before getting into note taking. If the typing is the pain for you, then you will not make any notes, nor note taking system. No… you will take notes, but those will be just occasional sessions. Not a real note taking.\nIt changes, when you are able to type just by looking at the screen. Without hunting for the each letter on the keyboard. Even better, if you can train yourself up to 150 words per minute (wpm), it means, you are able to type almost at a speed of your thought.\nAnsible Over time, after I played with custom runbooks and scripts, I started to write every little system configuration task in Ansible. This gave me systematic space to document my findings, to write some readme’s etc.\nNotion, Roam-Research \u0026 Co Neovim i3, Sway and Tmux Custom Keyboard Keyboard centric workflow Project Readme’s, GitHub issues, Wikis Flat File System Next steps Automate publishing of my internal ZK to my Hugo blog.\n",
-  "wordCount" : "294",
+  "articleBody": "Why For a long time I didn’t care about the note taking too much, thou, I was writing long MS Word documents with the ideas of the project, user stories and other things.\nIt all changed when I switched to the Linux. Because Linux was pretty much new to me, I had a lot to learn and remember. So, gradually I started to write my little runbooks to document the steps I took to get to the point B. For example, how do I create SSH keys. Or how do I configure my firewall. And so on.\nTouch Typing Almost all of the “productivity’fluencers” never mentions the importance of the touch typing to get into habit of note taking. But in my opinion… that is the very first pill, you should take before getting into note taking. If the typing is the pain for you, then you will not make any notes, nor note taking system. No… you will take notes, but those will be just occasional sessions. Not a real note taking.\nIt changes, when you are able to type just by looking at the screen. Without hunting for the each letter on the keyboard. Even better, if you can train yourself up to 150 words per minute (wpm), it means, you are able to type almost at a speed of your thought.\nAnsible Over time, after I played with custom runbooks and scripts, I started to write every little system configuration task in Ansible. This gave me systematic space to document my findings, to write some readme’s etc.\nNotion, Roam-Research \u0026 Co I tried all of them. And all of them felt… clumsy. They required too much effort just to make a quick note. Like… opening new browser tab already felt too distracting.\nThen I found out Obsidian. Local files. I own my content. Reusable file format. It ticked all checkboxes. The only issue was - it’s an Electron app. And somewhat that felt too… clumsy.\nAs my note taking experience evolved, I finally found out about ZK and ZK-Nvim. And my puzzle was solved. ZK is Obsidian “compatible”. Which means… all my notes are kept in a single Git repository. I can open them with Obsidian if required, but usually I just use Neovim for that.\nI have quick keybinds in my Sway config to open my ZK in a floating window. So.. my notes always are there right at my fingertips and I don’t even need to reach for the mouse.\nNeovim Custom Keyboard Keyboard centric workflow Over time I moved to keyboard-centric workflow. It even got better once I learned proper touch typing.\ni3, Sway and Tmux Project Readme’s, GitHub issues, Wikis Before I developed my own “note taking system/pattern”, I tried to use everything else. First it was MS Word. Then it was Google Docs. Then I had my own Confluence server instance. But at that time it was too clumsy to maintain. I didn’t knew nothing about automation. I did everything by hand. Heck… I even didn’t knew Linux all that much. It was just some VM which I somehow magically managed to setup and install Confluence on it. I think it was even Virtualmin UI I used to manage it. So… as more and more system resets came into my life, eventually I lost all of my Confluence knowledge base. Including relevant Jira tasks. At that point it was clear, that I need some simpler way to do my writings.\nSo after that experience, I tried out GitHub issues, Wiki’s, Readme’s, projects, pages… It was simpler… I don’t need to worry about hosting and backups. But you need to be mindful about what you are putting out in the internet. Most of my stuff was public.\nFlat File System In the Wild Wild Web most of the cases I see people trying to come up with some file structure for their notes. What directories to use? How should I tag my notes? How should I name my files. Etc. I came to realization… that no matter what file structure you will develop, it always will get in your way. Should I place this note in the the “recipes” directory or in my “health” directory? And so on. So… the best file structure it no file structure at all. And this is how all of my thousand+ notes are structured. Just 2 flat directories - “daily” and “base”. And all of my note files are named like 202310081951.md. Name of this file never changes. I never use file tree or explorer to find my notes. ZK handles (indexes) markdown front matter. This is where intellisense comes from. If at any time my note changes its content, I can tweak the note title accordingly without renaming entire file. For me, finding and renaming file is too expensive. By using right tools, my note management is super simple. None of my internal note links breaks. I can use file paths in any external applications if required. Markdown is super versatile and compatible format. It can be consumed by plethora of other tools. It can be batch processed by scripts.\nAlso, I think it is worth noting, that I don’t write “creative” content. 99.99% of my notes are just a reminders of some commands, tricks, errors, etc. I might say - a static content. So… for this reason my file organization works really well for me. But if I would be in the more creative way of things… this “file system” might not work.\nNext steps Automate publishing of my internal ZK to my Hugo blog.\n",
+  "wordCount" : "930",
   "inLanguage": "en",
   "datePublished": "2024-02-24T14:10:25+02:00",
   "dateModified": "2024-02-24T14:10:25+02:00",
@@ -294,12 +294,65 @@ at a speed of your thought.</p>
 every little system configuration task in Ansible. This gave me systematic space
 to document my findings, to write some readme&rsquo;s etc.</p>
 <h2 id="notion-roam-research--co">Notion, Roam-Research &amp; Co<a hidden class="anchor" aria-hidden="true" href="#notion-roam-research--co">#</a></h2>
+<p>I tried all of them. And all of them felt&hellip; clumsy. They required too much
+effort just to make a quick note. Like&hellip; opening new browser tab already felt
+too distracting.</p>
+<p>Then I found out Obsidian. Local files. I own my content. Reusable file format.
+It ticked all checkboxes.
+The only issue was - it&rsquo;s an Electron app. And somewhat that felt too&hellip;
+clumsy.</p>
+<p>As my note taking experience evolved, I finally found out about <code>ZK</code> and <code>ZK-Nvim</code>.
+And my puzzle was solved. ZK is Obsidian &ldquo;compatible&rdquo;. Which means&hellip; all my
+notes are kept in a single Git repository. I can open them with Obsidian if
+required, but usually I just use Neovim for that.</p>
+<p>I have quick keybinds in my Sway config to open my ZK in a floating window. So..
+my notes always are there right at my fingertips and I don&rsquo;t even need to reach
+for the mouse.</p>
 <h2 id="neovim">Neovim<a hidden class="anchor" aria-hidden="true" href="#neovim">#</a></h2>
-<h2 id="i3-sway-and-tmux">i3, Sway and Tmux<a hidden class="anchor" aria-hidden="true" href="#i3-sway-and-tmux">#</a></h2>
 <h2 id="custom-keyboard">Custom Keyboard<a hidden class="anchor" aria-hidden="true" href="#custom-keyboard">#</a></h2>
 <h2 id="keyboard-centric-workflow">Keyboard centric workflow<a hidden class="anchor" aria-hidden="true" href="#keyboard-centric-workflow">#</a></h2>
+<p>Over time I moved to keyboard-centric workflow. It even got better once I
+learned proper touch typing.</p>
+<h2 id="i3-sway-and-tmux">i3, Sway and Tmux<a hidden class="anchor" aria-hidden="true" href="#i3-sway-and-tmux">#</a></h2>
 <h2 id="project-readmes-github-issues-wikis">Project Readme&rsquo;s, GitHub issues, Wikis<a hidden class="anchor" aria-hidden="true" href="#project-readmes-github-issues-wikis">#</a></h2>
+<p>Before I developed my own &ldquo;note taking system/pattern&rdquo;, I tried to use
+everything else. First it was MS Word. Then it was Google Docs. Then I had my
+own Confluence server instance. But at that time it was too clumsy to maintain.
+I didn&rsquo;t knew nothing about automation. I did everything by hand. Heck&hellip; I even
+didn&rsquo;t knew Linux all that much. It was just some VM which I somehow magically
+managed to setup and install Confluence on it. I think it was even Virtualmin UI
+I used to manage it. So&hellip; as more and more system resets came into my life,
+eventually I lost all of my Confluence knowledge base. Including relevant Jira
+tasks. At that point it was clear, that I need some simpler way to do my
+writings.</p>
+<p>So after that experience, I tried out GitHub issues, Wiki&rsquo;s, Readme&rsquo;s, projects, pages&hellip;
+It was simpler&hellip; I don&rsquo;t need to worry about hosting and backups. But you need
+to be mindful about what you are putting out in the internet. Most of my stuff
+was public.</p>
 <h2 id="flat-file-system">Flat File System<a hidden class="anchor" aria-hidden="true" href="#flat-file-system">#</a></h2>
+<p>In the Wild Wild Web most of the cases I see people trying to come up with some
+file structure for their notes. What directories to use? How should I tag my
+notes? How should I name my files. Etc.
+I came to realization&hellip; that no matter what file structure you will develop, it
+always will get in your way. Should I place this note in the the &ldquo;recipes&rdquo;
+directory or in my &ldquo;health&rdquo; directory? And so on. So&hellip; the best file structure
+it no file structure at all. And this is how all of my thousand+ notes are
+structured. Just 2 flat directories - &ldquo;daily&rdquo; and &ldquo;base&rdquo;. And all of my note
+files are named like <code>202310081951.md</code>. Name of this file never changes. I never
+use file tree or explorer to find my notes. ZK handles (indexes) markdown front
+matter. This is where intellisense comes from. If at any time my note changes
+its content, I can tweak the note title accordingly without renaming entire
+file. For me, finding and renaming file is too expensive. By using right tools,
+my note management is super simple. None of my internal note links breaks. I can
+use file paths in any external applications if required. Markdown is super
+versatile and compatible format. It can be consumed by plethora of other tools.
+It can be batch processed by scripts.</p>
+<p>Also, I think it is worth noting, that I don&rsquo;t write &ldquo;creative&rdquo; content. 99.99%
+of my notes are just a reminders of some commands, tricks, errors, etc. I might
+say - a static content. So&hellip; for this reason my file organization works really
+well for me.
+But if I would be in the more creative way of things&hellip; this &ldquo;file system&rdquo; might
+not work.</p>
 <h2 id="next-steps">Next steps<a hidden class="anchor" aria-hidden="true" href="#next-steps">#</a></h2>
 <p>Automate publishing of my internal ZK to my Hugo blog.</p>
 
@@ -384,7 +437,8 @@ to document my findings, to write some readme&rsquo;s etc.</p>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://dzintars.dev/">Dzintars Klavins</a></span>
+        <span>&copy; 2024 <a href="https://dzintars.dev/">Dzintars Klavins</a></span> · 
+
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

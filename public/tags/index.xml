@@ -4,126 +4,140 @@
     <title>Tags on Dzintars Klavins</title>
     <link>https://dzintars.dev/tags/</link>
     <description>Recent content in Tags on Dzintars Klavins</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.122.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Feb 2024 12:55:08 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2024 22:13:09 +0200</lastBuildDate>
     <atom:link href="https://dzintars.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keycloak</title>
+      <link>https://dzintars.dev/tags/keycloak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dzintars.dev/tags/keycloak/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vault</title>
+      <link>https://dzintars.dev/tags/vault/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dzintars.dev/tags/vault/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ansible</title>
       <link>https://dzintars.dev/tags/ansible/</link>
-      <pubDate>Wed, 28 Feb 2024 12:55:08 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/ansible/</guid>
       <description></description>
     </item>
     <item>
       <title>NixOS</title>
       <link>https://dzintars.dev/tags/nixos/</link>
-      <pubDate>Wed, 28 Feb 2024 12:55:08 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/nixos/</guid>
       <description></description>
     </item>
     <item>
       <title>Neovim</title>
       <link>https://dzintars.dev/tags/neovim/</link>
-      <pubDate>Sat, 24 Feb 2024 14:10:25 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/neovim/</guid>
       <description></description>
     </item>
     <item>
       <title>Sway</title>
       <link>https://dzintars.dev/tags/sway/</link>
-      <pubDate>Sat, 24 Feb 2024 14:10:25 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/sway/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
       <link>https://dzintars.dev/tags/hugo/</link>
-      <pubDate>Thu, 22 Feb 2024 12:38:03 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Tmux</title>
       <link>https://dzintars.dev/tags/tmux/</link>
-      <pubDate>Wed, 21 Feb 2024 22:12:40 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/tmux/</guid>
       <description></description>
     </item>
     <item>
       <title>CQRS</title>
       <link>https://dzintars.dev/tags/cqrs/</link>
-      <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/cqrs/</guid>
       <description></description>
     </item>
     <item>
       <title>Kafka</title>
       <link>https://dzintars.dev/tags/kafka/</link>
-      <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/kafka/</guid>
       <description></description>
     </item>
     <item>
       <title>Websocket</title>
       <link>https://dzintars.dev/tags/websocket/</link>
-      <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/websocket/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
       <link>https://dzintars.dev/tags/blog/</link>
-      <pubDate>Wed, 21 Feb 2024 17:50:12 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
       <link>https://dzintars.dev/tags/linux/</link>
-      <pubDate>Wed, 21 Feb 2024 17:28:52 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Me</title>
       <link>https://dzintars.dev/tags/me/</link>
-      <pubDate>Wed, 21 Feb 2024 17:28:52 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/me/</guid>
       <description></description>
     </item>
     <item>
       <title>Bazel</title>
       <link>https://dzintars.dev/tags/bazel/</link>
-      <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/bazel/</guid>
       <description></description>
     </item>
     <item>
       <title>Redux</title>
       <link>https://dzintars.dev/tags/redux/</link>
-      <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/redux/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
       <link>https://dzintars.dev/tags/web/</link>
-      <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/web/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Components</title>
       <link>https://dzintars.dev/tags/web-components/</link>
-      <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/web-components/</guid>
       <description></description>
     </item>
     <item>
       <title>Webpack</title>
       <link>https://dzintars.dev/tags/webpack/</link>
-      <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dzintars.dev/tags/webpack/</guid>
       <description></description>
     </item>
