@@ -57,76 +57,16 @@
         }
 
     </style>
-</noscript><div id="cookie-notice">
-<span>We would like to use third party cookies and scripts to improve the 
-functionality of this website.</span>
-<a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a>
-<a id="cookie-notice-deny" class="btn btn-primary btn-sm">Deny</a>
-<a href="/privacy" class="btn btn-primary btn-sm">More info</a></div>
+</noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDYZTVD1N3"></script>
 <script>
-    function createCookie(name,value,days) {
-        var expires = "";
-        if (days) {
-            var date = new Date();
-            date.setTime(date.getTime() + (days*24*60*60*1000));
-            expires = "; expires=" + date.toUTCString();
-        }
-        document.cookie = name + "=" + value + expires + "; path=/";
-    }
-    function readCookie(name) {
-        var nameEQ = name + "=";
-        var ca = document.cookie.split(';');
-        for(var i=0;i < ca.length;i++) {
-            var c = ca[i];
-            while (c.charAt(0)==' ') c = c.substring(1,c.length);
-            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-        }
-        return null;
-    }
-    function eraseCookie(name) {
-        createCookie(name,"",-1);
-    }
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag("js", new Date());
 
-    if(readCookie('cookie-notice-option')=='true') {
-        
-        
-        function loadScriptAsync(scriptSrc, callback) {
-            if (typeof callback !== 'function') {
-                throw new Error('Not a valid callback for async script load');
-            }
-            var script = document.createElement('script');
-            script.onload = callback;
-            script.src = scriptSrc;
-            document.head.appendChild(script);
-        }
-
-        
-
-        
-        loadScriptAsync('https://www.googletagmanager.com/gtag/js?id=G-ZDYZTVD1N3', function () {
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
-            gtag('config', 'G-ZDYZTVD1N3', { 'anonymize_ip': true }); 
-        })
-
-        
-    } else if (readCookie('cookie-notice-option')!='false'){
-        document.getElementById('cookie-notice').style.display = 'block';
-    }
-
-    document.getElementById('cookie-notice-accept').addEventListener("click",function() {
-        createCookie('cookie-notice-option','true',31);
-        document.getElementById('cookie-notice').style.display = 'none';
-        location.reload();
-    });
-
-    document.getElementById('cookie-notice-deny').addEventListener("click",function() {
-        createCookie('cookie-notice-option','false',31);
-        document.getElementById('cookie-notice').style.display = 'none';
-        location.reload();
-    });
-
+	gtag("config", "G-ZDYZTVD1N3");
 </script>
 <meta property="og:title" content="Dzintars Klavins" />
 <meta property="og:description" content="Personal blog" />
@@ -251,6 +191,19 @@ Currently the all content in this blog is temporary garbage for the sake of maki
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">2024 Jul 13
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Migrating old databases Currently mostly busy with modernizing 15 years old infrastructure of some customer. Old and huge MySQL databses. No foreign keys. No timestamps. It’s all pretty convoluted. Many VM’s running directly on KVM without libvirt abstraction. Failing hard drives. Old PHP. And the overaly of many “big brain” sysadmins.
+But at least, I gained full access to the most of the resources, restored passwords, established secure remote access, etc....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-07-13 14:21:52 +0300 EEST'>2024 Jul 13</span>&nbsp;·&nbsp;Dzintars</footer>
+  <a class="entry-link" aria-label="post link to 2024 Jul 13" href="https://dzintars.dev/posts/2024-jul-13/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">2024 Mar 25
     </h2>
   </header>
@@ -371,21 +324,12 @@ TIL (Today I Learned) Redux features: Thinking in terms of “features” helped
   <footer class="entry-footer"><span title='2024-02-19 18:33:05 +0200 EET'>2024 Feb 19</span>&nbsp;·&nbsp;Dzintars</footer>
   <a class="entry-link" aria-label="post link to SPA Front page application" href="https://dzintars.dev/posts/spa-front-page-application/"></a>
 </article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">About
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>So, I am Dzintars Klavins. A guy from Riga / Latvia / Europe. Wannabe full-stack software engineer. :)
-According Myers-Briggs personality test 1 result - INFJ-T (Advocate). Yes, I think in general people can be categorized in several categories. :)
-How did I ended up there? Since 2007 I am more or less close to software engineering.
-From 2007 to 2011 I was a product owner for in-house intranet for local postal and courier company....</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-02-15 11:30:03 +0000 +0000'>2024 Feb 15</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;807 words&nbsp;·&nbsp;Me</footer>
-  <a class="entry-link" aria-label="post link to About" href="https://dzintars.dev/posts/about/"></a>
-</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://dzintars.dev/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
     </main>
     
 <footer class="footer">

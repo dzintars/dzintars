@@ -6,8 +6,16 @@
     <description>Recent content in Posts on Dzintars Klavins</description>
     <generator>Hugo -- 0.122.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Mar 2024 22:13:09 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jul 2024 14:21:52 +0300</lastBuildDate>
     <atom:link href="https://dzintars.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 Jul 13</title>
+      <link>https://dzintars.dev/posts/2024-jul-13/</link>
+      <pubDate>Sat, 13 Jul 2024 14:21:52 +0300</pubDate>
+      <guid>https://dzintars.dev/posts/2024-jul-13/</guid>
+      <description>Migrating old databases Currently mostly busy with modernizing 15 years old infrastructure of some customer. Old and huge MySQL databses. No foreign keys. No timestamps. It&amp;rsquo;s all pretty convoluted. Many VM&amp;rsquo;s running directly on KVM without libvirt abstraction. Failing hard drives. Old PHP. And the overaly of many &amp;ldquo;big brain&amp;rdquo; sysadmins.
+But at least, I gained full access to the most of the resources, restored passwords, established secure remote access, etc.</description>
+    </item>
     <item>
       <title>2024 Mar 25</title>
       <link>https://dzintars.dev/posts/2024-mar-25/</link>

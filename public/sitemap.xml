@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dzintars.dev/posts/2024-jul-13/</loc>
+    <lastmod>2024-07-13T14:21:52+03:00</lastmod>
+  </url><url>
+    <loc>https://dzintars.dev/tags/blog/</loc>
+    <lastmod>2024-07-13T14:21:52+03:00</lastmod>
+  </url><url>
+    <loc>https://dzintars.dev/categories/</loc>
+    <lastmod>2024-07-13T14:21:52+03:00</lastmod>
+  </url><url>
+    <loc>https://dzintars.dev/</loc>
+    <lastmod>2024-07-13T14:21:52+03:00</lastmod>
+  </url><url>
+    <loc>https://dzintars.dev/tags/flyway/</loc>
+    <lastmod>2024-07-13T14:21:52+03:00</lastmod>
+  </url><url>
+    <loc>https://dzintars.dev/tags/ipmi/</loc>
+    <lastmod>2024-07-13T14:21:52+03:00</lastmod>
+  </url><url>
+    <loc>https://dzintars.dev/categories/now/</loc>
+    <lastmod>2024-07-13T14:21:52+03:00</lastmod>
+  </url><url>
+    <loc>https://dzintars.dev/posts/</loc>
+    <lastmod>2024-07-13T14:21:52+03:00</lastmod>
+  </url><url>
+    <loc>https://dzintars.dev/tags/</loc>
+    <lastmod>2024-07-13T14:21:52+03:00</lastmod>
+  </url><url>
     <loc>https://dzintars.dev/posts/2024-mar-25/</loc>
     <lastmod>2024-03-25T22:13:09+02:00</lastmod>
   </url><url>
-    <loc>https://dzintars.dev/categories/</loc>
-    <lastmod>2024-03-25T22:13:09+02:00</lastmod>
-  </url><url>
-    <loc>https://dzintars.dev/</loc>
-    <lastmod>2024-03-25T22:13:09+02:00</lastmod>
-  </url><url>
     <loc>https://dzintars.dev/tags/keycloak/</loc>
-    <lastmod>2024-03-25T22:13:09+02:00</lastmod>
-  </url><url>
-    <loc>https://dzintars.dev/categories/now/</loc>
-    <lastmod>2024-03-25T22:13:09+02:00</lastmod>
-  </url><url>
-    <loc>https://dzintars.dev/posts/</loc>
-    <lastmod>2024-03-25T22:13:09+02:00</lastmod>
-  </url><url>
-    <loc>https://dzintars.dev/tags/</loc>
     <lastmod>2024-03-25T22:13:09+02:00</lastmod>
   </url><url>
     <loc>https://dzintars.dev/tags/vault/</loc>
@@ -84,9 +96,6 @@
     <lastmod>2024-02-21T19:46:43+02:00</lastmod>
   </url><url>
     <loc>https://dzintars.dev/posts/2024-feb-21/</loc>
-    <lastmod>2024-02-21T17:50:12+02:00</lastmod>
-  </url><url>
-    <loc>https://dzintars.dev/tags/blog/</loc>
     <lastmod>2024-02-21T17:50:12+02:00</lastmod>
   </url><url>
     <loc>https://dzintars.dev/tags/linux/</loc>
