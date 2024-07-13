@@ -30,8 +30,8 @@ cover:
 So, I am Dzintars Klavins. A guy from **Riga / Latvia / Europe**. Wannabe full-stack software
 engineer. :)
 
-According Myers-Briggs personality test [^1] result - **INFJ-T** (Advocate). Yes, I think
-in general people can be categorized in several categories. :)
+According Myers-Briggs personality test [^1] result - **INFJ-T** (Advocate). Yes, I think,
+in general, all people can be categorized in several categories. :)
 
 ## How did I ended up there?
 
@@ -43,10 +43,11 @@ out. A wild times was then. But we managed to create **PHP** backed software whi
 still serves its purpose.
 
 From **2011 to 2016** I worked on another similar project but its key difference was
-totally different, more open, approach. **Multi-tenant SPA application** with the focus
+totally different, more dynamic, approach. **Multi-tenant SPA application** with the focus
 on cross-tenant collaboration. It used PHP **CodeIgniter** framework and some
-"fancy" front-end framework I would not name there. That framework is mostly
-dead these days. There I also took **Product Owner** role and the software is still
+"fancy" (at the time) front-end framework I would not name there. That framework
+is mostly dead these days.
+There I also took **Product Owner** role and the software is still
 in the service.
 
 **In 2017** I decided to look closer to the web development (**full-stack**) as my
@@ -54,13 +55,14 @@ side-activity. So I invested my free time into **Golang** and **TypeScript** lea
 
 That led me to bunch of supportive technologies. Build systems, collaboration,
 testing, automation, containers and everything in between. You might know how
-wild all this field is. But my lighthouse in all this journey was my personal goal to
-create my little own SaaS solution. So... I just picked things which might help
-me to achieve my goals and discarded any noise. For example, **I discarded
-React** just because of my Facebook and my hate against it. I DON'T CARE how great it
-is. I DON'T CARE about any argument about it. It is just one of those tech which
-I will NEVER use. I think Angular and vanilla **Web Components** are FAR FAR more
-sustainable in a long term.
+wild all this field is. But my lighthouse in all of this journey was my personal
+goal to create my little own SaaS solution. So... I just picked things which might
+help me to achieve my goals and discarded any noise. For example, **I discarded
+React** just because of Facebook and my hate against it as a organization.
+I DON'T CARE how great it is. I DON'T CARE about any argument about it.
+It is just one of those tech which I will NEVER use.
+I think Angular and vanilla **Web Components** are FAR FAR more sustainable in a
+long term.
 
 ## Current state
 
@@ -72,26 +74,27 @@ The goal for this year is to get finally back to Go and TypeScript programming.
 ## Evidence
 
 Most of my journey is documented in abandoned
-**[GitHub](https://github.com/dzintars)** projects. There is no single complete
+**[GitHub](https://github.com/dzintars)** projects. There is almost no single complete
 project. Everything is WIP or abandoned.
 
 Even more, lately I am migrating to my own **Gerrit** instance to host all of my code.
 I just don't want to "feed the beast". I want to control my resources. I want to
 see full analytics. I want to control access. And all that.
-**GitHub** doesn't offer anything of that. But it is nice "backup" at expense of
+**GitHub** doesn't offer anything of that. But it is nice "backup solution" at expense of
 giving away your privacy and possibility of you being removed from your own project.
 And overall, owning your own stuff is a good thing. Don't feed the Medium.
 Don't feed the GitHub, GitLab and the likes. Heck, don't feed the Google either.
 As more you feed them, as more dangerous they become overall.
 
-So, after my PDE will get setup smoothly, I most likely will abandon GitHub entirely.
+So, after my PDE (Personal Development Environment) will get setup smoothly, I
+most likely will abandon GitHub entirely.
 
 ## Professional interests
 
 I'm mostly interested about the context of logistics and postal services. I am
 huge believer that in these old industries there are a lot to improve to speed
 up and make more effective process. But it's certainly pretty complex area. In
-particular, I thing these industries could be hugely improved by introducing
+particular, I think, these industries could be hugely improved just by introducing
 more real-time data exchange. Not emails. Not EDI (Electronic Data Interchange).
 Just pure real-time sub-second interaction and collaboration.
 

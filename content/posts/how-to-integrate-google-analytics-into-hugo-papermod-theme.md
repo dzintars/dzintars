@@ -20,8 +20,8 @@ entire code snippet you got from GA property setup page.
 
 Basically that's it.
 
-This partial will be automatically included in every Hugo page. And after your
-first visit to the page, you will see the firs visitor stats on your GA
+This partial will be automatically included in the every Hugo page. And after your
+first visit to the page, you will see the first visitor stats on your GA
 dashboard. If it doesn't work immediately, then something is wrong.
 
 Use GitHub search to find setup examples. For example use this search query

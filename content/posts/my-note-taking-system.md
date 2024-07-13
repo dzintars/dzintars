@@ -61,6 +61,8 @@ for the mouse.
 
 ## Custom Keyboard
 
+![Keeb.io Iris](/images/keebio-iris-kat-blank.jpeg)
+
 ## Keyboard centric workflow
 
 Over time I moved to keyboard-centric workflow. It even got better once I
