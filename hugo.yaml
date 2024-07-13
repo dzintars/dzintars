@@ -3,6 +3,7 @@ baseURL: 'https://dzintars.dev/'
 languageCode: 'en-us'
 title: 'Dzintars Klavins'
 theme: 'PaperMod'
+enableEmoji: true
 
 googleAnalytics: 'G-ZDYZTVD1N3'
 
@@ -20,12 +21,31 @@ params:
 
   showBreadCrumbs: true
 
+  profileMode:
+    enabled: true
+    title: Hi there
+    subtitle: |
+     I'm a software engineer from Europe/Riga.
+     You can learn more about me **[there](/posts/about/)**.
+     Currently all content in this blog is temporary garbage for the sake of making/testing Hugo.
+    imageUrl: "/images/my-avatar-new-512.png"
+    imageTitle: "Avatar of younger me"
+    imageWidth: 160
+    imageHeight: 160
+    buttons:
+      - name: Posts
+        url: "/posts"
+      - name: Archive
+        url: "/archive"
+      - name: Github
+        url: "https://github.com/dzintars"
+
   homeInfoParams:
     Title: Hi there
     Content: |
      I'm a software engineer from Europe/Riga.
-     Learn more about me [there](https://dzintars.dev/posts/about/).
-     Currently the all content in this blog is temporary garbage for the sake of making/testing Hugo.
+     Learn more about me **[there](/posts/about/)**.
+     Currently all content in this blog is temporary garbage for the sake of making/testing Hugo.
 
 
   socialIcons:
@@ -57,6 +77,10 @@ params:
 
 menu:
   main:
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 9
     - identifier: categories
       name: categories
       url: /categories/
@@ -65,9 +89,9 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: archives
-      name: archives
-      url: /archives/
+    - identifier: archive
+      name: archive
+      url: /archive/
       weight: 30
     - identifier: search
       name: search

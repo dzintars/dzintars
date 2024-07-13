@@ -18,17 +18,16 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
-UseHugoToc: true
 cover:
-  image: "<image path/url>" # image path/url
-  alt: "<alt text>" # alt text
-  caption: "<text>" # display caption under cover
+  image: "/images/my-avatar.jpg"
+  alt: "This is me"
+  caption: "Younger me"
   relative: false # when using page bundles set this to true
   hidden: true # only hide on current single page
 ---
 
 So, I am Dzintars Klavins. A guy from **Riga / Latvia / Europe**. Wannabe full-stack software
-engineer. :)
+engineer. :smiley:
 
 According Myers-Briggs personality test [^1] result - **INFJ-T** (Advocate). Yes, I think,
 in general, all people can be categorized in several categories. :)
