@@ -79,3 +79,9 @@ QoL (Quality of Life) options.
 Overall, I am using `secret-tool` and `keepassxc-cli` everywhere, where I need
 to create or retrieve secrets dynamically. For example, you can use it to
 generate Hashicorp Vault administrator password at HC Vault provisioning stage.
+
+This approach works great if you are working on your own projects locally.
+It can be used in CI/CD setting as well, but requires some additional planning.
+Also... it is possible to adopt it for the team work as it is possible to use
+KeePassXC to share the sectrets between KeePassXC instances, but... there might
+be some better tools for that.
