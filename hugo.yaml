@@ -25,11 +25,12 @@ params:
     enabled: true
     title: Hi there
     subtitle: |
-     I'm a software engineer from Europe/Riga.
-     You can learn more about me **[there](/posts/about/)**.
-     Currently all content in this blog is temporary garbage for the sake of making/testing Hugo.
+      I'm a software engineer from Europe/Riga.
+      You can learn more about me **[there](/posts/about/)**.\
+      Currently all content in this blog is temporary garbage for the sake of making/testing Hugo.\
+      **[dzintrs.dev@gmail.com](mailto:dzintars.dev@gmail.com)**
     imageUrl: "/images/my-avatar-new-512.png"
-    imageTitle: "Avatar of younger me"
+    imageTitle: "Avatar of me with beard"
     imageWidth: 160
     imageHeight: 160
     buttons:
