@@ -33,13 +33,13 @@ params:
     imageTitle: "Avatar of me with beard"
     imageWidth: 160
     imageHeight: 160
-    buttons:
-      - name: Posts
-        url: "/posts"
-      - name: Archive
-        url: "/archive"
-      - name: Github
-        url: "https://github.com/dzintars"
+    # buttons:
+    #   - name: Posts
+    #     url: "/posts"
+    #   - name: Archive
+    #     url: "/archive"
+    #   - name: Github
+    #     url: "https://github.com/dzintars"
 
   homeInfoParams:
     Title: Hi there
