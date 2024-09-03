@@ -6,6 +6,8 @@ tags: ["Neovim", "Sway"]
 categories: ["Productivity"]
 ---
 
+{{< note title="WIP. This post is not finished." >}}
+
 ## Why
 
 For a long time I didn't care about the note taking too much, thou, I was
