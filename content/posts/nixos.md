@@ -11,7 +11,7 @@ categories: ["Linux", "Ansible"]
 I see the constant hype around the NixOS and one of the main selling points is
 its reproducibility. Under the Ansible, you configure only whats in your
 playbooks. And it's easy to mess around the system bypassing the Ansible. In
-NixOS that's not the case. If you make any add-hock changes on NixOS and then
+NixOS that's not the case. If you make any ad hoc changes on NixOS and then
 run `nixos-rebuild` all your crafted changes will be gone because they are not
 in your NixOS config.
 But this is what I like about the Ansible. I can mess around the system, use/evaluate
