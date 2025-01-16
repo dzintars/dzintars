@@ -2,19 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linux on Dzintars Klavins</title>
-    <link>https://dzintars.dev/categories/linux/</link>
+    <link>http://localhost:45463/categories/linux/</link>
     <description>Recent content in Linux on Dzintars Klavins</description>
-    <generator>Hugo -- 0.122.0</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Feb 2024 12:55:08 +0200</lastBuildDate>
-    <atom:link href="https://dzintars.dev/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:45463/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NixOS vs Ansible</title>
-      <link>https://dzintars.dev/posts/nixos/</link>
+      <link>http://localhost:45463/posts/nixos/</link>
       <pubDate>Wed, 28 Feb 2024 12:55:08 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/nixos/</guid>
-      <description>My opinion on this is still not stable or true and I might change my mind later when I will really try NixOS.
-I see the constant hype around the NixOS and one of the main selling points is its reproducibility. Under the Ansible, you configure only whats in your playbooks. And it&amp;rsquo;s easy to mess around the system bypassing the Ansible. In NixOS that&amp;rsquo;s not the case. If you make any add-hock changes on NixOS and then run nixos-rebuild all your crafted changes will be gone because they are not in your NixOS config.</description>
+      <guid>http://localhost:45463/posts/nixos/</guid>
+      <description>&lt;p class=&#34;note&#34;&gt;My opinion on this is still not stable or true and I might change my mind later when I will really try NixOS.&lt;/p&gt;
+
+
+&lt;p&gt;I see the constant hype around the NixOS and one of the main selling points is
+its reproducibility. Under the Ansible, you configure only whats in your
+playbooks. And it&amp;rsquo;s easy to mess around the system bypassing the Ansible. In
+NixOS that&amp;rsquo;s not the case. If you make any ad hoc changes on NixOS and then
+run &lt;code&gt;nixos-rebuild&lt;/code&gt; all your crafted changes will be gone because they are not
+in your NixOS config.
+But this is what I like about the Ansible. I can mess around the system, use/evaluate
+my tweaks until the next OS reinstall or to put in my playbooks only those parts which I really like.
+Next time I will install OS I will get only my particular features. I don&amp;rsquo;t need
+to be afraid to loose some of my temporary tweaks by accidental &lt;code&gt;nixos-rebuild&lt;/code&gt;.
+I believe, you could do the same with NixOS, but&amp;hellip; &lt;code&gt;nixos-rebuild&lt;/code&gt; sounds too
+dangerous to have there (as of my current understanding).
+As of my understanding now, NixOS is more suitable for server setups, where the
+all components are well known and you truly need 100% reproducibility.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

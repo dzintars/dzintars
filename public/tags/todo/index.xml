@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ToDo on Dzintars Klavins</title>
+    <link>http://localhost:45463/tags/todo/</link>
+    <description>Recent content in ToDo on Dzintars Klavins</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Feb 2024 16:20:06 +0200</lastBuildDate>
+    <atom:link href="http://localhost:45463/tags/todo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My General Todo</title>
+      <link>http://localhost:45463/posts/my-general-todo/</link>
+      <pubDate>Tue, 27 Feb 2024 16:20:06 +0200</pubDate>
+      <guid>http://localhost:45463/posts/my-general-todo/</guid>
+      <description>&lt;p&gt;This it just a list of things I would like to do at some point of time.&lt;/p&gt;
+&lt;p&gt;In no specific order.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn Angular&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn Java&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Build metal melting furnace&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn to touch type at 100 wmp&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn English&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn Cyber Security (Red/Purple Teaming)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn proper microservices&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn reactive programming&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn Android app development&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Get a all categories driving license including all types of tractors&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Build Oswee web app&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Maintain YouTube channel&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Buy/Build high precision metal lathe&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Buy 50 - 100ha land&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Build a home&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Build woodworking and metalworking workshop&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn metal casting&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn welding&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Get good at something&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Solo walk to the South Pole (too much people on Mt. Evererest)&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,103 +2,506 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Dzintars Klavins</title>
-    <link>https://dzintars.dev/posts/</link>
+    <link>http://localhost:45463/posts/</link>
     <description>Recent content in Posts on Dzintars Klavins</description>
-    <generator>Hugo -- 0.122.0</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jul 2024 14:21:52 +0300</lastBuildDate>
-    <atom:link href="https://dzintars.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Sep 2024 13:06:29 +0300</lastBuildDate>
+    <atom:link href="http://localhost:45463/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 Sep 06</title>
+      <link>http://localhost:45463/posts/2024-sep-06/</link>
+      <pubDate>Thu, 05 Sep 2024 13:06:29 +0300</pubDate>
+      <guid>http://localhost:45463/posts/2024-sep-06/</guid>
+      <description>&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Erlang-A90533?logo=erlang&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Erlang Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Elixir-4B275F?logo=elixir&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Elixir Badge&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;Today, I’m adding Elixir and Erlang to my attention context. I’ll start exploring this ecosystem more closely.&lt;/p&gt;
+&lt;p&gt;Several characteristics of Elixir and Erlang are particularly appealing for my projects.&lt;/p&gt;
+&lt;p&gt;Other than that busy by working on PKI and EJBCA.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Deploy Rootless HAProxy as Podman Quadlet</title>
+      <link>http://localhost:45463/posts/how-to-deploy-rootless-haproxy-as-podman-quadlet/</link>
+      <pubDate>Tue, 03 Sep 2024 16:24:34 +0300</pubDate>
+      <guid>http://localhost:45463/posts/how-to-deploy-rootless-haproxy-as-podman-quadlet/</guid>
+      <description>&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Linux-FCC624?logo=linux&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Linux Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Podman-892CA0?logo=podman&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Podman Badge&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p class=&#34;note&#34;&gt;This post is raw. No grammar is checked.&lt;/p&gt;
+
+
+&lt;p&gt;When doing local development or just tinkering with this or that, quite often
+you want to expose something to the Internet.&lt;/p&gt;
+&lt;p&gt;When it&amp;rsquo;s just single &amp;ldquo;something&amp;rdquo;, then you can just forward your port 80 from
+router, to your machine&amp;rsquo;s &amp;ldquo;something&amp;rdquo; port.&lt;/p&gt;
+&lt;p&gt;But this falls appart if you have two &amp;ldquo;something&amp;rdquo; you want to expose to the
+Internet. You can&amp;rsquo;t forward single &lt;code&gt;80&lt;/code&gt; port from your router to two different
+applications running on your machine. Because one application will be running
+for example on &lt;code&gt;8080&lt;/code&gt; port and the other on &lt;code&gt;8081&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Integrate Flyway Into Linux Desktop Environment</title>
+      <link>http://localhost:45463/posts/how-to-integrate-flyway-into-linux-desktop-environment/</link>
+      <pubDate>Mon, 05 Aug 2024 18:33:04 +0300</pubDate>
+      <guid>http://localhost:45463/posts/how-to-integrate-flyway-into-linux-desktop-environment/</guid>
+      <description>&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Flyway-CC0200?logo=flyway&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Flyway Badge&#34; /&gt;
+
+&lt;p&gt;Today I decided to ditch Flyway Desktop execution from CLI and integrate into my
+Sway + Wofi desktop environment.
+Basically, there is what you need:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Get an &lt;a href=&#34;https://simpleicons.org/?q=flayway&#34;&gt;Flyway icon&lt;/a&gt; and paste it into &lt;code&gt;flyway.svg&lt;/code&gt; file&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Copy that SVG file into
+&lt;code&gt;$HOME/.local/share/icons/hicolor/scalable/apps/flyway.svg&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Change the color for the icon by adding &lt;code&gt;fill=&amp;quot;#CC0200&amp;quot;&lt;/code&gt; to the path&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create an &lt;code&gt;$HOME/.local/share/applications/flyway.desktop&lt;/code&gt; file with the
+content like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Desktop&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Entry&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Version&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1.0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Type&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Application&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Flyway&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;GenericName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Database&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;migration&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;tool&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Comment&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Database&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Migrations&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Made&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Easy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Categories&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;IDE&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Development&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Keywords&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Database&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;SQL&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;IDE&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;JDBC&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ODBC&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;MySQL&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;PostgreSQL&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Oracle&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;DB2&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;MariaDB&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Exec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;HOME&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;local&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;share&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;flyway&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;flyway-desktop&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;flyway-desktop&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;--enable-features&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;UseOzonePlatform&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;--ozone-platform&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;wayland&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;--no-sandbox&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;U&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Icon&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;flyway&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Terminal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;MimeType&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;application&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;sql&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Because Flyway Desktop is Electron app, we are passing few flags to run it on
+Wayland system. If you still use Xorg, then just remove those flags.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2024 Jul 28</title>
+      <link>http://localhost:45463/posts/2024-jul-28/</link>
+      <pubDate>Sun, 28 Jul 2024 13:46:44 +0300</pubDate>
+      <guid>http://localhost:45463/posts/2024-jul-28/</guid>
+      <description>&lt;h1 id=&#34;establishing-php-dev-and-pod-environments&#34;&gt;Establishing PHP dev and pod environments&lt;/h1&gt;
+&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Ansible-EE0000?logo=ansible&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Ansible Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Podman-892CA0?logo=podman&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Podman Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/PHP-777BB4?logo=php&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;PHP Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/MariaDB-003545?logo=mariadb&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;MariaDB Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Nginx-009639?logo=nginx&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Nginx Badge&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;Still continuing my &lt;a href=&#34;http://localhost:45463/posts/2024-jul-13&#34;&gt;2024-jul-13&lt;/a&gt; journey.
+Because there are no any Dev/Prod enviroment whatsoever&amp;hellip; I need to create one.
+At the same time I have no experience with PHP runtimes and need to learn a bit
+about it.&lt;/p&gt;
+&lt;p&gt;At this day, I managed to create working containerized Nginx, PHP-FPM and
+MariaDB workload to run PHP applications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Setup and Host Personal Blog for free with GitHub and Hugo</title>
+      <link>http://localhost:45463/posts/how-to-setup-and-host-personal-blog/</link>
+      <pubDate>Sat, 13 Jul 2024 23:49:42 +0300</pubDate>
+      <guid>http://localhost:45463/posts/how-to-setup-and-host-personal-blog/</guid>
+      <description>&lt;p&gt;So&amp;hellip; you are thinking about your own blog for a long time. But&amp;hellip; it all felt
+complicated, required too much time and you were even not sure, what would you
+write there.&lt;/p&gt;
+&lt;p&gt;I can&amp;rsquo;t help you with the &amp;ldquo;what to write&amp;rdquo; part&amp;hellip; but, I can help to share my
+experience about setting this blog up and hosting it for free.&lt;/p&gt;
+&lt;p&gt;I will try my best to write it a newbie friendly as I can, but it might be
+challenging a bit as my own system and workflow is highly customized and I might
+forgot that I have one or the other thing configured to make it work. And thus,
+I migh write the workflow which does not work for you. If that is the case,
+please feel free to ask for clarification in the GitHub issues. Just press the
+&amp;ldquo;Suggest Changes&amp;rdquo; at the top of this article and open an
+&lt;a href=&#34;https://github.com/dzintars/dzintars/issues&#34;&gt;Issue&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2024 Jul 13</title>
-      <link>https://dzintars.dev/posts/2024-jul-13/</link>
+      <link>http://localhost:45463/posts/2024-jul-13/</link>
       <pubDate>Sat, 13 Jul 2024 14:21:52 +0300</pubDate>
-      <guid>https://dzintars.dev/posts/2024-jul-13/</guid>
-      <description>Migrating old databases Currently mostly busy with modernizing 15 years old infrastructure of some customer. Old and huge MySQL databses. No foreign keys. No timestamps. It&amp;rsquo;s all pretty convoluted. Many VM&amp;rsquo;s running directly on KVM without libvirt abstraction. Failing hard drives. Old PHP. And the overaly of many &amp;ldquo;big brain&amp;rdquo; sysadmins.
-But at least, I gained full access to the most of the resources, restored passwords, established secure remote access, etc.</description>
+      <guid>http://localhost:45463/posts/2024-jul-13/</guid>
+      <description>&lt;h1 id=&#34;migrating-old-databases&#34;&gt;Migrating old databases&lt;/h1&gt;
+&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Flyway-CC0200?logo=flyway&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Flyway Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/MariaDB-003545?logo=mariadb&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;MariaDB Badge&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;Currently mostly busy with modernizing 15 years old infrastructure of some
+customer.
+Old and huge MySQL databses. No foreign keys. No timestamps. It&amp;rsquo;s all pretty
+convoluted.
+Many VM&amp;rsquo;s running directly on KVM without libvirt abstraction. Failing hard
+drives. Old PHP. And the overaly of many &amp;ldquo;big brain&amp;rdquo; sysadmins.&lt;/p&gt;
+&lt;p&gt;But at least, I gained full access to the most of the resources, restored
+passwords, established secure remote access, etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2024 Apr 19</title>
+      <link>http://localhost:45463/posts/2024-apr-19/</link>
+      <pubDate>Fri, 19 Apr 2024 20:02:43 +0300</pubDate>
+      <guid>http://localhost:45463/posts/2024-apr-19/</guid>
+      <description>&lt;p&gt;So&amp;hellip; finally disaster I was not expecting at all happened.
+2 of my identical 10K HDD drives died and I lost about 6 months of my work.
+(Don&amp;rsquo;t buy 2 drives at the same shop at the same time).
+Luckily I was able to recover at least some parts from the caches, but&amp;hellip; not
+sure how much.
+My only hope is to get identical controller for my drives and to try recover.
+Not sure will I succeed.
+From the other side&amp;hellip; rewriting is also not that bad idea&amp;hellip; so&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Store Ansible Vault Password</title>
+      <link>http://localhost:45463/posts/how-to-store-ansible-vault-password/</link>
+      <pubDate>Wed, 27 Mar 2024 13:18:12 +0200</pubDate>
+      <guid>http://localhost:45463/posts/how-to-store-ansible-vault-password/</guid>
+      <description>&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Ansible-EE0000?logo=ansible&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Ansible Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/KeePassXC-6CAC4D?logo=keepassxc&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;KeePassXC Badge&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;There are several ways to pass the Ansible Vault password.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;classic CLI prompt which requires manual intervention&lt;/li&gt;
+&lt;li&gt;password file which should be stored somewhere accessible to the Ansible&lt;/li&gt;
+&lt;li&gt;environment variable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Today I will tell about my latest approach.&lt;/p&gt;
+&lt;p&gt;I am using tool called &lt;a href=&#34;https://direnv.net&#34;&gt;Direnv&lt;/a&gt; which loads and unloads different environment
+variables when you enter the directory.&lt;/p&gt;
+&lt;p&gt;Direnv uses &lt;code&gt;.envrc&lt;/code&gt; files to read the variables from.&lt;/p&gt;
+&lt;p&gt;Typically, this file should be in your &lt;code&gt;.gitignore&lt;/code&gt; so that you don&amp;rsquo;t leak any
+secrets.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024 Mar 25</title>
-      <link>https://dzintars.dev/posts/2024-mar-25/</link>
+      <link>http://localhost:45463/posts/2024-mar-25/</link>
       <pubDate>Mon, 25 Mar 2024 22:13:09 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/2024-mar-25/</guid>
-      <description>Looks like my little starter blog is working. At least there is some activity around it.
-After all the things I went back to rewriting my infra components to Podman Quadlets 1 by utilizing Ansible. I think, I figured out general pattern. Yet, I&amp;rsquo;m not quite happy how do I handle network creation. I need to encapsulate it into single generic role instead writing the same network role in every collection.</description>
+      <guid>http://localhost:45463/posts/2024-mar-25/</guid>
+      <description>&lt;p&gt;Looks like my little starter blog is working. At least there is some activity around it.&lt;/p&gt;
+&lt;p&gt;After all the things I went back to rewriting my infra components to &lt;strong&gt;Podman
+Quadlets&lt;/strong&gt; &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; by utilizing &lt;strong&gt;Ansible&lt;/strong&gt;. I think, I figured out general pattern. Yet, I&amp;rsquo;m
+not quite happy how do I handle network creation. I need to encapsulate it into
+single generic role instead writing the same network role in every collection.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:45463/posts/hugo/</link>
+      <pubDate>Mon, 18 Mar 2024 12:25:28 +0200</pubDate>
+      <guid>http://localhost:45463/posts/hugo/</guid>
+      <description>&lt;h2 id=&#34;todo&#34;&gt;ToDo:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Still not sure how to use tags and categories properly. Just throwing ****
+at walls and looking what sticks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tests&#34;&gt;Tests&lt;/h2&gt;
+&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
+&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;
+&lt;p&gt;This is just test page to test Hugo features.&lt;/p&gt;
+&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an
+unknown printer took a galley.&lt;/p&gt;</description>
     </item>
     <item>
       <title>NixOS vs Ansible</title>
-      <link>https://dzintars.dev/posts/nixos/</link>
+      <link>http://localhost:45463/posts/nixos/</link>
       <pubDate>Wed, 28 Feb 2024 12:55:08 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/nixos/</guid>
-      <description>My opinion on this is still not stable or true and I might change my mind later when I will really try NixOS.
-I see the constant hype around the NixOS and one of the main selling points is its reproducibility. Under the Ansible, you configure only whats in your playbooks. And it&amp;rsquo;s easy to mess around the system bypassing the Ansible. In NixOS that&amp;rsquo;s not the case. If you make any add-hock changes on NixOS and then run nixos-rebuild all your crafted changes will be gone because they are not in your NixOS config.</description>
+      <guid>http://localhost:45463/posts/nixos/</guid>
+      <description>&lt;p class=&#34;note&#34;&gt;My opinion on this is still not stable or true and I might change my mind later when I will really try NixOS.&lt;/p&gt;
+
+
+&lt;p&gt;I see the constant hype around the NixOS and one of the main selling points is
+its reproducibility. Under the Ansible, you configure only whats in your
+playbooks. And it&amp;rsquo;s easy to mess around the system bypassing the Ansible. In
+NixOS that&amp;rsquo;s not the case. If you make any ad hoc changes on NixOS and then
+run &lt;code&gt;nixos-rebuild&lt;/code&gt; all your crafted changes will be gone because they are not
+in your NixOS config.
+But this is what I like about the Ansible. I can mess around the system, use/evaluate
+my tweaks until the next OS reinstall or to put in my playbooks only those parts which I really like.
+Next time I will install OS I will get only my particular features. I don&amp;rsquo;t need
+to be afraid to loose some of my temporary tweaks by accidental &lt;code&gt;nixos-rebuild&lt;/code&gt;.
+I believe, you could do the same with NixOS, but&amp;hellip; &lt;code&gt;nixos-rebuild&lt;/code&gt; sounds too
+dangerous to have there (as of my current understanding).
+As of my understanding now, NixOS is more suitable for server setups, where the
+all components are well known and you truly need 100% reproducibility.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My General Todo</title>
+      <link>http://localhost:45463/posts/my-general-todo/</link>
+      <pubDate>Tue, 27 Feb 2024 16:20:06 +0200</pubDate>
+      <guid>http://localhost:45463/posts/my-general-todo/</guid>
+      <description>&lt;p&gt;This it just a list of things I would like to do at some point of time.&lt;/p&gt;
+&lt;p&gt;In no specific order.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn Angular&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn Java&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Build metal melting furnace&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn to touch type at 100 wmp&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn English&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn Cyber Security (Red/Purple Teaming)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn proper microservices&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn reactive programming&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn Android app development&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Get a all categories driving license including all types of tractors&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Build Oswee web app&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Maintain YouTube channel&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Buy/Build high precision metal lathe&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Buy 50 - 100ha land&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Build a home&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Build woodworking and metalworking workshop&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn metal casting&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Learn welding&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Get good at something&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Solo walk to the South Pole (too much people on Mt. Evererest)&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>My Note Taking System</title>
-      <link>https://dzintars.dev/posts/my-note-taking-system/</link>
+      <link>http://localhost:45463/posts/my-note-taking-system/</link>
       <pubDate>Sat, 24 Feb 2024 14:10:25 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/my-note-taking-system/</guid>
-      <description>Why For a long time I didn&amp;rsquo;t care about the note taking too much, thou, I was writing long MS Word documents with the ideas of the project, user stories and other things.
-It all changed when I switched to the Linux. Because Linux was pretty much new to me, I had a lot to learn and remember. So, gradually I started to write my little runbooks to document the steps I took to get to the point B.</description>
+      <guid>http://localhost:45463/posts/my-note-taking-system/</guid>
+      <description>&lt;p class=&#34;note&#34;&gt;WIP. This post is not finished.&lt;/p&gt;
+
+
+&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;
+&lt;p&gt;For a long time I didn&amp;rsquo;t care about the note taking too much, thou, I was
+writing long MS Word documents with the ideas of the project, user stories and
+other things.&lt;/p&gt;
+&lt;p&gt;It all changed when I switched to the Linux. Because Linux was pretty much new
+to me, I had a lot to learn and remember. So, gradually I started to write my
+little runbooks to document the steps I took to get to the point B. For example,
+how do I create SSH keys. Or how do I configure my firewall. And so on.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Integrate Google Analytics Into Hugo PaperMod Theme</title>
-      <link>https://dzintars.dev/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/</link>
+      <link>http://localhost:45463/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/</link>
       <pubDate>Thu, 22 Feb 2024 12:38:03 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/</guid>
-      <description>As I&amp;rsquo;m setting up my shiny new blog, I stuck at Google Analytics integration. It looks like official PaperMod lacks some documentation on this topic.
-So&amp;hellip; there is what worked for me.
-Don&amp;rsquo;t use analytics.google.SiteVerificationTag directive.
-Use only googleAnalytics: G-xxxxxxx directive.
-Create new file in layouts/_internal/google_analytics.html and paste the entire code snippet you got from GA property setup page.
-Basically that&amp;rsquo;s it.
-This partial will be automatically included in every Hugo page.</description>
+      <guid>http://localhost:45463/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/</guid>
+      <description>&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Hugo-FF4088?logo=hugo&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Hugo Badge&#34; /&gt;
+
+&lt;p&gt;As I&amp;rsquo;m setting up my shiny new blog, I stuck at Google Analytics integration.
+It looks like official PaperMod lacks some documentation on this topic.&lt;/p&gt;
+&lt;p&gt;So&amp;hellip; there is what worked for me.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t use &lt;code&gt;analytics.google.SiteVerificationTag&lt;/code&gt; directive mentioned somewhere in the PaperMod docs or whatever.&lt;/p&gt;
+&lt;p&gt;Instead, we will stick with more &lt;em&gt;idiomatic&lt;/em&gt; &lt;a href=&#34;https://gohugo.io/templates/embedded/#google-analytics&#34;&gt;Hugo Docs&lt;/a&gt; approach and use this stanza:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;services&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;googleAnalytics&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;G-XXXXXXX&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Just stick in somewhere in &lt;code&gt;hugo.yaml&lt;/code&gt; config file. And make sure, you have right spacing for every line. 2 and 4 spaces in this case for 2nd and 3rd line. Yaml format/language is &lt;strong&gt;very&lt;/strong&gt; picky about the spaces.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My CLI Centric Workflow</title>
-      <link>https://dzintars.dev/posts/my-cli-centric-workflow/</link>
+      <link>http://localhost:45463/posts/my-cli-centric-workflow/</link>
       <pubDate>Wed, 21 Feb 2024 22:12:40 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/my-cli-centric-workflow/</guid>
-      <description>For a very long time I was Windows only user. Nor did I liked it, nor did I hated it. I just was somewhat above average user. But it all ended when I started to work with Go and Kafka Go library which I needed to cross-compile for an Linux system. And it was pain. CygWin, MinGW an a lot of gymnastics around it. In parallel I was trying to be in the &amp;ldquo;microservices&amp;rdquo; hype train.</description>
+      <guid>http://localhost:45463/posts/my-cli-centric-workflow/</guid>
+      <description>&lt;p class=&#34;note&#34;&gt;WIP. This post is not finished.&lt;/p&gt;
+
+
+&lt;p&gt;For a very long time I was Windows only user. Nor did I liked it, nor did I
+hated it. I just was somewhat above average user. But it all ended when I
+started to work with Go and Kafka Go library which I needed to cross-compile for
+an Linux system. And it was pain. CygWin, MinGW an a lot of gymnastics around
+it. In parallel I was trying to be in the &amp;ldquo;microservices&amp;rdquo; hype train. I was
+constantly running like 20 terminal windows for each little service, observing
+logs, restarting, compiling, etc. It was a pain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zettelkasten Note Taking</title>
+      <link>http://localhost:45463/posts/zettelkasten-note-taking/</link>
+      <pubDate>Wed, 21 Feb 2024 20:24:52 +0200</pubDate>
+      <guid>http://localhost:45463/posts/zettelkasten-note-taking/</guid>
+      <description></description>
     </item>
     <item>
       <title>Websockets and Kafka</title>
-      <link>https://dzintars.dev/posts/websockets-and-kafka/</link>
+      <link>http://localhost:45463/posts/websockets-and-kafka/</link>
       <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/websockets-and-kafka/</guid>
-      <description>Why I had this idea about the highly reactive collaborative web application. After messing around I ended up with PoC which consisted of bunch of Go services and on top of that I somewhat implemented CQRS architecture.
-How front wss srp
-General idea was that websocket is used as protocol. Custom message format is created and synchronized between TypeScript and Go with help of Protocol Buffers, gRPC and few gRPC extensions.</description>
+      <guid>http://localhost:45463/posts/websockets-and-kafka/</guid>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;
+&lt;p&gt;I had this idea about the highly reactive collaborative web application.
+After messing around I ended up with PoC which consisted of bunch of Go services
+and on top of that I somewhat implemented CQRS architecture.&lt;/p&gt;
+&lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dzintars/front&#34;&gt;front&lt;/a&gt;
+&lt;a href=&#34;https://github.com/dzintars/wss&#34;&gt;wss&lt;/a&gt;
+&lt;a href=&#34;https://github.com/dzintars/srp&#34;&gt;srp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;General idea was that websocket is used as protocol. Custom message format is
+created and synchronized between TypeScript and Go with help of Protocol
+Buffers, gRPC and few gRPC extensions. But this process is bit cumbersome and
+this is where I went off-road into Bazel and DevOps&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024 Feb 21</title>
-      <link>https://dzintars.dev/posts/2024-feb-21/</link>
+      <link>http://localhost:45463/posts/2024-feb-21/</link>
       <pubDate>Wed, 21 Feb 2024 17:50:12 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/2024-feb-21/</guid>
-      <description>Tinkering with my Hugo blog I&amp;rsquo;m still not sure what will I do with it, but&amp;hellip; at least this will be done.
-I picked Hugo as it seems simple enough for my current needs. Just drop some markdown and you are done. Sounds good. I don&amp;rsquo;t even plan to customize default theme for now as typography looks good, theme is supported. Like&amp;hellip; there is everything I need. Most important goal for me is to start accumulate some content.</description>
+      <guid>http://localhost:45463/posts/2024-feb-21/</guid>
+      <description>&lt;h2 id=&#34;tinkering-with-my-hugo-blog&#34;&gt;Tinkering with my Hugo blog&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m still not sure what will I do with it, but&amp;hellip; at least this will be done.&lt;/p&gt;
+&lt;p&gt;I picked Hugo as it seems simple enough for my current needs. Just drop some
+markdown and you are done. Sounds good. I don&amp;rsquo;t even plan to customize default
+theme for now as typography looks good, theme is supported. Like&amp;hellip; there is
+everything I need. Most important goal for me is to start accumulate some
+content.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Personal Productivity Environment</title>
-      <link>https://dzintars.dev/posts/my-personal-productivity-environment/</link>
+      <link>http://localhost:45463/posts/my-personal-productivity-environment/</link>
       <pubDate>Wed, 21 Feb 2024 17:28:52 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/my-personal-productivity-environment/</guid>
-      <description>This post is a public draft, which may or may not be completed. As new thoughts come to mind, I may improve this article over time.
-PC Monitor setup I&amp;rsquo;ve been everywhere. From a single tiny 15&amp;quot; laptop to 4 screens + TV. But currently I&amp;rsquo;m at two monitor setup and even seriously considering one 32&amp;quot; 4K monitor setup. The thing about the multi-monitor setup is that it is misleading feeling about boosted productivity, because you &amp;ldquo;control&amp;rdquo; more things at once.</description>
+      <guid>http://localhost:45463/posts/my-personal-productivity-environment/</guid>
+      <description>&lt;p class=&#34;note&#34;&gt;This post is a public draft, which may or may not be completed. As new thoughts come to mind, I may improve this article over time.&lt;/p&gt;
+
+
+&lt;h2 id=&#34;pc&#34;&gt;PC&lt;/h2&gt;
+&lt;h2 id=&#34;monitor-setup&#34;&gt;Monitor setup&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve been everywhere. From a single tiny 15&amp;quot; laptop to 4 screens + TV.
+But currently I&amp;rsquo;m at two monitor setup and even seriously considering one 32&amp;quot; 4K monitor
+setup. The thing about the multi-monitor setup is that it is misleading feeling
+about boosted productivity, because you &amp;ldquo;control&amp;rdquo; more things at once. In
+reality, you get more distracted from your current particular task. But most
+users doesn&amp;rsquo;t recognize that. I figured that out when suddenly one of my screens
+went into dark and I was lazy enough not to deal with that. Instead I just
+worked on a single screen for several weeks or even months. And you know&amp;hellip; i
+liked it! At any single given time i have only one task in front of me. And the
+key for this comfort was customized key binds on my home row for quick workspace
+switch. I can navigate all my workspaces in a split second. Back and forward. I
+am huge proponent of mastering your keyboard and tailoring your navigation
+around the OS. Everything should be in the right place for no-effort execution.
+If navigation is pain for you, you will look for the things like 4 to 6 monitor
+setups which is just awful.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SPA Front page application</title>
-      <link>https://dzintars.dev/posts/spa-front-page-application/</link>
+      <link>http://localhost:45463/posts/spa-front-page-application/</link>
       <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/spa-front-page-application/</guid>
-      <description>About the Project It&amp;rsquo;s a SPA-style web application based on a bunch of buzzword technologies, most importantly Web Components. The idea behind choosing web components was to accumulate a bunch of reusable components that would be framework-agnostic over time. At the time of creating the project, React was the only framework that didn&amp;rsquo;t support web components, but times might have changed since then.
-TODO: Add some images
-TIL (Today I Learned) Redux features: Thinking in terms of &amp;ldquo;features&amp;rdquo; helped me come up with a better code structure.</description>
+      <guid>http://localhost:45463/posts/spa-front-page-application/</guid>
+      <description>&lt;h2 id=&#34;about-the-project&#34;&gt;About the Project&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s a SPA-style web application based on a bunch of buzzword technologies, most importantly &lt;strong&gt;Web Components&lt;/strong&gt;. The idea behind choosing web components was to accumulate a bunch of reusable components that would be framework-agnostic over time. At the time of creating the project, React was the only framework that didn&amp;rsquo;t support web components, but times might have changed since then.&lt;/p&gt;
+
+&lt;p class=&#34;note&#34;&gt;TODO: Add some images&lt;/p&gt;
+
+
+&lt;h3 id=&#34;til-today-i-learned&#34;&gt;TIL (Today I Learned)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Redux&lt;/strong&gt; features: Thinking in terms of &amp;ldquo;features&amp;rdquo; helped me come up with a better code structure.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://dzintars.dev/posts/about/</link>
+      <link>http://localhost:45463/posts/about/</link>
       <pubDate>Thu, 15 Feb 2024 11:30:03 +0000</pubDate>
-      <guid>https://dzintars.dev/posts/about/</guid>
+      <guid>http://localhost:45463/posts/about/</guid>
       <description>A little bit about me</description>
     </item>
   </channel>

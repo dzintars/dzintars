@@ -2,52 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Dzintars Klavins</title>
-    <link>https://dzintars.dev/categories/</link>
+    <link>http://localhost:45463/categories/</link>
     <description>Recent content in Categories on Dzintars Klavins</description>
-    <generator>Hugo -- 0.122.0</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jul 2024 14:21:52 +0300</lastBuildDate>
-    <atom:link href="https://dzintars.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Sep 2024 13:06:29 +0300</lastBuildDate>
+    <atom:link href="http://localhost:45463/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Now</title>
-      <link>https://dzintars.dev/categories/now/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dzintars.dev/categories/now/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ansible</title>
-      <link>https://dzintars.dev/categories/ansible/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dzintars.dev/categories/ansible/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>https://dzintars.dev/categories/linux/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dzintars.dev/categories/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Productivity</title>
-      <link>https://dzintars.dev/categories/productivity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dzintars.dev/categories/productivity/</guid>
+      <link>http://localhost:45463/categories/now/</link>
+      <pubDate>Thu, 05 Sep 2024 13:06:29 +0300</pubDate>
+      <guid>http://localhost:45463/categories/now/</guid>
       <description></description>
     </item>
     <item>
       <title>How To&#39;s</title>
-      <link>https://dzintars.dev/categories/how-tos/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dzintars.dev/categories/how-tos/</guid>
+      <link>http://localhost:45463/categories/how-tos/</link>
+      <pubDate>Tue, 03 Sep 2024 16:24:34 +0300</pubDate>
+      <guid>http://localhost:45463/categories/how-tos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ansible</title>
+      <link>http://localhost:45463/categories/ansible/</link>
+      <pubDate>Wed, 27 Mar 2024 13:18:12 +0200</pubDate>
+      <guid>http://localhost:45463/categories/ansible/</guid>
       <description></description>
     </item>
     <item>
       <title>Projects</title>
-      <link>https://dzintars.dev/categories/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dzintars.dev/categories/projects/</guid>
+      <link>http://localhost:45463/categories/projects/</link>
+      <pubDate>Mon, 18 Mar 2024 12:25:28 +0200</pubDate>
+      <guid>http://localhost:45463/categories/projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:45463/categories/linux/</link>
+      <pubDate>Wed, 28 Feb 2024 12:55:08 +0200</pubDate>
+      <guid>http://localhost:45463/categories/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ToDO</title>
+      <link>http://localhost:45463/categories/todo/</link>
+      <pubDate>Tue, 27 Feb 2024 16:20:06 +0200</pubDate>
+      <guid>http://localhost:45463/categories/todo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Productivity</title>
+      <link>http://localhost:45463/categories/productivity/</link>
+      <pubDate>Sat, 24 Feb 2024 14:10:25 +0200</pubDate>
+      <guid>http://localhost:45463/categories/productivity/</guid>
       <description></description>
     </item>
   </channel>

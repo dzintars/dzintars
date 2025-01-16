@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Security on Dzintars Klavins</title>
+    <link>http://localhost:45463/tags/security/</link>
+    <description>Recent content in Security on Dzintars Klavins</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Mar 2024 13:18:12 +0200</lastBuildDate>
+    <atom:link href="http://localhost:45463/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Store Ansible Vault Password</title>
+      <link>http://localhost:45463/posts/how-to-store-ansible-vault-password/</link>
+      <pubDate>Wed, 27 Mar 2024 13:18:12 +0200</pubDate>
+      <guid>http://localhost:45463/posts/how-to-store-ansible-vault-password/</guid>
+      <description>&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Ansible-EE0000?logo=ansible&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Ansible Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/KeePassXC-6CAC4D?logo=keepassxc&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;KeePassXC Badge&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;There are several ways to pass the Ansible Vault password.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;classic CLI prompt which requires manual intervention&lt;/li&gt;
+&lt;li&gt;password file which should be stored somewhere accessible to the Ansible&lt;/li&gt;
+&lt;li&gt;environment variable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Today I will tell about my latest approach.&lt;/p&gt;
+&lt;p&gt;I am using tool called &lt;a href=&#34;https://direnv.net&#34;&gt;Direnv&lt;/a&gt; which loads and unloads different environment
+variables when you enter the directory.&lt;/p&gt;
+&lt;p&gt;Direnv uses &lt;code&gt;.envrc&lt;/code&gt; files to read the variables from.&lt;/p&gt;
+&lt;p&gt;Typically, this file should be in your &lt;code&gt;.gitignore&lt;/code&gt; so that you don&amp;rsquo;t leak any
+secrets.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

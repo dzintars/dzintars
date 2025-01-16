@@ -2,29 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Dzintars Klavins</title>
-    <link>https://dzintars.dev/categories/projects/</link>
+    <link>http://localhost:45463/categories/projects/</link>
     <description>Recent content in Projects on Dzintars Klavins</description>
-    <generator>Hugo -- 0.122.0</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Feb 2024 19:46:43 +0200</lastBuildDate>
-    <atom:link href="https://dzintars.dev/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Mar 2024 12:25:28 +0200</lastBuildDate>
+    <atom:link href="http://localhost:45463/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:45463/posts/hugo/</link>
+      <pubDate>Mon, 18 Mar 2024 12:25:28 +0200</pubDate>
+      <guid>http://localhost:45463/posts/hugo/</guid>
+      <description>&lt;h2 id=&#34;todo&#34;&gt;ToDo:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Still not sure how to use tags and categories properly. Just throwing ****
+at walls and looking what sticks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tests&#34;&gt;Tests&lt;/h2&gt;
+&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
+&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;
+&lt;p&gt;This is just test page to test Hugo features.&lt;/p&gt;
+&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an
+unknown printer took a galley.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Websockets and Kafka</title>
-      <link>https://dzintars.dev/posts/websockets-and-kafka/</link>
+      <link>http://localhost:45463/posts/websockets-and-kafka/</link>
       <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/websockets-and-kafka/</guid>
-      <description>Why I had this idea about the highly reactive collaborative web application. After messing around I ended up with PoC which consisted of bunch of Go services and on top of that I somewhat implemented CQRS architecture.
-How front wss srp
-General idea was that websocket is used as protocol. Custom message format is created and synchronized between TypeScript and Go with help of Protocol Buffers, gRPC and few gRPC extensions.</description>
+      <guid>http://localhost:45463/posts/websockets-and-kafka/</guid>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;
+&lt;p&gt;I had this idea about the highly reactive collaborative web application.
+After messing around I ended up with PoC which consisted of bunch of Go services
+and on top of that I somewhat implemented CQRS architecture.&lt;/p&gt;
+&lt;h2 id=&#34;how&#34;&gt;How&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dzintars/front&#34;&gt;front&lt;/a&gt;
+&lt;a href=&#34;https://github.com/dzintars/wss&#34;&gt;wss&lt;/a&gt;
+&lt;a href=&#34;https://github.com/dzintars/srp&#34;&gt;srp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;General idea was that websocket is used as protocol. Custom message format is
+created and synchronized between TypeScript and Go with help of Protocol
+Buffers, gRPC and few gRPC extensions. But this process is bit cumbersome and
+this is where I went off-road into Bazel and DevOps&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>SPA Front page application</title>
-      <link>https://dzintars.dev/posts/spa-front-page-application/</link>
+      <link>http://localhost:45463/posts/spa-front-page-application/</link>
       <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/spa-front-page-application/</guid>
-      <description>About the Project It&amp;rsquo;s a SPA-style web application based on a bunch of buzzword technologies, most importantly Web Components. The idea behind choosing web components was to accumulate a bunch of reusable components that would be framework-agnostic over time. At the time of creating the project, React was the only framework that didn&amp;rsquo;t support web components, but times might have changed since then.
-TODO: Add some images
-TIL (Today I Learned) Redux features: Thinking in terms of &amp;ldquo;features&amp;rdquo; helped me come up with a better code structure.</description>
+      <guid>http://localhost:45463/posts/spa-front-page-application/</guid>
+      <description>&lt;h2 id=&#34;about-the-project&#34;&gt;About the Project&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s a SPA-style web application based on a bunch of buzzword technologies, most importantly &lt;strong&gt;Web Components&lt;/strong&gt;. The idea behind choosing web components was to accumulate a bunch of reusable components that would be framework-agnostic over time. At the time of creating the project, React was the only framework that didn&amp;rsquo;t support web components, but times might have changed since then.&lt;/p&gt;
+
+&lt;p class=&#34;note&#34;&gt;TODO: Add some images&lt;/p&gt;
+
+
+&lt;h3 id=&#34;til-today-i-learned&#34;&gt;TIL (Today I Learned)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Redux&lt;/strong&gt; features: Thinking in terms of &amp;ldquo;features&amp;rdquo; helped me come up with a better code structure.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,24 +2,174 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>How To&#39;s on Dzintars Klavins</title>
-    <link>https://dzintars.dev/categories/how-tos/</link>
+    <link>http://localhost:45463/categories/how-tos/</link>
     <description>Recent content in How To&#39;s on Dzintars Klavins</description>
-    <generator>Hugo -- 0.122.0</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Feb 2024 12:38:03 +0200</lastBuildDate>
-    <atom:link href="https://dzintars.dev/categories/how-tos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Sep 2024 16:24:34 +0300</lastBuildDate>
+    <atom:link href="http://localhost:45463/categories/how-tos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Deploy Rootless HAProxy as Podman Quadlet</title>
+      <link>http://localhost:45463/posts/how-to-deploy-rootless-haproxy-as-podman-quadlet/</link>
+      <pubDate>Tue, 03 Sep 2024 16:24:34 +0300</pubDate>
+      <guid>http://localhost:45463/posts/how-to-deploy-rootless-haproxy-as-podman-quadlet/</guid>
+      <description>&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Linux-FCC624?logo=linux&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Linux Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Podman-892CA0?logo=podman&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Podman Badge&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p class=&#34;note&#34;&gt;This post is raw. No grammar is checked.&lt;/p&gt;
+
+
+&lt;p&gt;When doing local development or just tinkering with this or that, quite often
+you want to expose something to the Internet.&lt;/p&gt;
+&lt;p&gt;When it&amp;rsquo;s just single &amp;ldquo;something&amp;rdquo;, then you can just forward your port 80 from
+router, to your machine&amp;rsquo;s &amp;ldquo;something&amp;rdquo; port.&lt;/p&gt;
+&lt;p&gt;But this falls appart if you have two &amp;ldquo;something&amp;rdquo; you want to expose to the
+Internet. You can&amp;rsquo;t forward single &lt;code&gt;80&lt;/code&gt; port from your router to two different
+applications running on your machine. Because one application will be running
+for example on &lt;code&gt;8080&lt;/code&gt; port and the other on &lt;code&gt;8081&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Integrate Flyway Into Linux Desktop Environment</title>
+      <link>http://localhost:45463/posts/how-to-integrate-flyway-into-linux-desktop-environment/</link>
+      <pubDate>Mon, 05 Aug 2024 18:33:04 +0300</pubDate>
+      <guid>http://localhost:45463/posts/how-to-integrate-flyway-into-linux-desktop-environment/</guid>
+      <description>&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Flyway-CC0200?logo=flyway&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Flyway Badge&#34; /&gt;
+
+&lt;p&gt;Today I decided to ditch Flyway Desktop execution from CLI and integrate into my
+Sway + Wofi desktop environment.
+Basically, there is what you need:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Get an &lt;a href=&#34;https://simpleicons.org/?q=flayway&#34;&gt;Flyway icon&lt;/a&gt; and paste it into &lt;code&gt;flyway.svg&lt;/code&gt; file&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Copy that SVG file into
+&lt;code&gt;$HOME/.local/share/icons/hicolor/scalable/apps/flyway.svg&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Change the color for the icon by adding &lt;code&gt;fill=&amp;quot;#CC0200&amp;quot;&lt;/code&gt; to the path&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create an &lt;code&gt;$HOME/.local/share/applications/flyway.desktop&lt;/code&gt; file with the
+content like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Desktop&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Entry&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Version&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1.0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Type&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Application&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Flyway&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;GenericName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Database&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;migration&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;tool&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Comment&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Database&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Migrations&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Made&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Easy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Categories&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;IDE&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Development&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Keywords&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Database&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;SQL&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;IDE&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;JDBC&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ODBC&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;MySQL&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;PostgreSQL&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Oracle&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;DB2&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;MariaDB&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Exec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;HOME&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;local&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;share&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;flyway&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;flyway-desktop&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;flyway-desktop&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;--enable-features&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;UseOzonePlatform&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;--ozone-platform&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;wayland&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;--no-sandbox&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;U&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Icon&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;flyway&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Terminal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;MimeType&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;application&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;sql&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Because Flyway Desktop is Electron app, we are passing few flags to run it on
+Wayland system. If you still use Xorg, then just remove those flags.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Setup and Host Personal Blog for free with GitHub and Hugo</title>
+      <link>http://localhost:45463/posts/how-to-setup-and-host-personal-blog/</link>
+      <pubDate>Sat, 13 Jul 2024 23:49:42 +0300</pubDate>
+      <guid>http://localhost:45463/posts/how-to-setup-and-host-personal-blog/</guid>
+      <description>&lt;p&gt;So&amp;hellip; you are thinking about your own blog for a long time. But&amp;hellip; it all felt
+complicated, required too much time and you were even not sure, what would you
+write there.&lt;/p&gt;
+&lt;p&gt;I can&amp;rsquo;t help you with the &amp;ldquo;what to write&amp;rdquo; part&amp;hellip; but, I can help to share my
+experience about setting this blog up and hosting it for free.&lt;/p&gt;
+&lt;p&gt;I will try my best to write it a newbie friendly as I can, but it might be
+challenging a bit as my own system and workflow is highly customized and I might
+forgot that I have one or the other thing configured to make it work. And thus,
+I migh write the workflow which does not work for you. If that is the case,
+please feel free to ask for clarification in the GitHub issues. Just press the
+&amp;ldquo;Suggest Changes&amp;rdquo; at the top of this article and open an
+&lt;a href=&#34;https://github.com/dzintars/dzintars/issues&#34;&gt;Issue&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Store Ansible Vault Password</title>
+      <link>http://localhost:45463/posts/how-to-store-ansible-vault-password/</link>
+      <pubDate>Wed, 27 Mar 2024 13:18:12 +0200</pubDate>
+      <guid>http://localhost:45463/posts/how-to-store-ansible-vault-password/</guid>
+      <description>&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Ansible-EE0000?logo=ansible&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Ansible Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/KeePassXC-6CAC4D?logo=keepassxc&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;KeePassXC Badge&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;There are several ways to pass the Ansible Vault password.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;classic CLI prompt which requires manual intervention&lt;/li&gt;
+&lt;li&gt;password file which should be stored somewhere accessible to the Ansible&lt;/li&gt;
+&lt;li&gt;environment variable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Today I will tell about my latest approach.&lt;/p&gt;
+&lt;p&gt;I am using tool called &lt;a href=&#34;https://direnv.net&#34;&gt;Direnv&lt;/a&gt; which loads and unloads different environment
+variables when you enter the directory.&lt;/p&gt;
+&lt;p&gt;Direnv uses &lt;code&gt;.envrc&lt;/code&gt; files to read the variables from.&lt;/p&gt;
+&lt;p&gt;Typically, this file should be in your &lt;code&gt;.gitignore&lt;/code&gt; so that you don&amp;rsquo;t leak any
+secrets.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Integrate Google Analytics Into Hugo PaperMod Theme</title>
-      <link>https://dzintars.dev/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/</link>
+      <link>http://localhost:45463/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/</link>
       <pubDate>Thu, 22 Feb 2024 12:38:03 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/</guid>
-      <description>As I&amp;rsquo;m setting up my shiny new blog, I stuck at Google Analytics integration. It looks like official PaperMod lacks some documentation on this topic.
-So&amp;hellip; there is what worked for me.
-Don&amp;rsquo;t use analytics.google.SiteVerificationTag directive.
-Use only googleAnalytics: G-xxxxxxx directive.
-Create new file in layouts/_internal/google_analytics.html and paste the entire code snippet you got from GA property setup page.
-Basically that&amp;rsquo;s it.
-This partial will be automatically included in every Hugo page.</description>
+      <guid>http://localhost:45463/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/</guid>
+      <description>&lt;p&gt;As I&amp;rsquo;m setting up my shiny new blog, I stuck at Google Analytics integration.
+It looks like official PaperMod lacks some documentation on this topic.&lt;/p&gt;
+&lt;p&gt;So&amp;hellip; there is what worked for me.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t use &lt;code&gt;analytics.google.SiteVerificationTag&lt;/code&gt; directive.&lt;/p&gt;
+&lt;p&gt;Use only &lt;code&gt;googleAnalytics: G-xxxxxxx&lt;/code&gt; directive.&lt;/p&gt;
+&lt;p&gt;Create new file in &lt;code&gt;layouts/_internal/google_analytics.html&lt;/code&gt; and paste the
+entire code snippet you got from GA property setup page.&lt;/p&gt;
+&lt;p&gt;Basically that&amp;rsquo;s it.&lt;/p&gt;
+&lt;p&gt;This partial &lt;del&gt;will be&lt;/del&gt; should be automatically included in the every Hugo page.
+And after your first visit to the page, you will see the first visitor stats on your GA
+dashboard. If it doesn&amp;rsquo;t work immediately, then something is wrong. Might be
+that Hugo upstream changed how it works. Check the &lt;a href=&#34;https://gohugo.io/templates/embedded/#google-analytics&#34;&gt;Hugo Docs&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

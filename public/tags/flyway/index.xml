@@ -2,19 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Flyway on Dzintars Klavins</title>
-    <link>https://dzintars.dev/tags/flyway/</link>
+    <link>http://localhost:45463/tags/flyway/</link>
     <description>Recent content in Flyway on Dzintars Klavins</description>
-    <generator>Hugo -- 0.122.0</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jul 2024 14:21:52 +0300</lastBuildDate>
-    <atom:link href="https://dzintars.dev/tags/flyway/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Aug 2024 18:33:04 +0300</lastBuildDate>
+    <atom:link href="http://localhost:45463/tags/flyway/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Integrate Flyway Into Linux Desktop Environment</title>
+      <link>http://localhost:45463/posts/how-to-integrate-flyway-into-linux-desktop-environment/</link>
+      <pubDate>Mon, 05 Aug 2024 18:33:04 +0300</pubDate>
+      <guid>http://localhost:45463/posts/how-to-integrate-flyway-into-linux-desktop-environment/</guid>
+      <description>&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Flyway-CC0200?logo=flyway&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Flyway Badge&#34; /&gt;
+
+&lt;p&gt;Today I decided to ditch Flyway Desktop execution from CLI and integrate into my
+Sway + Wofi desktop environment.
+Basically, there is what you need:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Get an &lt;a href=&#34;https://simpleicons.org/?q=flayway&#34;&gt;Flyway icon&lt;/a&gt; and paste it into &lt;code&gt;flyway.svg&lt;/code&gt; file&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Copy that SVG file into
+&lt;code&gt;$HOME/.local/share/icons/hicolor/scalable/apps/flyway.svg&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Change the color for the icon by adding &lt;code&gt;fill=&amp;quot;#CC0200&amp;quot;&lt;/code&gt; to the path&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create an &lt;code&gt;$HOME/.local/share/applications/flyway.desktop&lt;/code&gt; file with the
+content like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Desktop&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Entry&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Version&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;1.0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Type&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Application&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Flyway&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;GenericName&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Database&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;migration&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;tool&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Comment&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Database&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Migrations&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Made&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Easy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Categories&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;IDE&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Development&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Keywords&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Database&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;SQL&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;IDE&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;JDBC&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ODBC&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;MySQL&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;PostgreSQL&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;Oracle&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;DB2&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;MariaDB&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Exec&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;HOME&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;local&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;share&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;flyway&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;flyway-desktop&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;flyway-desktop&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;--enable-features&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;UseOzonePlatform&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;--ozone-platform&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;wayland&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;--no-sandbox&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;U&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Icon&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;flyway&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;Terminal&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nx&#34;&gt;MimeType&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;application&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;sql&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Because Flyway Desktop is Electron app, we are passing few flags to run it on
+Wayland system. If you still use Xorg, then just remove those flags.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2024 Jul 13</title>
-      <link>https://dzintars.dev/posts/2024-jul-13/</link>
+      <link>http://localhost:45463/posts/2024-jul-13/</link>
       <pubDate>Sat, 13 Jul 2024 14:21:52 +0300</pubDate>
-      <guid>https://dzintars.dev/posts/2024-jul-13/</guid>
-      <description>Migrating old databases Currently mostly busy with modernizing 15 years old infrastructure of some customer. Old and huge MySQL databses. No foreign keys. No timestamps. It&amp;rsquo;s all pretty convoluted. Many VM&amp;rsquo;s running directly on KVM without libvirt abstraction. Failing hard drives. Old PHP. And the overaly of many &amp;ldquo;big brain&amp;rdquo; sysadmins.
-But at least, I gained full access to the most of the resources, restored passwords, established secure remote access, etc.</description>
+      <guid>http://localhost:45463/posts/2024-jul-13/</guid>
+      <description>&lt;h1 id=&#34;migrating-old-databases&#34;&gt;Migrating old databases&lt;/h1&gt;
+&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Flyway-CC0200?logo=flyway&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Flyway Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/MariaDB-003545?logo=mariadb&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;MariaDB Badge&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;Currently mostly busy with modernizing 15 years old infrastructure of some
+customer.
+Old and huge MySQL databses. No foreign keys. No timestamps. It&amp;rsquo;s all pretty
+convoluted.
+Many VM&amp;rsquo;s running directly on KVM without libvirt abstraction. Failing hard
+drives. Old PHP. And the overaly of many &amp;ldquo;big brain&amp;rdquo; sysadmins.&lt;/p&gt;
+&lt;p&gt;But at least, I gained full access to the most of the resources, restored
+passwords, established secure remote access, etc.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

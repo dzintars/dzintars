@@ -2,35 +2,158 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Now on Dzintars Klavins</title>
-    <link>https://dzintars.dev/categories/now/</link>
+    <link>http://localhost:45463/categories/now/</link>
     <description>Recent content in Now on Dzintars Klavins</description>
-    <generator>Hugo -- 0.122.0</generator>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jul 2024 14:21:52 +0300</lastBuildDate>
-    <atom:link href="https://dzintars.dev/categories/now/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Sep 2024 13:06:29 +0300</lastBuildDate>
+    <atom:link href="http://localhost:45463/categories/now/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 Sep 06</title>
+      <link>http://localhost:45463/posts/2024-sep-06/</link>
+      <pubDate>Thu, 05 Sep 2024 13:06:29 +0300</pubDate>
+      <guid>http://localhost:45463/posts/2024-sep-06/</guid>
+      <description>&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Erlang-A90533?logo=erlang&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Erlang Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Elixir-4B275F?logo=elixir&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Elixir Badge&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;Today, I’m adding Elixir and Erlang to my attention context. I’ll start exploring this ecosystem more closely.&lt;/p&gt;
+&lt;p&gt;Several characteristics of Elixir and Erlang are particularly appealing for my projects.&lt;/p&gt;
+&lt;p&gt;Other than that busy by working on PKI and EJBCA.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2024 Jul 28</title>
+      <link>http://localhost:45463/posts/2024-jul-28/</link>
+      <pubDate>Sun, 28 Jul 2024 13:46:44 +0300</pubDate>
+      <guid>http://localhost:45463/posts/2024-jul-28/</guid>
+      <description>&lt;h1 id=&#34;establishing-php-dev-and-pod-environments&#34;&gt;Establishing PHP dev and pod environments&lt;/h1&gt;
+&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Ansible-EE0000?logo=ansible&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Ansible Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Podman-892CA0?logo=podman&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Podman Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/PHP-777BB4?logo=php&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;PHP Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/MariaDB-003545?logo=mariadb&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;MariaDB Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Nginx-009639?logo=nginx&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Nginx Badge&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;Still continuing my &lt;a href=&#34;http://localhost:45463/posts/2024-jul-13&#34;&gt;2024-jul-13&lt;/a&gt; journey.
+Because there are no any Dev/Prod enviroment whatsoever&amp;hellip; I need to create one.
+At the same time I have no experience with PHP runtimes and need to learn a bit
+about it.&lt;/p&gt;
+&lt;p&gt;At this day, I managed to create working containerized Nginx, PHP-FPM and
+MariaDB workload to run PHP applications.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2024 Jul 13</title>
-      <link>https://dzintars.dev/posts/2024-jul-13/</link>
+      <link>http://localhost:45463/posts/2024-jul-13/</link>
       <pubDate>Sat, 13 Jul 2024 14:21:52 +0300</pubDate>
-      <guid>https://dzintars.dev/posts/2024-jul-13/</guid>
-      <description>Migrating old databases Currently mostly busy with modernizing 15 years old infrastructure of some customer. Old and huge MySQL databses. No foreign keys. No timestamps. It&amp;rsquo;s all pretty convoluted. Many VM&amp;rsquo;s running directly on KVM without libvirt abstraction. Failing hard drives. Old PHP. And the overaly of many &amp;ldquo;big brain&amp;rdquo; sysadmins.
-But at least, I gained full access to the most of the resources, restored passwords, established secure remote access, etc.</description>
+      <guid>http://localhost:45463/posts/2024-jul-13/</guid>
+      <description>&lt;h1 id=&#34;migrating-old-databases&#34;&gt;Migrating old databases&lt;/h1&gt;
+&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Flyway-CC0200?logo=flyway&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Flyway Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/MariaDB-003545?logo=mariadb&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;MariaDB Badge&#34; /&gt;
+&lt;/p&gt;
+&lt;p&gt;Currently mostly busy with modernizing 15 years old infrastructure of some
+customer.
+Old and huge MySQL databses. No foreign keys. No timestamps. It&amp;rsquo;s all pretty
+convoluted.
+Many VM&amp;rsquo;s running directly on KVM without libvirt abstraction. Failing hard
+drives. Old PHP. And the overaly of many &amp;ldquo;big brain&amp;rdquo; sysadmins.&lt;/p&gt;
+&lt;p&gt;But at least, I gained full access to the most of the resources, restored
+passwords, established secure remote access, etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2024 Apr 19</title>
+      <link>http://localhost:45463/posts/2024-apr-19/</link>
+      <pubDate>Fri, 19 Apr 2024 20:02:43 +0300</pubDate>
+      <guid>http://localhost:45463/posts/2024-apr-19/</guid>
+      <description>&lt;p&gt;So&amp;hellip; finally disaster I was not expecting at all happened.
+2 of my identical 10K HDD drives died and I lost about 6 months of my work.
+(Don&amp;rsquo;t buy 2 drives at the same shop at the same time).
+Luckily I was able to recover at least some parts from the caches, but&amp;hellip; not
+sure how much.
+My only hope is to get identical controller for my drives and to try recover.
+Not sure will I succeed.
+From the other side&amp;hellip; rewriting is also not that bad idea&amp;hellip; so&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024 Mar 25</title>
-      <link>https://dzintars.dev/posts/2024-mar-25/</link>
+      <link>http://localhost:45463/posts/2024-mar-25/</link>
       <pubDate>Mon, 25 Mar 2024 22:13:09 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/2024-mar-25/</guid>
-      <description>Looks like my little starter blog is working. At least there is some activity around it.
-After all the things I went back to rewriting my infra components to Podman Quadlets 1 by utilizing Ansible. I think, I figured out general pattern. Yet, I&amp;rsquo;m not quite happy how do I handle network creation. I need to encapsulate it into single generic role instead writing the same network role in every collection.</description>
+      <guid>http://localhost:45463/posts/2024-mar-25/</guid>
+      <description>&lt;p&gt;Looks like my little starter blog is working. At least there is some activity around it.&lt;/p&gt;
+&lt;p&gt;After all the things I went back to rewriting my infra components to &lt;strong&gt;Podman
+Quadlets&lt;/strong&gt; &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; by utilizing &lt;strong&gt;Ansible&lt;/strong&gt;. I think, I figured out general pattern. Yet, I&amp;rsquo;m
+not quite happy how do I handle network creation. I need to encapsulate it into
+single generic role instead writing the same network role in every collection.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024 Feb 21</title>
-      <link>https://dzintars.dev/posts/2024-feb-21/</link>
+      <link>http://localhost:45463/posts/2024-feb-21/</link>
       <pubDate>Wed, 21 Feb 2024 17:50:12 +0200</pubDate>
-      <guid>https://dzintars.dev/posts/2024-feb-21/</guid>
-      <description>Tinkering with my Hugo blog I&amp;rsquo;m still not sure what will I do with it, but&amp;hellip; at least this will be done.
-I picked Hugo as it seems simple enough for my current needs. Just drop some markdown and you are done. Sounds good. I don&amp;rsquo;t even plan to customize default theme for now as typography looks good, theme is supported. Like&amp;hellip; there is everything I need. Most important goal for me is to start accumulate some content.</description>
+      <guid>http://localhost:45463/posts/2024-feb-21/</guid>
+      <description>&lt;h2 id=&#34;tinkering-with-my-hugo-blog&#34;&gt;Tinkering with my Hugo blog&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m still not sure what will I do with it, but&amp;hellip; at least this will be done.&lt;/p&gt;
+&lt;p&gt;I picked Hugo as it seems simple enough for my current needs. Just drop some
+markdown and you are done. Sounds good. I don&amp;rsquo;t even plan to customize default
+theme for now as typography looks good, theme is supported. Like&amp;hellip; there is
+everything I need. Most important goal for me is to start accumulate some
+content.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

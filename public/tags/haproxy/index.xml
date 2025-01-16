@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>HAProxy on Dzintars Klavins</title>
+    <link>http://localhost:45463/tags/haproxy/</link>
+    <description>Recent content in HAProxy on Dzintars Klavins</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Sep 2024 16:24:34 +0300</lastBuildDate>
+    <atom:link href="http://localhost:45463/tags/haproxy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Deploy Rootless HAProxy as Podman Quadlet</title>
+      <link>http://localhost:45463/posts/how-to-deploy-rootless-haproxy-as-podman-quadlet/</link>
+      <pubDate>Tue, 03 Sep 2024 16:24:34 +0300</pubDate>
+      <guid>http://localhost:45463/posts/how-to-deploy-rootless-haproxy-as-podman-quadlet/</guid>
+      <description>&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Linux-FCC624?logo=linux&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Linux Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Podman-892CA0?logo=podman&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Podman Badge&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p class=&#34;note&#34;&gt;This post is raw. No grammar is checked.&lt;/p&gt;
+
+
+&lt;p&gt;When doing local development or just tinkering with this or that, quite often
+you want to expose something to the Internet.&lt;/p&gt;
+&lt;p&gt;When it&amp;rsquo;s just single &amp;ldquo;something&amp;rdquo;, then you can just forward your port 80 from
+router, to your machine&amp;rsquo;s &amp;ldquo;something&amp;rdquo; port.&lt;/p&gt;
+&lt;p&gt;But this falls appart if you have two &amp;ldquo;something&amp;rdquo; you want to expose to the
+Internet. You can&amp;rsquo;t forward single &lt;code&gt;80&lt;/code&gt; port from your router to two different
+applications running on your machine. Because one application will be running
+for example on &lt;code&gt;8080&lt;/code&gt; port and the other on &lt;code&gt;8081&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
