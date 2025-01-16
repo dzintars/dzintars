@@ -5,7 +5,9 @@ title: 'Dzintars Klavins'
 theme: 'PaperMod'
 enableEmoji: true
 
-googleAnalytics: 'G-ZDYZTVD1N3'
+services:
+  googleAnalytics:
+    id: G-ZDYZTVD1N3
 
 params:
   env: production

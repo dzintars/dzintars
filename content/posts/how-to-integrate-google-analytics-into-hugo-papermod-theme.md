@@ -20,12 +20,18 @@ entire code snippet you got from GA property setup page.
 
 Basically that's it.
 
-This partial will be automatically included in the every Hugo page. And after your
-first visit to the page, you will see the first visitor stats on your GA
-dashboard. If it doesn't work immediately, then something is wrong.
+This partial ~will be~ should be automatically included in the every Hugo page.
+And after your first visit to the page, you will see the first visitor stats on your GA
+dashboard. If it doesn't work immediately, then something is wrong. Might be
+that Hugo upstream changed how it works. Check the [Hugo Docs](https://gohugo.io/templates/embedded/#google-analytics).
 
 Use GitHub search to find setup examples. For example use this search query
 `path:_internal/google_analytics.html`.
+
+## AdBlockers
+
+If you don't see any local (your own) activity on GA dashboard right away, make
+sure you exclude your Hugo site from your adblocker. Or disable it for your site.
 
 ## Ethics
 
