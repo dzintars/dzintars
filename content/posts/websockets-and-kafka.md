@@ -40,3 +40,11 @@ need or don't need this complexity. So... I gave up with asking these kind of
 questions to the internet.
 
 And my best source of learning became [GitHub Search](https://github.com/search)
+
+## Update 2025
+
+At this point, I just went into Elixir Phoenix framework.
+Turns out, they are basically playing with the same conceptual idea of using websocket
+for "reacive UI" updates.
+Going into Elixir for me is not going easy... but I am committed to it.
+At the moment I'm trying to create higly reactive Deck GL map.
