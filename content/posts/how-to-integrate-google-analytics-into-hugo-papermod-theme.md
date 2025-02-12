@@ -8,6 +8,7 @@ categories: ["How To's"]
 
 {{< badge label="Hugo" icon="hugo" color="FF4088" alt="Hugo Badge" >}}
 
+{{< bmc >}}
 
 As I'm setting up my shiny new blog, I stuck at Google Analytics integration.
 It looks like official PaperMod lacks some documentation on this topic.

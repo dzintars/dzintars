@@ -8,6 +8,8 @@ categories: ["Productivity"]
 
 {{< note title="WIP. This post is not finished." >}}
 
+{{< bmc >}}
+
 For a very long time I was Windows only user. Nor did I liked it, nor did I
 hated it. I just was somewhat above average user. But it all ended when I
 started to work with Go and Kafka Go library which I needed to cross-compile for

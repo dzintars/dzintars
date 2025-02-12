@@ -9,6 +9,8 @@ categories: ["How To's", "Ansible"]
 {{< badge label="Ansible" icon="ansible" color="EE0000" alt="Ansible Badge" >}}
 {{< badge label="KeePassXC" icon="keepassxc" color="6CAC4D" alt="KeePassXC Badge" >}}
 
+{{< bmc >}}
+
 There are several ways to pass the Ansible Vault password.
 
 - classic CLI prompt which requires manual intervention

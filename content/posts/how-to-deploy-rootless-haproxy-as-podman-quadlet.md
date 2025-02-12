@@ -9,6 +9,8 @@ categories: ["How To's"]
 {{< badge label="Linux" icon="linux" color="FCC624" alt="Linux Badge" >}}
 {{< badge label="Podman" icon="podman" color="892CA0" alt="Podman Badge" >}}
 
+{{< bmc >}}
+
 {{< note title="This post is raw. No grammar is checked." >}}
 
 When doing local development or just tinkering with this or that, quite often

@@ -7,6 +7,8 @@ categories: ["How To's"]
 ShowToc: true
 ---
 
+{{< bmc >}}
+
 So... you are thinking about your own blog for a long time. But... it all felt
 complicated, required too much time and you were even not sure, what would you
 write there.

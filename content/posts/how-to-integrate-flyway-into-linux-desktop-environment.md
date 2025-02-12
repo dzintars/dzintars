@@ -8,6 +8,8 @@ categories: ["How To's"]
 
 {{< badge label="Flyway" icon="flyway" color="CC0200" alt="Flyway Badge" >}}
 
+{{< bmc >}}
+
 Today I decided to ditch Flyway Desktop execution from CLI and integrate into my
 Sway + Wofi desktop environment.
 Basically, there is what you need:

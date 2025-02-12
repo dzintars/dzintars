@@ -20,6 +20,16 @@ params:
   disableThemeToggle: false
   ShowShareButtons: true
   ShowCodeCopyButtons: true
+  HugoShortcodes:
+    BuyMeACoffee:
+      Slug: "dzintars.dev"
+      Text: "Buy me a coffee"
+      Font: "Comic"
+      Emoji: "🥐"
+      ButtonColor: "ffdd00"
+      FontColor: "000000"
+      CoffeeColor: "ffffff"
+      CupColor: "000000"
 
   showBreadCrumbs: true
 

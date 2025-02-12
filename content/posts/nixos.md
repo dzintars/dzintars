@@ -6,6 +6,8 @@ tags: ["NixOS", "Ansible"]
 categories: ["Linux", "Ansible"]
 ---
 
+{{< bmc >}}
+
 {{< note title="My opinion on this is still not stable or true and I might change my mind later when I will really try NixOS." >}}
 
 I see the constant hype around the NixOS and one of the main selling points is
