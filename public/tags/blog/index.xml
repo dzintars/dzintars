@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on Dzintars Klavins</title>
-    <link>http://localhost:45463/tags/blog/</link>
+    <link>http://localhost:1313/tags/blog/</link>
     <description>Recent content in Blog on Dzintars Klavins</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Apr 2024 20:02:43 +0300</lastBuildDate>
-    <atom:link href="http://localhost:45463/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2024 Apr 19</title>
-      <link>http://localhost:45463/posts/2024-apr-19/</link>
+      <link>http://localhost:1313/posts/2024-apr-19/</link>
       <pubDate>Fri, 19 Apr 2024 20:02:43 +0300</pubDate>
-      <guid>http://localhost:45463/posts/2024-apr-19/</guid>
+      <guid>http://localhost:1313/posts/2024-apr-19/</guid>
       <description>&lt;p&gt;So&amp;hellip; finally disaster I was not expecting at all happened.
 2 of my identical 10K HDD drives died and I lost about 6 months of my work.
 (Don&amp;rsquo;t buy 2 drives at the same shop at the same time).
@@ -24,9 +24,9 @@ From the other side&amp;hellip; rewriting is also not that bad idea&amp;hellip; 
     </item>
     <item>
       <title>2024 Feb 21</title>
-      <link>http://localhost:45463/posts/2024-feb-21/</link>
+      <link>http://localhost:1313/posts/2024-feb-21/</link>
       <pubDate>Wed, 21 Feb 2024 17:50:12 +0200</pubDate>
-      <guid>http://localhost:45463/posts/2024-feb-21/</guid>
+      <guid>http://localhost:1313/posts/2024-feb-21/</guid>
       <description>&lt;h2 id=&#34;tinkering-with-my-hugo-blog&#34;&gt;Tinkering with my Hugo blog&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;m still not sure what will I do with it, but&amp;hellip; at least this will be done.&lt;/p&gt;
 &lt;p&gt;I picked Hugo as it seems simple enough for my current needs. Just drop some

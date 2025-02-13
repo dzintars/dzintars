@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Productivity on Dzintars Klavins</title>
-    <link>http://localhost:45463/categories/productivity/</link>
+    <link>http://localhost:1313/categories/productivity/</link>
     <description>Recent content in Productivity on Dzintars Klavins</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 24 Feb 2024 14:10:25 +0200</lastBuildDate>
-    <atom:link href="http://localhost:45463/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/productivity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Note Taking System</title>
-      <link>http://localhost:45463/posts/my-note-taking-system/</link>
+      <link>http://localhost:1313/posts/my-note-taking-system/</link>
       <pubDate>Sat, 24 Feb 2024 14:10:25 +0200</pubDate>
-      <guid>http://localhost:45463/posts/my-note-taking-system/</guid>
+      <guid>http://localhost:1313/posts/my-note-taking-system/</guid>
       <description>&lt;p class=&#34;note&#34;&gt;WIP. This post is not finished.&lt;/p&gt;
 
 
@@ -27,9 +27,9 @@ how do I create SSH keys. Or how do I configure my firewall. And so on.&lt;/p&gt
     </item>
     <item>
       <title>My CLI Centric Workflow</title>
-      <link>http://localhost:45463/posts/my-cli-centric-workflow/</link>
+      <link>http://localhost:1313/posts/my-cli-centric-workflow/</link>
       <pubDate>Wed, 21 Feb 2024 22:12:40 +0200</pubDate>
-      <guid>http://localhost:45463/posts/my-cli-centric-workflow/</guid>
+      <guid>http://localhost:1313/posts/my-cli-centric-workflow/</guid>
       <description>&lt;p class=&#34;note&#34;&gt;WIP. This post is not finished.&lt;/p&gt;
 
 
@@ -43,16 +43,16 @@ logs, restarting, compiling, etc. It was a pain.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zettelkasten Note Taking</title>
-      <link>http://localhost:45463/posts/zettelkasten-note-taking/</link>
+      <link>http://localhost:1313/posts/zettelkasten-note-taking/</link>
       <pubDate>Wed, 21 Feb 2024 20:24:52 +0200</pubDate>
-      <guid>http://localhost:45463/posts/zettelkasten-note-taking/</guid>
+      <guid>http://localhost:1313/posts/zettelkasten-note-taking/</guid>
       <description></description>
     </item>
     <item>
       <title>My Personal Productivity Environment</title>
-      <link>http://localhost:45463/posts/my-personal-productivity-environment/</link>
+      <link>http://localhost:1313/posts/my-personal-productivity-environment/</link>
       <pubDate>Wed, 21 Feb 2024 17:28:52 +0200</pubDate>
-      <guid>http://localhost:45463/posts/my-personal-productivity-environment/</guid>
+      <guid>http://localhost:1313/posts/my-personal-productivity-environment/</guid>
       <description>&lt;p class=&#34;note&#34;&gt;This post is a public draft, which may or may not be completed. As new thoughts come to mind, I may improve this article over time.&lt;/p&gt;
 
 

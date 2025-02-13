@@ -2,255 +2,262 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Dzintars Klavins</title>
-    <link>http://localhost:45463/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Dzintars Klavins</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Sep 2024 13:06:29 +0300</lastBuildDate>
-    <atom:link href="http://localhost:45463/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Feb 2025 13:17:47 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Elixir</title>
-      <link>http://localhost:45463/tags/elixir/</link>
-      <pubDate>Thu, 05 Sep 2024 13:06:29 +0300</pubDate>
-      <guid>http://localhost:45463/tags/elixir/</guid>
+      <link>http://localhost:1313/tags/elixir/</link>
+      <pubDate>Thu, 06 Feb 2025 13:17:47 +0200</pubDate>
+      <guid>http://localhost:1313/tags/elixir/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phoenix</title>
+      <link>http://localhost:1313/tags/phoenix/</link>
+      <pubDate>Thu, 06 Feb 2025 13:17:47 +0200</pubDate>
+      <guid>http://localhost:1313/tags/phoenix/</guid>
       <description></description>
     </item>
     <item>
       <title>Erlang</title>
-      <link>http://localhost:45463/tags/erlang/</link>
+      <link>http://localhost:1313/tags/erlang/</link>
       <pubDate>Thu, 05 Sep 2024 13:06:29 +0300</pubDate>
-      <guid>http://localhost:45463/tags/erlang/</guid>
+      <guid>http://localhost:1313/tags/erlang/</guid>
       <description></description>
     </item>
     <item>
       <title>HAProxy</title>
-      <link>http://localhost:45463/tags/haproxy/</link>
+      <link>http://localhost:1313/tags/haproxy/</link>
       <pubDate>Tue, 03 Sep 2024 16:24:34 +0300</pubDate>
-      <guid>http://localhost:45463/tags/haproxy/</guid>
+      <guid>http://localhost:1313/tags/haproxy/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://localhost:45463/tags/linux/</link>
+      <link>http://localhost:1313/tags/linux/</link>
       <pubDate>Tue, 03 Sep 2024 16:24:34 +0300</pubDate>
-      <guid>http://localhost:45463/tags/linux/</guid>
+      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Podman</title>
-      <link>http://localhost:45463/tags/podman/</link>
+      <link>http://localhost:1313/tags/podman/</link>
       <pubDate>Tue, 03 Sep 2024 16:24:34 +0300</pubDate>
-      <guid>http://localhost:45463/tags/podman/</guid>
+      <guid>http://localhost:1313/tags/podman/</guid>
       <description></description>
     </item>
     <item>
       <title>Systemd</title>
-      <link>http://localhost:45463/tags/systemd/</link>
+      <link>http://localhost:1313/tags/systemd/</link>
       <pubDate>Tue, 03 Sep 2024 16:24:34 +0300</pubDate>
-      <guid>http://localhost:45463/tags/systemd/</guid>
+      <guid>http://localhost:1313/tags/systemd/</guid>
       <description></description>
     </item>
     <item>
       <title>Flyway</title>
-      <link>http://localhost:45463/tags/flyway/</link>
+      <link>http://localhost:1313/tags/flyway/</link>
       <pubDate>Mon, 05 Aug 2024 18:33:04 +0300</pubDate>
-      <guid>http://localhost:45463/tags/flyway/</guid>
+      <guid>http://localhost:1313/tags/flyway/</guid>
       <description></description>
     </item>
     <item>
       <title>Ansible</title>
-      <link>http://localhost:45463/tags/ansible/</link>
+      <link>http://localhost:1313/tags/ansible/</link>
       <pubDate>Sun, 28 Jul 2024 13:46:44 +0300</pubDate>
-      <guid>http://localhost:45463/tags/ansible/</guid>
+      <guid>http://localhost:1313/tags/ansible/</guid>
       <description></description>
     </item>
     <item>
       <title>MariaDB</title>
-      <link>http://localhost:45463/tags/mariadb/</link>
+      <link>http://localhost:1313/tags/mariadb/</link>
       <pubDate>Sun, 28 Jul 2024 13:46:44 +0300</pubDate>
-      <guid>http://localhost:45463/tags/mariadb/</guid>
+      <guid>http://localhost:1313/tags/mariadb/</guid>
       <description></description>
     </item>
     <item>
       <title>Nginx</title>
-      <link>http://localhost:45463/tags/nginx/</link>
+      <link>http://localhost:1313/tags/nginx/</link>
       <pubDate>Sun, 28 Jul 2024 13:46:44 +0300</pubDate>
-      <guid>http://localhost:45463/tags/nginx/</guid>
+      <guid>http://localhost:1313/tags/nginx/</guid>
       <description></description>
     </item>
     <item>
       <title>PHP</title>
-      <link>http://localhost:45463/tags/php/</link>
+      <link>http://localhost:1313/tags/php/</link>
       <pubDate>Sun, 28 Jul 2024 13:46:44 +0300</pubDate>
-      <guid>http://localhost:45463/tags/php/</guid>
+      <guid>http://localhost:1313/tags/php/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:45463/tags/hugo/</link>
+      <link>http://localhost:1313/tags/hugo/</link>
       <pubDate>Sat, 13 Jul 2024 23:49:42 +0300</pubDate>
-      <guid>http://localhost:45463/tags/hugo/</guid>
+      <guid>http://localhost:1313/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>IPMI</title>
-      <link>http://localhost:45463/tags/ipmi/</link>
+      <link>http://localhost:1313/tags/ipmi/</link>
       <pubDate>Sat, 13 Jul 2024 14:21:52 +0300</pubDate>
-      <guid>http://localhost:45463/tags/ipmi/</guid>
+      <guid>http://localhost:1313/tags/ipmi/</guid>
       <description></description>
     </item>
     <item>
       <title>SQL</title>
-      <link>http://localhost:45463/tags/sql/</link>
+      <link>http://localhost:1313/tags/sql/</link>
       <pubDate>Sat, 13 Jul 2024 14:21:52 +0300</pubDate>
-      <guid>http://localhost:45463/tags/sql/</guid>
+      <guid>http://localhost:1313/tags/sql/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>http://localhost:45463/tags/blog/</link>
+      <link>http://localhost:1313/tags/blog/</link>
       <pubDate>Fri, 19 Apr 2024 20:02:43 +0300</pubDate>
-      <guid>http://localhost:45463/tags/blog/</guid>
+      <guid>http://localhost:1313/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>KeePassXC</title>
-      <link>http://localhost:45463/tags/keepassxc/</link>
+      <link>http://localhost:1313/tags/keepassxc/</link>
       <pubDate>Wed, 27 Mar 2024 13:18:12 +0200</pubDate>
-      <guid>http://localhost:45463/tags/keepassxc/</guid>
+      <guid>http://localhost:1313/tags/keepassxc/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>http://localhost:45463/tags/security/</link>
+      <link>http://localhost:1313/tags/security/</link>
       <pubDate>Wed, 27 Mar 2024 13:18:12 +0200</pubDate>
-      <guid>http://localhost:45463/tags/security/</guid>
+      <guid>http://localhost:1313/tags/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Vault</title>
-      <link>http://localhost:45463/tags/vault/</link>
+      <link>http://localhost:1313/tags/vault/</link>
       <pubDate>Wed, 27 Mar 2024 13:18:12 +0200</pubDate>
-      <guid>http://localhost:45463/tags/vault/</guid>
+      <guid>http://localhost:1313/tags/vault/</guid>
       <description></description>
     </item>
     <item>
       <title>YubiKey</title>
-      <link>http://localhost:45463/tags/yubikey/</link>
+      <link>http://localhost:1313/tags/yubikey/</link>
       <pubDate>Wed, 27 Mar 2024 13:18:12 +0200</pubDate>
-      <guid>http://localhost:45463/tags/yubikey/</guid>
+      <guid>http://localhost:1313/tags/yubikey/</guid>
       <description></description>
     </item>
     <item>
       <title>Keycloak</title>
-      <link>http://localhost:45463/tags/keycloak/</link>
+      <link>http://localhost:1313/tags/keycloak/</link>
       <pubDate>Mon, 25 Mar 2024 22:13:09 +0200</pubDate>
-      <guid>http://localhost:45463/tags/keycloak/</guid>
+      <guid>http://localhost:1313/tags/keycloak/</guid>
       <description></description>
     </item>
     <item>
       <title>NixOS</title>
-      <link>http://localhost:45463/tags/nixos/</link>
+      <link>http://localhost:1313/tags/nixos/</link>
       <pubDate>Wed, 28 Feb 2024 12:55:08 +0200</pubDate>
-      <guid>http://localhost:45463/tags/nixos/</guid>
+      <guid>http://localhost:1313/tags/nixos/</guid>
       <description></description>
     </item>
     <item>
       <title>ToDo</title>
-      <link>http://localhost:45463/tags/todo/</link>
+      <link>http://localhost:1313/tags/todo/</link>
       <pubDate>Tue, 27 Feb 2024 16:20:06 +0200</pubDate>
-      <guid>http://localhost:45463/tags/todo/</guid>
+      <guid>http://localhost:1313/tags/todo/</guid>
       <description></description>
     </item>
     <item>
       <title>Neovim</title>
-      <link>http://localhost:45463/tags/neovim/</link>
+      <link>http://localhost:1313/tags/neovim/</link>
       <pubDate>Sat, 24 Feb 2024 14:10:25 +0200</pubDate>
-      <guid>http://localhost:45463/tags/neovim/</guid>
+      <guid>http://localhost:1313/tags/neovim/</guid>
       <description></description>
     </item>
     <item>
       <title>Sway</title>
-      <link>http://localhost:45463/tags/sway/</link>
+      <link>http://localhost:1313/tags/sway/</link>
       <pubDate>Sat, 24 Feb 2024 14:10:25 +0200</pubDate>
-      <guid>http://localhost:45463/tags/sway/</guid>
+      <guid>http://localhost:1313/tags/sway/</guid>
       <description></description>
     </item>
     <item>
       <title>Tmux</title>
-      <link>http://localhost:45463/tags/tmux/</link>
+      <link>http://localhost:1313/tags/tmux/</link>
       <pubDate>Wed, 21 Feb 2024 22:12:40 +0200</pubDate>
-      <guid>http://localhost:45463/tags/tmux/</guid>
+      <guid>http://localhost:1313/tags/tmux/</guid>
       <description></description>
     </item>
     <item>
       <title>Notes</title>
-      <link>http://localhost:45463/tags/notes/</link>
+      <link>http://localhost:1313/tags/notes/</link>
       <pubDate>Wed, 21 Feb 2024 20:24:52 +0200</pubDate>
-      <guid>http://localhost:45463/tags/notes/</guid>
+      <guid>http://localhost:1313/tags/notes/</guid>
       <description></description>
     </item>
     <item>
       <title>CQRS</title>
-      <link>http://localhost:45463/tags/cqrs/</link>
+      <link>http://localhost:1313/tags/cqrs/</link>
       <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
-      <guid>http://localhost:45463/tags/cqrs/</guid>
+      <guid>http://localhost:1313/tags/cqrs/</guid>
       <description></description>
     </item>
     <item>
       <title>Kafka</title>
-      <link>http://localhost:45463/tags/kafka/</link>
+      <link>http://localhost:1313/tags/kafka/</link>
       <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
-      <guid>http://localhost:45463/tags/kafka/</guid>
+      <guid>http://localhost:1313/tags/kafka/</guid>
       <description></description>
     </item>
     <item>
       <title>Websocket</title>
-      <link>http://localhost:45463/tags/websocket/</link>
+      <link>http://localhost:1313/tags/websocket/</link>
       <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
-      <guid>http://localhost:45463/tags/websocket/</guid>
+      <guid>http://localhost:1313/tags/websocket/</guid>
       <description></description>
     </item>
     <item>
       <title>Me</title>
-      <link>http://localhost:45463/tags/me/</link>
+      <link>http://localhost:1313/tags/me/</link>
       <pubDate>Wed, 21 Feb 2024 17:28:52 +0200</pubDate>
-      <guid>http://localhost:45463/tags/me/</guid>
+      <guid>http://localhost:1313/tags/me/</guid>
       <description></description>
     </item>
     <item>
       <title>Bazel</title>
-      <link>http://localhost:45463/tags/bazel/</link>
+      <link>http://localhost:1313/tags/bazel/</link>
       <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
-      <guid>http://localhost:45463/tags/bazel/</guid>
+      <guid>http://localhost:1313/tags/bazel/</guid>
       <description></description>
     </item>
     <item>
       <title>Redux</title>
-      <link>http://localhost:45463/tags/redux/</link>
+      <link>http://localhost:1313/tags/redux/</link>
       <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
-      <guid>http://localhost:45463/tags/redux/</guid>
+      <guid>http://localhost:1313/tags/redux/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
-      <link>http://localhost:45463/tags/web/</link>
+      <link>http://localhost:1313/tags/web/</link>
       <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
-      <guid>http://localhost:45463/tags/web/</guid>
+      <guid>http://localhost:1313/tags/web/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Components</title>
-      <link>http://localhost:45463/tags/web-components/</link>
+      <link>http://localhost:1313/tags/web-components/</link>
       <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
-      <guid>http://localhost:45463/tags/web-components/</guid>
+      <guid>http://localhost:1313/tags/web-components/</guid>
       <description></description>
     </item>
     <item>
       <title>Webpack</title>
-      <link>http://localhost:45463/tags/webpack/</link>
+      <link>http://localhost:1313/tags/webpack/</link>
       <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
-      <guid>http://localhost:45463/tags/webpack/</guid>
+      <guid>http://localhost:1313/tags/webpack/</guid>
       <description></description>
     </item>
   </channel>

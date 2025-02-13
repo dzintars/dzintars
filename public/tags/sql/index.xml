@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>SQL on Dzintars Klavins</title>
-    <link>http://localhost:45463/tags/sql/</link>
+    <link>http://localhost:1313/tags/sql/</link>
     <description>Recent content in SQL on Dzintars Klavins</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 13 Jul 2024 14:21:52 +0300</lastBuildDate>
-    <atom:link href="http://localhost:45463/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2024 Jul 13</title>
-      <link>http://localhost:45463/posts/2024-jul-13/</link>
+      <link>http://localhost:1313/posts/2024-jul-13/</link>
       <pubDate>Sat, 13 Jul 2024 14:21:52 +0300</pubDate>
-      <guid>http://localhost:45463/posts/2024-jul-13/</guid>
+      <guid>http://localhost:1313/posts/2024-jul-13/</guid>
       <description>&lt;h1 id=&#34;migrating-old-databases&#34;&gt;Migrating old databases&lt;/h1&gt;
 &lt;p&gt;
 

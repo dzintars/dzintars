@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Dzintars Klavins</title>
-    <link>http://localhost:45463/categories/projects/</link>
+    <link>http://localhost:1313/categories/projects/</link>
     <description>Recent content in Projects on Dzintars Klavins</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 18 Mar 2024 12:25:28 +0200</lastBuildDate>
-    <atom:link href="http://localhost:45463/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
-      <link>http://localhost:45463/posts/hugo/</link>
+      <link>http://localhost:1313/posts/hugo/</link>
       <pubDate>Mon, 18 Mar 2024 12:25:28 +0200</pubDate>
-      <guid>http://localhost:45463/posts/hugo/</guid>
+      <guid>http://localhost:1313/posts/hugo/</guid>
       <description>&lt;h2 id=&#34;todo&#34;&gt;ToDo:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Still not sure how to use tags and categories properly. Just throwing ****
@@ -28,9 +28,9 @@ unknown printer took a galley.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Websockets and Kafka</title>
-      <link>http://localhost:45463/posts/websockets-and-kafka/</link>
+      <link>http://localhost:1313/posts/websockets-and-kafka/</link>
       <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
-      <guid>http://localhost:45463/posts/websockets-and-kafka/</guid>
+      <guid>http://localhost:1313/posts/websockets-and-kafka/</guid>
       <description>&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;
 &lt;p&gt;I had this idea about the highly reactive collaborative web application.
 After messing around I ended up with PoC which consisted of bunch of Go services
@@ -46,9 +46,9 @@ this is where I went off-road into Bazel and DevOps&amp;hellip;&lt;/p&gt;</descr
     </item>
     <item>
       <title>SPA Front page application</title>
-      <link>http://localhost:45463/posts/spa-front-page-application/</link>
+      <link>http://localhost:1313/posts/spa-front-page-application/</link>
       <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
-      <guid>http://localhost:45463/posts/spa-front-page-application/</guid>
+      <guid>http://localhost:1313/posts/spa-front-page-application/</guid>
       <description>&lt;h2 id=&#34;about-the-project&#34;&gt;About the Project&lt;/h2&gt;
 &lt;p&gt;It&amp;rsquo;s a SPA-style web application based on a bunch of buzzword technologies, most importantly &lt;strong&gt;Web Components&lt;/strong&gt;. The idea behind choosing web components was to accumulate a bunch of reusable components that would be framework-agnostic over time. At the time of creating the project, React was the only framework that didn&amp;rsquo;t support web components, but times might have changed since then.&lt;/p&gt;
 

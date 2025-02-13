@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PHP on Dzintars Klavins</title>
-    <link>http://localhost:45463/tags/php/</link>
+    <link>http://localhost:1313/tags/php/</link>
     <description>Recent content in PHP on Dzintars Klavins</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Jul 2024 13:46:44 +0300</lastBuildDate>
-    <atom:link href="http://localhost:45463/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2024 Jul 28</title>
-      <link>http://localhost:45463/posts/2024-jul-28/</link>
+      <link>http://localhost:1313/posts/2024-jul-28/</link>
       <pubDate>Sun, 28 Jul 2024 13:46:44 +0300</pubDate>
-      <guid>http://localhost:45463/posts/2024-jul-28/</guid>
+      <guid>http://localhost:1313/posts/2024-jul-28/</guid>
       <description>&lt;h1 id=&#34;establishing-php-dev-and-pod-environments&#34;&gt;Establishing PHP dev and pod environments&lt;/h1&gt;
 &lt;p&gt;
 
@@ -54,7 +54,7 @@
 	src=&#34;https://img.shields.io/badge/Nginx-009639?logo=nginx&amp;logoColor=FFF&amp;style=flat&#34;
 	alt=&#34;Nginx Badge&#34; /&gt;
 &lt;/p&gt;
-&lt;p&gt;Still continuing my &lt;a href=&#34;http://localhost:45463/posts/2024-jul-13&#34;&gt;2024-jul-13&lt;/a&gt; journey.
+&lt;p&gt;Still continuing my &lt;a href=&#34;http://localhost:1313/posts/2024-jul-13&#34;&gt;2024-jul-13&lt;/a&gt; journey.
 Because there are no any Dev/Prod enviroment whatsoever&amp;hellip; I need to create one.
 At the same time I have no experience with PHP runtimes and need to learn a bit
 about it.&lt;/p&gt;

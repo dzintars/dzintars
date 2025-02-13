@@ -2,17 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Dzintars Klavins</title>
-    <link>http://localhost:45463/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Dzintars Klavins</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Sep 2024 13:06:29 +0300</lastBuildDate>
-    <atom:link href="http://localhost:45463/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Feb 2025 13:17:47 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 Feb 06</title>
+      <link>http://localhost:1313/posts/2025-feb-06/</link>
+      <pubDate>Thu, 06 Feb 2025 13:17:47 +0200</pubDate>
+      <guid>http://localhost:1313/posts/2025-feb-06/</guid>
+      <description>&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Elixir-4B275F?logo=elixir&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Elixir Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Phoenix-FD4F00?logo=phoenixframework&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Phoenix Framework Badge&#34; /&gt;
+
+&lt;a href=&#34;https://www.buymeacoffee.com/dzintars.dev&#34; target=&#34;_blank&#34;&gt;
+	&lt;img src=&#34;https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png&#34; alt=&#34;Buy me a coffee&#34; style=&#34;height: 60px !important;width: 217px !important;&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;/p&gt;
+&lt;p&gt;Learning Elixir by learning Phoenix Framework.
+Trying to build up interactive Deck GL map.
+A little frustration, a litle anger, a little excitement, a little hope and everything in between.&lt;/p&gt;
+&lt;p&gt;As usually, nobody tells you about nice project structure. You are left alone to figure that out.
+Docks says - use umbrella projects to organize your work. Others says &amp;ldquo;Don&amp;rsquo;t use them&amp;rdquo;. Some
+says - &amp;ldquo;we are ditching ubrella projects in our org&amp;rdquo; without giving too much reasoning.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2024 Sep 06</title>
-      <link>http://localhost:45463/posts/2024-sep-06/</link>
+      <link>http://localhost:1313/posts/2024-sep-06/</link>
       <pubDate>Thu, 05 Sep 2024 13:06:29 +0300</pubDate>
-      <guid>http://localhost:45463/posts/2024-sep-06/</guid>
+      <guid>http://localhost:1313/posts/2024-sep-06/</guid>
       <description>&lt;p&gt;
 
 
@@ -35,9 +69,9 @@
     </item>
     <item>
       <title>How to Deploy Rootless HAProxy as Podman Quadlet</title>
-      <link>http://localhost:45463/posts/how-to-deploy-rootless-haproxy-as-podman-quadlet/</link>
+      <link>http://localhost:1313/posts/how-to-deploy-rootless-haproxy-as-podman-quadlet/</link>
       <pubDate>Tue, 03 Sep 2024 16:24:34 +0300</pubDate>
-      <guid>http://localhost:45463/posts/how-to-deploy-rootless-haproxy-as-podman-quadlet/</guid>
+      <guid>http://localhost:1313/posts/how-to-deploy-rootless-haproxy-as-podman-quadlet/</guid>
       <description>&lt;p&gt;
 
 
@@ -69,9 +103,9 @@ for example on &lt;code&gt;8080&lt;/code&gt; port and the other on &lt;code&gt;8
     </item>
     <item>
       <title>How to Integrate Flyway Into Linux Desktop Environment</title>
-      <link>http://localhost:45463/posts/how-to-integrate-flyway-into-linux-desktop-environment/</link>
+      <link>http://localhost:1313/posts/how-to-integrate-flyway-into-linux-desktop-environment/</link>
       <pubDate>Mon, 05 Aug 2024 18:33:04 +0300</pubDate>
-      <guid>http://localhost:45463/posts/how-to-integrate-flyway-into-linux-desktop-environment/</guid>
+      <guid>http://localhost:1313/posts/how-to-integrate-flyway-into-linux-desktop-environment/</guid>
       <description>&lt;img class=&#34;badge&#34;
 	src=&#34;https://img.shields.io/badge/Flyway-CC0200?logo=flyway&amp;logoColor=FFF&amp;style=flat&#34;
 	alt=&#34;Flyway Badge&#34; /&gt;
@@ -128,9 +162,9 @@ Wayland system. If you still use Xorg, then just remove those flags.&lt;/p&gt;</
     </item>
     <item>
       <title>2024 Jul 28</title>
-      <link>http://localhost:45463/posts/2024-jul-28/</link>
+      <link>http://localhost:1313/posts/2024-jul-28/</link>
       <pubDate>Sun, 28 Jul 2024 13:46:44 +0300</pubDate>
-      <guid>http://localhost:45463/posts/2024-jul-28/</guid>
+      <guid>http://localhost:1313/posts/2024-jul-28/</guid>
       <description>&lt;h1 id=&#34;establishing-php-dev-and-pod-environments&#34;&gt;Establishing PHP dev and pod environments&lt;/h1&gt;
 &lt;p&gt;
 
@@ -172,7 +206,7 @@ Wayland system. If you still use Xorg, then just remove those flags.&lt;/p&gt;</
 	src=&#34;https://img.shields.io/badge/Nginx-009639?logo=nginx&amp;logoColor=FFF&amp;style=flat&#34;
 	alt=&#34;Nginx Badge&#34; /&gt;
 &lt;/p&gt;
-&lt;p&gt;Still continuing my &lt;a href=&#34;http://localhost:45463/posts/2024-jul-13&#34;&gt;2024-jul-13&lt;/a&gt; journey.
+&lt;p&gt;Still continuing my &lt;a href=&#34;http://localhost:1313/posts/2024-jul-13&#34;&gt;2024-jul-13&lt;/a&gt; journey.
 Because there are no any Dev/Prod enviroment whatsoever&amp;hellip; I need to create one.
 At the same time I have no experience with PHP runtimes and need to learn a bit
 about it.&lt;/p&gt;
@@ -181,9 +215,9 @@ MariaDB workload to run PHP applications.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to Setup and Host Personal Blog for free with GitHub and Hugo</title>
-      <link>http://localhost:45463/posts/how-to-setup-and-host-personal-blog/</link>
+      <link>http://localhost:1313/posts/how-to-setup-and-host-personal-blog/</link>
       <pubDate>Sat, 13 Jul 2024 23:49:42 +0300</pubDate>
-      <guid>http://localhost:45463/posts/how-to-setup-and-host-personal-blog/</guid>
+      <guid>http://localhost:1313/posts/how-to-setup-and-host-personal-blog/</guid>
       <description>&lt;p&gt;So&amp;hellip; you are thinking about your own blog for a long time. But&amp;hellip; it all felt
 complicated, required too much time and you were even not sure, what would you
 write there.&lt;/p&gt;
@@ -199,9 +233,9 @@ please feel free to ask for clarification in the GitHub issues. Just press the
     </item>
     <item>
       <title>2024 Jul 13</title>
-      <link>http://localhost:45463/posts/2024-jul-13/</link>
+      <link>http://localhost:1313/posts/2024-jul-13/</link>
       <pubDate>Sat, 13 Jul 2024 14:21:52 +0300</pubDate>
-      <guid>http://localhost:45463/posts/2024-jul-13/</guid>
+      <guid>http://localhost:1313/posts/2024-jul-13/</guid>
       <description>&lt;h1 id=&#34;migrating-old-databases&#34;&gt;Migrating old databases&lt;/h1&gt;
 &lt;p&gt;
 
@@ -230,9 +264,9 @@ passwords, established secure remote access, etc.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024 Apr 19</title>
-      <link>http://localhost:45463/posts/2024-apr-19/</link>
+      <link>http://localhost:1313/posts/2024-apr-19/</link>
       <pubDate>Fri, 19 Apr 2024 20:02:43 +0300</pubDate>
-      <guid>http://localhost:45463/posts/2024-apr-19/</guid>
+      <guid>http://localhost:1313/posts/2024-apr-19/</guid>
       <description>&lt;p&gt;So&amp;hellip; finally disaster I was not expecting at all happened.
 2 of my identical 10K HDD drives died and I lost about 6 months of my work.
 (Don&amp;rsquo;t buy 2 drives at the same shop at the same time).
@@ -244,9 +278,9 @@ From the other side&amp;hellip; rewriting is also not that bad idea&amp;hellip; 
     </item>
     <item>
       <title>How to Store Ansible Vault Password</title>
-      <link>http://localhost:45463/posts/how-to-store-ansible-vault-password/</link>
+      <link>http://localhost:1313/posts/how-to-store-ansible-vault-password/</link>
       <pubDate>Wed, 27 Mar 2024 13:18:12 +0200</pubDate>
-      <guid>http://localhost:45463/posts/how-to-store-ansible-vault-password/</guid>
+      <guid>http://localhost:1313/posts/how-to-store-ansible-vault-password/</guid>
       <description>&lt;p&gt;
 
 
@@ -278,9 +312,9 @@ secrets.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024 Mar 25</title>
-      <link>http://localhost:45463/posts/2024-mar-25/</link>
+      <link>http://localhost:1313/posts/2024-mar-25/</link>
       <pubDate>Mon, 25 Mar 2024 22:13:09 +0200</pubDate>
-      <guid>http://localhost:45463/posts/2024-mar-25/</guid>
+      <guid>http://localhost:1313/posts/2024-mar-25/</guid>
       <description>&lt;p&gt;Looks like my little starter blog is working. At least there is some activity around it.&lt;/p&gt;
 &lt;p&gt;After all the things I went back to rewriting my infra components to &lt;strong&gt;Podman
 Quadlets&lt;/strong&gt; &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; by utilizing &lt;strong&gt;Ansible&lt;/strong&gt;. I think, I figured out general pattern. Yet, I&amp;rsquo;m
@@ -289,9 +323,9 @@ single generic role instead writing the same network role in every collection.&l
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:45463/posts/hugo/</link>
+      <link>http://localhost:1313/posts/hugo/</link>
       <pubDate>Mon, 18 Mar 2024 12:25:28 +0200</pubDate>
-      <guid>http://localhost:45463/posts/hugo/</guid>
+      <guid>http://localhost:1313/posts/hugo/</guid>
       <description>&lt;h2 id=&#34;todo&#34;&gt;ToDo:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Still not sure how to use tags and categories properly. Just throwing ****
@@ -307,9 +341,9 @@ unknown printer took a galley.&lt;/p&gt;</description>
     </item>
     <item>
       <title>NixOS vs Ansible</title>
-      <link>http://localhost:45463/posts/nixos/</link>
+      <link>http://localhost:1313/posts/nixos/</link>
       <pubDate>Wed, 28 Feb 2024 12:55:08 +0200</pubDate>
-      <guid>http://localhost:45463/posts/nixos/</guid>
+      <guid>http://localhost:1313/posts/nixos/</guid>
       <description>&lt;p class=&#34;note&#34;&gt;My opinion on this is still not stable or true and I might change my mind later when I will really try NixOS.&lt;/p&gt;
 
 
@@ -330,9 +364,9 @@ all components are well known and you truly need 100% reproducibility.&lt;/p&gt;
     </item>
     <item>
       <title>My General Todo</title>
-      <link>http://localhost:45463/posts/my-general-todo/</link>
+      <link>http://localhost:1313/posts/my-general-todo/</link>
       <pubDate>Tue, 27 Feb 2024 16:20:06 +0200</pubDate>
-      <guid>http://localhost:45463/posts/my-general-todo/</guid>
+      <guid>http://localhost:1313/posts/my-general-todo/</guid>
       <description>&lt;p&gt;This it just a list of things I would like to do at some point of time.&lt;/p&gt;
 &lt;p&gt;In no specific order.&lt;/p&gt;
 &lt;ul&gt;
@@ -360,9 +394,9 @@ all components are well known and you truly need 100% reproducibility.&lt;/p&gt;
     </item>
     <item>
       <title>My Note Taking System</title>
-      <link>http://localhost:45463/posts/my-note-taking-system/</link>
+      <link>http://localhost:1313/posts/my-note-taking-system/</link>
       <pubDate>Sat, 24 Feb 2024 14:10:25 +0200</pubDate>
-      <guid>http://localhost:45463/posts/my-note-taking-system/</guid>
+      <guid>http://localhost:1313/posts/my-note-taking-system/</guid>
       <description>&lt;p class=&#34;note&#34;&gt;WIP. This post is not finished.&lt;/p&gt;
 
 
@@ -377,9 +411,9 @@ how do I create SSH keys. Or how do I configure my firewall. And so on.&lt;/p&gt
     </item>
     <item>
       <title>How to Integrate Google Analytics Into Hugo PaperMod Theme</title>
-      <link>http://localhost:45463/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/</link>
+      <link>http://localhost:1313/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/</link>
       <pubDate>Thu, 22 Feb 2024 12:38:03 +0200</pubDate>
-      <guid>http://localhost:45463/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/</guid>
+      <guid>http://localhost:1313/posts/how-to-integrate-google-analytics-into-hugo-papermod-theme/</guid>
       <description>&lt;img class=&#34;badge&#34;
 	src=&#34;https://img.shields.io/badge/Hugo-FF4088?logo=hugo&amp;logoColor=FFF&amp;style=flat&#34;
 	alt=&#34;Hugo Badge&#34; /&gt;
@@ -405,9 +439,9 @@ It looks like official PaperMod lacks some documentation on this topic.&lt;/p&gt
     </item>
     <item>
       <title>My CLI Centric Workflow</title>
-      <link>http://localhost:45463/posts/my-cli-centric-workflow/</link>
+      <link>http://localhost:1313/posts/my-cli-centric-workflow/</link>
       <pubDate>Wed, 21 Feb 2024 22:12:40 +0200</pubDate>
-      <guid>http://localhost:45463/posts/my-cli-centric-workflow/</guid>
+      <guid>http://localhost:1313/posts/my-cli-centric-workflow/</guid>
       <description>&lt;p class=&#34;note&#34;&gt;WIP. This post is not finished.&lt;/p&gt;
 
 
@@ -421,16 +455,16 @@ logs, restarting, compiling, etc. It was a pain.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zettelkasten Note Taking</title>
-      <link>http://localhost:45463/posts/zettelkasten-note-taking/</link>
+      <link>http://localhost:1313/posts/zettelkasten-note-taking/</link>
       <pubDate>Wed, 21 Feb 2024 20:24:52 +0200</pubDate>
-      <guid>http://localhost:45463/posts/zettelkasten-note-taking/</guid>
+      <guid>http://localhost:1313/posts/zettelkasten-note-taking/</guid>
       <description></description>
     </item>
     <item>
       <title>Websockets and Kafka</title>
-      <link>http://localhost:45463/posts/websockets-and-kafka/</link>
+      <link>http://localhost:1313/posts/websockets-and-kafka/</link>
       <pubDate>Wed, 21 Feb 2024 19:46:43 +0200</pubDate>
-      <guid>http://localhost:45463/posts/websockets-and-kafka/</guid>
+      <guid>http://localhost:1313/posts/websockets-and-kafka/</guid>
       <description>&lt;h2 id=&#34;why&#34;&gt;Why&lt;/h2&gt;
 &lt;p&gt;I had this idea about the highly reactive collaborative web application.
 After messing around I ended up with PoC which consisted of bunch of Go services
@@ -446,9 +480,9 @@ this is where I went off-road into Bazel and DevOps&amp;hellip;&lt;/p&gt;</descr
     </item>
     <item>
       <title>2024 Feb 21</title>
-      <link>http://localhost:45463/posts/2024-feb-21/</link>
+      <link>http://localhost:1313/posts/2024-feb-21/</link>
       <pubDate>Wed, 21 Feb 2024 17:50:12 +0200</pubDate>
-      <guid>http://localhost:45463/posts/2024-feb-21/</guid>
+      <guid>http://localhost:1313/posts/2024-feb-21/</guid>
       <description>&lt;h2 id=&#34;tinkering-with-my-hugo-blog&#34;&gt;Tinkering with my Hugo blog&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;m still not sure what will I do with it, but&amp;hellip; at least this will be done.&lt;/p&gt;
 &lt;p&gt;I picked Hugo as it seems simple enough for my current needs. Just drop some
@@ -459,9 +493,9 @@ content.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Personal Productivity Environment</title>
-      <link>http://localhost:45463/posts/my-personal-productivity-environment/</link>
+      <link>http://localhost:1313/posts/my-personal-productivity-environment/</link>
       <pubDate>Wed, 21 Feb 2024 17:28:52 +0200</pubDate>
-      <guid>http://localhost:45463/posts/my-personal-productivity-environment/</guid>
+      <guid>http://localhost:1313/posts/my-personal-productivity-environment/</guid>
       <description>&lt;p class=&#34;note&#34;&gt;This post is a public draft, which may or may not be completed. As new thoughts come to mind, I may improve this article over time.&lt;/p&gt;
 
 
@@ -485,9 +519,9 @@ setups which is just awful.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SPA Front page application</title>
-      <link>http://localhost:45463/posts/spa-front-page-application/</link>
+      <link>http://localhost:1313/posts/spa-front-page-application/</link>
       <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
-      <guid>http://localhost:45463/posts/spa-front-page-application/</guid>
+      <guid>http://localhost:1313/posts/spa-front-page-application/</guid>
       <description>&lt;h2 id=&#34;about-the-project&#34;&gt;About the Project&lt;/h2&gt;
 &lt;p&gt;It&amp;rsquo;s a SPA-style web application based on a bunch of buzzword technologies, most importantly &lt;strong&gt;Web Components&lt;/strong&gt;. The idea behind choosing web components was to accumulate a bunch of reusable components that would be framework-agnostic over time. At the time of creating the project, React was the only framework that didn&amp;rsquo;t support web components, but times might have changed since then.&lt;/p&gt;
 
@@ -499,23 +533,23 @@ setups which is just awful.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:45463/posts/about/</link>
+      <link>http://localhost:1313/posts/about/</link>
       <pubDate>Thu, 15 Feb 2024 11:30:03 +0000</pubDate>
-      <guid>http://localhost:45463/posts/about/</guid>
+      <guid>http://localhost:1313/posts/about/</guid>
       <description>A little bit about me</description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>http://localhost:45463/privacy/</link>
+      <link>http://localhost:1313/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:45463/privacy/</guid>
+      <guid>http://localhost:1313/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Resume - Systems Analyst</title>
-      <link>http://localhost:45463/resume-systems-analyst/</link>
+      <link>http://localhost:1313/resume-systems-analyst/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:45463/resume-systems-analyst/</guid>
+      <guid>http://localhost:1313/resume-systems-analyst/</guid>
       <description>&lt;h1 id=&#34;dzintars-kļaviņš&#34;&gt;Dzintars Kļaviņš&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Resume for Systems Analyst role&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;

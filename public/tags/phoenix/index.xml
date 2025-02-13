@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Phoenix on Dzintars Klavins</title>
+    <link>http://localhost:1313/tags/phoenix/</link>
+    <description>Recent content in Phoenix on Dzintars Klavins</description>
+    <generator>Hugo -- 0.142.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Feb 2025 13:17:47 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/phoenix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 Feb 06</title>
+      <link>http://localhost:1313/posts/2025-feb-06/</link>
+      <pubDate>Thu, 06 Feb 2025 13:17:47 +0200</pubDate>
+      <guid>http://localhost:1313/posts/2025-feb-06/</guid>
+      <description>&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Elixir-4B275F?logo=elixir&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Elixir Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Phoenix-FD4F00?logo=phoenixframework&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Phoenix Framework Badge&#34; /&gt;
+
+&lt;a href=&#34;https://www.buymeacoffee.com/dzintars.dev&#34; target=&#34;_blank&#34;&gt;
+	&lt;img src=&#34;https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png&#34; alt=&#34;Buy me a coffee&#34; style=&#34;height: 60px !important;width: 217px !important;&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;/p&gt;
+&lt;p&gt;Learning Elixir by learning Phoenix Framework.
+Trying to build up interactive Deck GL map.
+A little frustration, a litle anger, a little excitement, a little hope and everything in between.&lt;/p&gt;
+&lt;p&gt;As usually, nobody tells you about nice project structure. You are left alone to figure that out.
+Docks says - use umbrella projects to organize your work. Others says &amp;ldquo;Don&amp;rsquo;t use them&amp;rdquo;. Some
+says - &amp;ldquo;we are ditching ubrella projects in our org&amp;rdquo; without giving too much reasoning.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

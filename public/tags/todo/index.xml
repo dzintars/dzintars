@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>ToDo on Dzintars Klavins</title>
-    <link>http://localhost:45463/tags/todo/</link>
+    <link>http://localhost:1313/tags/todo/</link>
     <description>Recent content in ToDo on Dzintars Klavins</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 27 Feb 2024 16:20:06 +0200</lastBuildDate>
-    <atom:link href="http://localhost:45463/tags/todo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/todo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My General Todo</title>
-      <link>http://localhost:45463/posts/my-general-todo/</link>
+      <link>http://localhost:1313/posts/my-general-todo/</link>
       <pubDate>Tue, 27 Feb 2024 16:20:06 +0200</pubDate>
-      <guid>http://localhost:45463/posts/my-general-todo/</guid>
+      <guid>http://localhost:1313/posts/my-general-todo/</guid>
       <description>&lt;p&gt;This it just a list of things I would like to do at some point of time.&lt;/p&gt;
 &lt;p&gt;In no specific order.&lt;/p&gt;
 &lt;ul&gt;

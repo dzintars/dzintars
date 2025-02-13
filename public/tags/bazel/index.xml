@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Bazel on Dzintars Klavins</title>
-    <link>http://localhost:45463/tags/bazel/</link>
+    <link>http://localhost:1313/tags/bazel/</link>
     <description>Recent content in Bazel on Dzintars Klavins</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 19 Feb 2024 18:33:05 +0200</lastBuildDate>
-    <atom:link href="http://localhost:45463/tags/bazel/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/bazel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SPA Front page application</title>
-      <link>http://localhost:45463/posts/spa-front-page-application/</link>
+      <link>http://localhost:1313/posts/spa-front-page-application/</link>
       <pubDate>Mon, 19 Feb 2024 18:33:05 +0200</pubDate>
-      <guid>http://localhost:45463/posts/spa-front-page-application/</guid>
+      <guid>http://localhost:1313/posts/spa-front-page-application/</guid>
       <description>&lt;h2 id=&#34;about-the-project&#34;&gt;About the Project&lt;/h2&gt;
 &lt;p&gt;It&amp;rsquo;s a SPA-style web application based on a bunch of buzzword technologies, most importantly &lt;strong&gt;Web Components&lt;/strong&gt;. The idea behind choosing web components was to accumulate a bunch of reusable components that would be framework-agnostic over time. At the time of creating the project, React was the only framework that didn&amp;rsquo;t support web components, but times might have changed since then.&lt;/p&gt;
 

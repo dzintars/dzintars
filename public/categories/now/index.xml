@@ -2,17 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Now on Dzintars Klavins</title>
-    <link>http://localhost:45463/categories/now/</link>
+    <link>http://localhost:1313/categories/now/</link>
     <description>Recent content in Now on Dzintars Klavins</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Sep 2024 13:06:29 +0300</lastBuildDate>
-    <atom:link href="http://localhost:45463/categories/now/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Feb 2025 13:17:47 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/now/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 Feb 06</title>
+      <link>http://localhost:1313/posts/2025-feb-06/</link>
+      <pubDate>Thu, 06 Feb 2025 13:17:47 +0200</pubDate>
+      <guid>http://localhost:1313/posts/2025-feb-06/</guid>
+      <description>&lt;p&gt;
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Elixir-4B275F?logo=elixir&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Elixir Badge&#34; /&gt;
+
+
+
+
+
+&lt;img class=&#34;badge&#34;
+	src=&#34;https://img.shields.io/badge/Phoenix-FD4F00?logo=phoenixframework&amp;logoColor=FFF&amp;style=flat&#34;
+	alt=&#34;Phoenix Framework Badge&#34; /&gt;
+
+&lt;a href=&#34;https://www.buymeacoffee.com/dzintars.dev&#34; target=&#34;_blank&#34;&gt;
+	&lt;img src=&#34;https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png&#34; alt=&#34;Buy me a coffee&#34; style=&#34;height: 60px !important;width: 217px !important;&#34; &gt;
+&lt;/a&gt;
+
+
+&lt;/p&gt;
+&lt;p&gt;Learning Elixir by learning Phoenix Framework.
+Trying to build up interactive Deck GL map.
+A little frustration, a litle anger, a little excitement, a little hope and everything in between.&lt;/p&gt;
+&lt;p&gt;As usually, nobody tells you about nice project structure. You are left alone to figure that out.
+Docks says - use umbrella projects to organize your work. Others says &amp;ldquo;Don&amp;rsquo;t use them&amp;rdquo;. Some
+says - &amp;ldquo;we are ditching ubrella projects in our org&amp;rdquo; without giving too much reasoning.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2024 Sep 06</title>
-      <link>http://localhost:45463/posts/2024-sep-06/</link>
+      <link>http://localhost:1313/posts/2024-sep-06/</link>
       <pubDate>Thu, 05 Sep 2024 13:06:29 +0300</pubDate>
-      <guid>http://localhost:45463/posts/2024-sep-06/</guid>
+      <guid>http://localhost:1313/posts/2024-sep-06/</guid>
       <description>&lt;p&gt;
 
 
@@ -35,9 +69,9 @@
     </item>
     <item>
       <title>2024 Jul 28</title>
-      <link>http://localhost:45463/posts/2024-jul-28/</link>
+      <link>http://localhost:1313/posts/2024-jul-28/</link>
       <pubDate>Sun, 28 Jul 2024 13:46:44 +0300</pubDate>
-      <guid>http://localhost:45463/posts/2024-jul-28/</guid>
+      <guid>http://localhost:1313/posts/2024-jul-28/</guid>
       <description>&lt;h1 id=&#34;establishing-php-dev-and-pod-environments&#34;&gt;Establishing PHP dev and pod environments&lt;/h1&gt;
 &lt;p&gt;
 
@@ -79,7 +113,7 @@
 	src=&#34;https://img.shields.io/badge/Nginx-009639?logo=nginx&amp;logoColor=FFF&amp;style=flat&#34;
 	alt=&#34;Nginx Badge&#34; /&gt;
 &lt;/p&gt;
-&lt;p&gt;Still continuing my &lt;a href=&#34;http://localhost:45463/posts/2024-jul-13&#34;&gt;2024-jul-13&lt;/a&gt; journey.
+&lt;p&gt;Still continuing my &lt;a href=&#34;http://localhost:1313/posts/2024-jul-13&#34;&gt;2024-jul-13&lt;/a&gt; journey.
 Because there are no any Dev/Prod enviroment whatsoever&amp;hellip; I need to create one.
 At the same time I have no experience with PHP runtimes and need to learn a bit
 about it.&lt;/p&gt;
@@ -88,9 +122,9 @@ MariaDB workload to run PHP applications.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024 Jul 13</title>
-      <link>http://localhost:45463/posts/2024-jul-13/</link>
+      <link>http://localhost:1313/posts/2024-jul-13/</link>
       <pubDate>Sat, 13 Jul 2024 14:21:52 +0300</pubDate>
-      <guid>http://localhost:45463/posts/2024-jul-13/</guid>
+      <guid>http://localhost:1313/posts/2024-jul-13/</guid>
       <description>&lt;h1 id=&#34;migrating-old-databases&#34;&gt;Migrating old databases&lt;/h1&gt;
 &lt;p&gt;
 
@@ -119,9 +153,9 @@ passwords, established secure remote access, etc.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2024 Apr 19</title>
-      <link>http://localhost:45463/posts/2024-apr-19/</link>
+      <link>http://localhost:1313/posts/2024-apr-19/</link>
       <pubDate>Fri, 19 Apr 2024 20:02:43 +0300</pubDate>
-      <guid>http://localhost:45463/posts/2024-apr-19/</guid>
+      <guid>http://localhost:1313/posts/2024-apr-19/</guid>
       <description>&lt;p&gt;So&amp;hellip; finally disaster I was not expecting at all happened.
 2 of my identical 10K HDD drives died and I lost about 6 months of my work.
 (Don&amp;rsquo;t buy 2 drives at the same shop at the same time).
@@ -133,9 +167,9 @@ From the other side&amp;hellip; rewriting is also not that bad idea&amp;hellip; 
     </item>
     <item>
       <title>2024 Mar 25</title>
-      <link>http://localhost:45463/posts/2024-mar-25/</link>
+      <link>http://localhost:1313/posts/2024-mar-25/</link>
       <pubDate>Mon, 25 Mar 2024 22:13:09 +0200</pubDate>
-      <guid>http://localhost:45463/posts/2024-mar-25/</guid>
+      <guid>http://localhost:1313/posts/2024-mar-25/</guid>
       <description>&lt;p&gt;Looks like my little starter blog is working. At least there is some activity around it.&lt;/p&gt;
 &lt;p&gt;After all the things I went back to rewriting my infra components to &lt;strong&gt;Podman
 Quadlets&lt;/strong&gt; &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; by utilizing &lt;strong&gt;Ansible&lt;/strong&gt;. I think, I figured out general pattern. Yet, I&amp;rsquo;m
@@ -144,9 +178,9 @@ single generic role instead writing the same network role in every collection.&l
     </item>
     <item>
       <title>2024 Feb 21</title>
-      <link>http://localhost:45463/posts/2024-feb-21/</link>
+      <link>http://localhost:1313/posts/2024-feb-21/</link>
       <pubDate>Wed, 21 Feb 2024 17:50:12 +0200</pubDate>
-      <guid>http://localhost:45463/posts/2024-feb-21/</guid>
+      <guid>http://localhost:1313/posts/2024-feb-21/</guid>
       <description>&lt;h2 id=&#34;tinkering-with-my-hugo-blog&#34;&gt;Tinkering with my Hugo blog&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;m still not sure what will I do with it, but&amp;hellip; at least this will be done.&lt;/p&gt;
 &lt;p&gt;I picked Hugo as it seems simple enough for my current needs. Just drop some
